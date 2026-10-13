@@ -84,6 +84,22 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--mw-primary);outline
 @media(min-width:1800px){.ftitle{font-size:44px}.fsum,.tile{font-size:19px}.tile{min-height:120px}.srule{font-size:30px}}
 html{scroll-behavior:smooth}#open-items,#wait,#team-chat{scroll-margin-top:16px}
 .apps-top{margin-bottom:20px}.apps-top .label{margin-bottom:8px}.applinks{margin:4px 0 0}.applinks a{display:inline-flex;align-items:center;gap:8px;min-height:44px;color:var(--lagoon);font-weight:600;text-decoration:none;border-bottom:1px solid rgba(5,102,141,.3)}.applinks a:hover{border-color:var(--lagoon)}
+:root{--terra:#C1502E;--lagoon:#05668D}
+.topnav{margin:-8px 0 10px}.tb-l{display:flex;align-items:center;gap:12px;flex-wrap:wrap;min-width:0}.tb-name{font-family:var(--mw-font-heading);font-weight:700;font-size:20px}.tb-upd{color:var(--mw-muted-text);font-size:13px}
+.ttl{margin:4px 0 12px}.ttl .sub{margin-top:2px}
+.apps-top{margin-bottom:12px}.feat{margin:8px 0 10px!important}.feat p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.feat.more p{display:block;-webkit-line-clamp:unset}
+.morebtn{display:inline-flex;align-items:center;min-height:44px;padding:0 4px;margin:-6px 0 4px;background:none;border:0;color:var(--lagoon);font:600 14px var(--mw-font-body);cursor:pointer}
+.report.fold{margin-bottom:10px}.report .fsum{flex:1}
+.alert{margin-top:0}
+.grid{margin-top:16px;gap:12px}.card{padding:16px}h2{margin-bottom:8px}
+.rows{display:grid;gap:8px}.row{border:1px solid var(--mw-border);border-left:4px solid var(--lagoon);background:#fff}.row:has(.p1){border-left-color:var(--terra)}
+.row summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;min-height:48px;padding:6px 12px}.row summary::-webkit-details-marker{display:none}
+.row .rt{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.row[open] .rt{white-space:normal}
+.rdate{margin-left:auto;color:var(--mw-muted-text);font-size:13px;white-space:nowrap;text-align:right}.row .chev{flex:none;width:18px;height:18px;transition:transform .18s ease-out}.row[open] .chev{transform:rotate(180deg)}
+.row summary:focus-visible{outline:3px solid var(--mw-primary);outline-offset:-3px}.rd{padding:0 12px 12px;color:var(--mw-muted-text)}
+.row.hide{display:none}.seeall{min-height:44px;background:none;border:0;color:var(--lagoon);font:600 14px var(--mw-font-body);cursor:pointer;justify-self:start}
+.share{margin-top:20px}footer{margin-top:20px}.ptrcue{margin-top:16px}
+@media(min-width:1800px){.tb-name{font-size:28px}.tb-upd,.rdate{font-size:18px}.row summary{min-height:60px;font-size:20px}.rd{font-size:19px}.morebtn,.seeall{font-size:18px}}
 </style><script src="ptr.js?v=3" defer></script><script src="submit.js" defer></script><script src="chat.js" defer></script><style>.feat{display:block;margin:12px 0 18px;padding:20px;border:2px solid #0B6E4F;border-radius:14px;background:#fff;color:inherit;text-decoration:none;font-family:Hind,sans-serif}.feat .k{font:600 11px/1 Hind,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#0B6E4F}.feat h2{font-family:Khand,sans-serif;font-size:26px;line-height:1.1;margin:8px 0 4px}.feat p{margin:0 0 12px;color:#525252}.feat .go{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;background:#0B6E4F;color:#fff;border-radius:10px;font-weight:600}.topnav{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
 .a2hs{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:10px 18px;border:2px solid var(--mw-primary);background:var(--mw-primary);color:var(--mw-primary-foreground);font:600 13px var(--mw-font-body);text-transform:uppercase;letter-spacing:var(--mw-tracking-label);border-radius:0;cursor:pointer;-webkit-appearance:none;touch-action:manipulation}
 .a2hs:hover{background:#fff;color:var(--mw-primary)}.a2hs[hidden]{display:none}
@@ -119,28 +135,47 @@ html{scroll-behavior:smooth}#open-items,#wait,#team-chat{scroll-margin-top:16px}
 @media(min-width:1800px){.ftitle{font-size:44px}.fsum,.tile{font-size:19px}.tile{min-height:120px}.srule{font-size:30px}}
 html{scroll-behavior:smooth}#open-items,#wait,#team-chat{scroll-margin-top:16px}
 .apps-top{margin-bottom:20px}.apps-top .label{margin-bottom:8px}.applinks{margin:4px 0 0}.applinks a{display:inline-flex;align-items:center;gap:8px;min-height:44px;color:var(--lagoon);font-weight:600;text-decoration:none;border-bottom:1px solid rgba(5,102,141,.3)}.applinks a:hover{border-color:var(--lagoon)}
+:root{--terra:#C1502E;--lagoon:#05668D}
+.topnav{margin:-8px 0 10px}.tb-l{display:flex;align-items:center;gap:12px;flex-wrap:wrap;min-width:0}.tb-name{font-family:var(--mw-font-heading);font-weight:700;font-size:20px}.tb-upd{color:var(--mw-muted-text);font-size:13px}
+.ttl{margin:4px 0 12px}.ttl .sub{margin-top:2px}
+.apps-top{margin-bottom:12px}.feat{margin:8px 0 10px!important}.feat p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.feat.more p{display:block;-webkit-line-clamp:unset}
+.morebtn{display:inline-flex;align-items:center;min-height:44px;padding:0 4px;margin:-6px 0 4px;background:none;border:0;color:var(--lagoon);font:600 14px var(--mw-font-body);cursor:pointer}
+.report.fold{margin-bottom:10px}.report .fsum{flex:1}
+.alert{margin-top:0}
+.grid{margin-top:16px;gap:12px}.card{padding:16px}h2{margin-bottom:8px}
+.rows{display:grid;gap:8px}.row{border:1px solid var(--mw-border);border-left:4px solid var(--lagoon);background:#fff}.row:has(.p1){border-left-color:var(--terra)}
+.row summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;min-height:48px;padding:6px 12px}.row summary::-webkit-details-marker{display:none}
+.row .rt{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.row[open] .rt{white-space:normal}
+.rdate{margin-left:auto;color:var(--mw-muted-text);font-size:13px;white-space:nowrap;text-align:right}.row .chev{flex:none;width:18px;height:18px;transition:transform .18s ease-out}.row[open] .chev{transform:rotate(180deg)}
+.row summary:focus-visible{outline:3px solid var(--mw-primary);outline-offset:-3px}.rd{padding:0 12px 12px;color:var(--mw-muted-text)}
+.row.hide{display:none}.seeall{min-height:44px;background:none;border:0;color:var(--lagoon);font:600 14px var(--mw-font-body);cursor:pointer;justify-self:start}
+.share{margin-top:20px}footer{margin-top:20px}.ptrcue{margin-top:16px}
+@media(min-width:1800px){.tb-name{font-size:28px}.tb-upd,.rdate{font-size:18px}.row summary{min-height:60px;font-size:20px}.rd{font-size:19px}.morebtn,.seeall{font-size:18px}}
 </style><script src="a2hs.js" defer></script></head><body><div class="wrap">
-<nav class="topnav"><a class="home mw-hover" href="https://webermanapps.github.io/a-2sipntzsp385oxy3/" style="display:inline-flex;align-items:center;min-height:44px;min-width:44px">← Apps Home</a><button id="a2hs" class="a2hs mw-hover" type="button"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M12 8v8M8 12h8"/></svg>Add to Home Screen</button></nav>
+<nav class="topnav"><div class="tb-l"><a class="home mw-hover" href="https://webermanapps.github.io/a-2sipntzsp385oxy3/" style="display:inline-flex;align-items:center;min-height:44px;min-width:44px">← Apps Home</a><span class="tb-name">WellNest</span><span class="tb-upd">Updated Oct 13, 11:40 PM ICT</span></div><button id="a2hs" class="a2hs mw-hover" type="button"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M12 8v8M8 12h8"/></svg>Add to Home Screen</button></nav>
+<header class="ttl"><div class="label">Agent Dashboard</div>
+<h1>WellNest Command Center</h1>
+<p class="sub">Chiang Mai wellness brand. Registered, not yet open.</p>
+</header>
 <section class="apps-top" aria-label="WellNest Apps"><div class="label">WellNest Apps</div>
 <a class="feat mw-hover" id="featured-real-deck" href="https://webermanapps.github.io/style-swipe/wellnest-brand-jxhiif/"><span class="k">Featured · Real Brand Deck</span><h2>The WellNest Brand Deck</h2><p>200 pairs to grow the brand: name and Thai wordmark, logo and icons, palette, type, voice, story, packaging, photo, sub-brands, space mood, social, plus 30 product and service ideas. Submit goes to the WellNest agent.</p><span class="go">Open The Deck →</span></a>
 <a class="feat mw-hover" id="featured-deck" href="https://webermanapps.github.io/style-swipe/?date=wellnest-brand-and-product&from=https://webermanapps.github.io/wellnest-dashboard/"><span class="k">Featured · New Deck</span><h2>WellNest Brand &amp; Product Deck</h2><p>25 pairs: colors, fonts, logo marks, tone of voice, signage, packaging, things to sell and services. Sample content.</p><span class="go">Open The Deck →</span></a>
 <p class="applinks"><a class="mw-hover" href="#team-chat"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg>Team Chat</a></p></section>
 <div id="a2hs-sheet" class="a2hs-sheet" hidden role="dialog" aria-modal="true" aria-labelledby="a2hs-t"><div class="a2hs-card"><img src="apple-touch-icon.png" alt="" width="64" height="64"><h2 id="a2hs-t">Add WellNest to Your Home Screen</h2><ol><li><svg viewBox="0 0 24 24"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 13v6a1 1 0 001 1h12a1 1 0 001-1v-6"/></svg><span>Tap the <b>Share</b> icon in Safari</span></li><li><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M12 8v8M8 12h8"/></svg><span>Choose <b>Add to Home Screen</b></span></li><li><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Tap <b>Add</b></span></li></ol><button class="btn a2hs-close mw-hover" type="button">Got It</button></div></div>
 <details class="report fold"><summary><span class="ftitle">Fresh Start</span><span class="fsum">Name follow-up ready to draft</span><svg class="chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="foldbody"><p>Ready for Max: the attorney name follow-up is ready to draft. Needs from Max are in Waiting On Max.</p><div class="tiles"><a class="tile mw-hover" href="https://webermanapps.github.io/style-swipe/wellnest-brand-jxhiif/"><svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>Brand Deck</a><a class="tile mw-hover" href="#wait"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Waiting On Max</a><a class="tile mw-hover" href="#team-chat"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg>Team Chat</a></div></div></details>
-<div class="label">Agent Dashboard</div>
-<h1>WellNest Command Center</h1>
-<p class="sub">Chiang Mai wellness brand. Registered, not yet open.</p>
 <details class="alert" id="wait"><summary><svg viewBox="0 0 24 24"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg><span class="wlabel">Waiting On Max</span><span class="wcount">3</span><svg class="chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="alertbody"><h3 class="srule">Name Follow-Up With Attorney</h3><p><span class="pill p1">P1</span> Ready to draft. Waiting on Max for:</p><ul class="need"><li>The contact email</li><li>Confirmation that the earlier email went out</li><li>The screenshot to attach</li></ul></div></details>
-<p class="upd">Updated Oct 13, 2026, 7:25 PM ICT</p>
 <div class="grid">
 <section class="card full" id="open-items"><h2><svg viewBox="0 0 24 24"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a1 1 0 01-1 1H5a1 1 0 01-1-1V5a1 1 0 011-1h11"/></svg>Open Items</h2>
-<div class="oi"><div class="item edge e1"><span class="pill p1">P1</span><div><p>Name follow-up with attorney: waiting on Max</p><small>Needs a contact email and a screenshot from Max</small></div></div>
-<div class="item edge e2"><span class="pill">P2</span><div><p>Follow up with the attorney</p><small>Reply-by date unknown</small></div></div></div></section>
+<div class="rows" data-five><details class="row">
+<summary><span class="pill p1">P1</span><span class="rt">Name follow-up with attorney: waiting on Max</span><svg class="chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="rd">Needs a contact email and a screenshot from Max.</div></details><details class="row">
+<summary><span class="pill">P2</span><span class="rt">Follow up with the attorney</span><svg class="chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="rd">Reply-by date unknown.</div></details></div></section>
 <section class="card mw-hover"><h2><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Decisions Max Owes</h2>
-<div class="item"><span class="pill p1">P1</span><div><p>Send the contact email and screenshot for the name follow-up</p></div></div></section>
+<div class="rows" data-five><details class="row">
+<summary><span class="pill p1">P1</span><span class="rt">Send the contact email and screenshot</span><svg class="chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="rd">Needed for the name follow-up with the attorney. Details are in Waiting On Max.</div></details></div></section>
 <section class="card mw-hover"><h2><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Recent Work</h2>
-<div class="item"><div><p>Took ownership of the Wellnest section</p><small>Oct 13, 2026</small></div></div>
-<div class="item"><div><p>Dashboard polish: waiting dropdown, Apps Home link, pull-to-refresh</p><small>Oct 13, 2026</small></div></div></section>
+<div class="rows" data-five><details class="row">
+<summary><span class="rt">Took ownership of the Wellnest section</span><span class="rdate">Oct 13</span><svg class="chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="rd">Moved over in the Oct 13 reorg.</div></details><details class="row">
+<summary><span class="rt">Dashboard polish: waiting dropdown, Apps Home link, pull-to-refresh</span><span class="rdate">Oct 13</span><svg class="chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="rd">Dashboard updates published today.</div></details></div></section>
 <section class="card mw-hover"><h2><svg viewBox="0 0 24 24"><path d="M10 14a4 4 0 005.7 0l3-3a4 4 0 00-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 00-5.7 0l-3 3a4 4 0 005.7 5.7l1-1"/></svg>Apps And Links</h2>
 <div class="empty">No WellNest apps yet. New apps will be linked here.</div></section>
 <section class="card full" id="team-chat"><h2><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg>Team Chat</h2><p class="sub">Questions for WellNest. Replies show up here. Please do not share private details or links.</p><div id="chat"><p class="empty">Loading</p></div></section>
@@ -151,4 +186,9 @@ html{scroll-behavior:smooth}#open-items,#wait,#team-chat{scroll-margin-top:16px}
 
 </div><script>
 document.getElementById('share').onclick=async()=>{const d={title:document.title,url:location.href};try{if(navigator.share){await navigator.share(d)}else{await navigator.clipboard.writeText(location.href);toast.textContent='Link copied'}}catch(e){}};
-</script><script>document.addEventListener("click",function(e){var a=e.target.closest('a[href="#wait"]');if(a){var d=document.getElementById("wait");if(d)d.open=true}});</script></body></html>
+</script><script>document.addEventListener("click",function(e){var a=e.target.closest('a[href="#wait"]');if(a){var d=document.getElementById("wait");if(d)d.open=true}});</script><script>
+document.querySelectorAll('.feat').forEach(function(a){var p=a.querySelector('p');if(!p)return;var b=document.createElement('button');b.type='button';b.className='morebtn';b.textContent='More';a.after(b);
+ requestAnimationFrame(function(){if(p.scrollHeight<=p.clientHeight+1)b.remove()});b.onclick=function(){var o=a.classList.toggle('more');b.textContent=o?'Less':'More'}});
+document.querySelectorAll('[data-five]').forEach(function(l){var r=l.querySelectorAll('.row');if(r.length<=5)return;for(var i=5;i<r.length;i++)r[i].classList.add('hide');var b=document.createElement('button');b.type='button';b.className='seeall';b.textContent='See All ('+r.length+')';l.appendChild(b);
+ b.onclick=function(){var h=l.querySelector('.row.hide');r.forEach(function(x,i){if(i>=5)x.classList.toggle('hide',!h)});b.textContent=h?'Show Less':'See All ('+r.length+')'}});
+</script></body></html>
