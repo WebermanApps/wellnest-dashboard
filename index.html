@@ -42,7 +42,13 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--mw-primary);outline
 @media(min-width:1800px){.alert summary{font-size:19px;min-height:60px}.alertbody p,.upd{font-size:20px}}
 .topnav{margin:-8px 0 8px}.home{color:var(--mw-foreground);text-decoration:none;font-weight:500;text-transform:uppercase;letter-spacing:var(--mw-tracking-label);font-size:13px;padding:0 4px}@media(min-width:1800px){.home{font-size:18px}}
 .need{margin:8px 0 0;padding-left:22px}.need li{margin:4px 0}@media(min-width:1800px){.need{font-size:20px}}
-</style><script src="ptr.js?v=3" defer></script></head><body><div class="wrap">
+#chat form{display:grid;gap:12px;max-width:640px}#chat label{display:grid;gap:6px;font-weight:500}
+#chat input,#chat textarea{font:16px var(--mw-font-body);min-height:48px;padding:10px 12px;border:1.5px solid var(--mw-border);border-radius:10px;background:#fff;color:var(--mw-foreground);width:100%}
+#chat input:focus,#chat textarea:focus{outline:3px solid var(--mw-primary);outline-offset:1px}#chat .btn{justify-self:start}
+#cstat{display:flex;align-items:center;gap:6px;min-height:24px;font-weight:600}#chat h3{font-family:var(--mw-font-heading);font-size:20px;margin:20px 0 8px}
+.msg{background:var(--mw-secondary);border-radius:10px;padding:10px 12px;margin:8px 0;max-width:640px}.msg.me{background:#fff;border:1px solid var(--mw-border)}.msg p{margin:2px 0;white-space:pre-wrap;overflow-wrap:anywhere}.msg small{color:var(--mw-muted-text)}
+@media(min-width:1800px){#chat input,#chat textarea,.msg p{font-size:20px}}
+</style><script src="ptr.js?v=3" defer></script><script src="submit.js" defer></script><script src="chat.js" defer></script></head><body><div class="wrap">
 <nav class="topnav"><a class="home mw-hover" href="https://webermanapps.github.io/a-2sipntzsp385oxy3/" style="display:inline-flex;align-items:center;min-height:44px;min-width:44px">← Apps Home</a></nav>
 <section class="report" aria-label="Fresh Start"><span class="rtag"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 0115.5-6.2L21 8"/><path d="M21 3v5h-5"/><path d="M12 8v4l3 2"/></svg>Fresh Start · Oct 13</span><p>Ready for Max: the attorney name follow-up is ready to draft. Needs from Max below.</p></section>
 <div class="label">Agent Dashboard</div>
@@ -61,6 +67,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--mw-primary);outline
 <div class="item"><div><p>Dashboard polish: waiting dropdown, Apps Home link, pull-to-refresh</p><small>Oct 13, 2026</small></div></div></section>
 <section class="card mw-hover"><h2><svg viewBox="0 0 24 24"><path d="M10 14a4 4 0 005.7 0l3-3a4 4 0 00-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 00-5.7 0l-3 3a4 4 0 005.7 5.7l1-1"/></svg>Apps And Links</h2>
 <div class="empty">No WellNest apps yet. New apps will be linked here.</div></section>
+<section class="card full" id="team-chat"><h2><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg>Team Chat</h2><p class="sub">Questions for WellNest. Replies show up here. Do not share private details.</p><div id="chat"><p class="empty">Loading</p></div></section>
 </div>
 <div class="share"><button class="btn mw-hover" id="share"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 13v6a1 1 0 001 1h12a1 1 0 001-1v-6"/></svg>Share</button><div id="toast"></div></div>
 <footer>Built by <a class="mw-hover" href="https://maxweberman.com">Max Weberman</a></footer>
