@@ -11,7 +11,7 @@
     var r=(replies&&replies[tid()])||[];
     var all=mine.concat(r.map(function(x){return {who:'WellNest',text:x.text,at:x.at}})).sort(function(a,b){return (a.at||'')<(b.at||'')?-1:1});
     var th=document.getElementById('thread');
-    th.innerHTML=all.length?all.map(function(m){return '<div class="msg'+(m.me?' me':'')+'"><b>'+esc(m.who||'')+'</b><p>'+esc(m.text)+'</p><small>'+esc((m.at||'').slice(0,16).replace('T',' '))+'</small></div>'}).join(''):'<p class="empty">No messages yet. Ask WellNest anything.</p>';
+    th.innerHTML=all.length?all.map(function(m){return '<div class="msg'+(m.me?' me':'')+'"><b>'+esc(m.who||'')+'</b><p>'+esc(m.text)+'</p><small>'+esc(m.at?new Date(m.at).toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'')+'</small></div>'}).join(''):'<p class="empty">No messages yet. Ask WellNest anything.</p>';
   }
   function poll(){fetch(nb('replies.json'),{cache:'no-store'}).then(function(r){return r.json()}).then(render).catch(function(){render(null)})}
   function open(){
