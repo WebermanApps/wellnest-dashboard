@@ -23,8 +23,11 @@ svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.8;stroke
 .btn:hover{background:var(--mw-primary);color:var(--mw-primary-foreground)}
 .share{text-align:center;margin-top:32px}
 footer{margin-top:32px;border-top:1px solid var(--mw-border);padding-top:16px;color:var(--mw-muted-text);font-size:14px;text-align:center}
-footer a{color:var(--mw-foreground);text-decoration:none;border-bottom:1px solid rgba(10,10,10,.3)}footer a:hover{border-color:var(--mw-foreground)}
+footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--mw-foreground);text-decoration:none;border-bottom:1px solid rgba(10,10,10,.3)}footer a:hover{border-color:var(--mw-foreground)}
 #toast{margin-top:10px;font-size:14px;color:var(--mw-muted-text);min-height:20px}
+html{overflow-x:hidden}
+@media(min-width:1200px){.wrap{max-width:1180px;padding:48px 32px}}
+@media(min-width:1800px){html{font-size:19px}body{font-size:19px}.wrap{max-width:1680px;padding:72px 48px}h1{font-size:76px}h2{font-size:32px}.label,.pill,.item small,.status,footer{font-size:16px}.grid{grid-template-columns:repeat(4,1fr);gap:24px}.card{padding:26px}svg{width:26px;height:26px}.btn{font-size:16px;min-height:56px}}
 </style></head><body><div class="wrap">
 <div class="label">Agent Dashboard</div>
 <h1>WellNest Command Center</h1>
