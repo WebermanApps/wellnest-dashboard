@@ -1,0 +1,49 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="robots" content="noindex">
+<title>WellNest Command Center</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Khand:wght@600;700&family=Hind:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="brand-tokens.css">
+<style>
+*{box-sizing:border-box}html{background:#fff}body{margin:0;background:var(--mw-background);color:var(--mw-foreground);font-family:var(--mw-font-body);line-height:1.5}
+.wrap{max-width:960px;margin:0 auto;padding:24px 18px 32px}
+h1,h2{font-family:var(--mw-font-heading);font-weight:700;letter-spacing:-.01em;line-height:1.1;margin:0}
+h1{font-size:clamp(34px,7vw,52px)}h2{font-size:24px;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.label{text-transform:uppercase;letter-spacing:var(--mw-tracking-label);font-size:12px;color:var(--mw-muted-text);font-weight:500}
+.sub{color:var(--mw-muted-text);margin:6px 0 0}
+.grid{display:grid;gap:16px;margin-top:24px}@media(min-width:760px){.grid{grid-template-columns:1fr 1fr}.full{grid-column:1/-1}}
+.card{border:1px solid var(--mw-border);border-radius:14px;padding:18px;background:#fff}
+.item{display:flex;gap:12px;align-items:flex-start;padding:12px;border-radius:10px;background:var(--mw-secondary);margin-top:10px}
+.pill{flex:none;font-size:12px;font-weight:500;letter-spacing:.08em;border:1.5px solid var(--mw-primary);padding:2px 8px;border-radius:4px}
+.pill.p1{background:var(--mw-primary);color:var(--mw-primary-foreground)}
+.item p{margin:0}.item small{color:var(--mw-muted-text)}
+.status{display:inline-flex;align-items:center;gap:8px;margin-top:14px;padding:6px 12px;border:1px solid var(--mw-border);border-radius:999px;font-size:14px}
+.dot{width:8px;height:8px;border-radius:50%;background:#737373}
+.empty{color:var(--mw-muted-text);border:1.5px dashed var(--mw-border);border-radius:10px;padding:18px;text-align:center}
+svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:12px 28px;border:2px solid var(--mw-primary);background:transparent;color:var(--mw-primary);font:600 13px var(--mw-font-body);text-transform:uppercase;letter-spacing:var(--mw-tracking-label);cursor:pointer;border-radius:0}
+.btn:hover{background:var(--mw-primary);color:var(--mw-primary-foreground)}
+.share{text-align:center;margin-top:32px}
+footer{margin-top:32px;border-top:1px solid var(--mw-border);padding-top:16px;color:var(--mw-muted-text);font-size:14px;text-align:center}
+footer a{color:var(--mw-foreground);text-decoration:none;border-bottom:1px solid rgba(10,10,10,.3)}footer a:hover{border-color:var(--mw-foreground)}
+#toast{margin-top:10px;font-size:14px;color:var(--mw-muted-text);min-height:20px}
+</style></head><body><div class="wrap">
+<div class="label">Agent Dashboard</div>
+<h1>WellNest Command Center</h1>
+<p class="sub">Chiang Mai wellness brand. Registered, not yet open.</p>
+<div class="status"><span class="dot"></span>Status: Waiting On Max · Updated Oct 13, 2026</div>
+<div class="grid">
+<section class="card mw-hover"><h2><svg viewBox="0 0 24 24"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a1 1 0 01-1 1H5a1 1 0 01-1-1V5a1 1 0 011-1h11"/></svg>Open Items</h2>
+<div class="item"><span class="pill p1">P1</span><div><p>Name follow-up with attorney: waiting on Max</p><small>Needs a contact email and a screenshot from Max</small></div></div>
+<div class="item"><span class="pill">P2</span><div><p>Follow up with the attorney</p><small>Reply-by date unknown</small></div></div></section>
+<section class="card mw-hover"><h2><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Decisions Max Owes</h2>
+<div class="item"><span class="pill p1">P1</span><div><p>Send the contact email and screenshot for the name follow-up</p></div></div></section>
+<section class="card mw-hover"><h2><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Recent Work</h2>
+<div class="item"><div><p>Took ownership of the Wellnest section</p><small>Oct 13, 2026</small></div></div>
+<div class="item"><div><p>Launched this dashboard</p><small>Oct 13, 2026</small></div></div></section>
+<section class="card mw-hover"><h2><svg viewBox="0 0 24 24"><path d="M10 14a4 4 0 005.7 0l3-3a4 4 0 00-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 00-5.7 0l-3 3a4 4 0 005.7 5.7l1-1"/></svg>Apps And Links</h2>
+<div class="empty">No WellNest apps yet. New apps will be linked here.</div></section>
+</div>
+<div class="share"><button class="btn mw-hover" id="share"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 13v6a1 1 0 001 1h12a1 1 0 001-1v-6"/></svg>Share</button><div id="toast"></div></div>
+<footer>Built by <a class="mw-hover" href="https://maxweberman.com">Max Weberman</a></footer>
+</div><script>
+document.getElementById('share').onclick=async()=>{const d={title:document.title,url:location.href};try{if(navigator.share){await navigator.share(d)}else{await navigator.clipboard.writeText(location.href);toast.textContent='Link copied'}}catch(e){}};
+</script></body></html>
