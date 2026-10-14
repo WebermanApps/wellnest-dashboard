@@ -17,9 +17,9 @@ function render(){if(!Q)return;var L=local(),O=opened(),g=document.getElementByI
  Q.decks.forEach(function(x){if(isDone(x)&&(L.indexOf(x.deckId)>=0||String(x.doneAt||'').slice(0,10)===t))dt++});
  CATS.forEach(function(c,i){var ds=Q.decks.filter(function(x){return x.category===c}).sort(function(a,b){return a.order-b.order});
   var n=ds.filter(isDone).length,cur=ds.filter(function(x){return!isDone(x)})[0];
-  if(cur&&cur.url&&cur.status!=='planned')cards.push({d:cur,c:c,slot:i,refill:n>0,started:(cur.answered||0)>0});});
+  if(cur&&cur.url&&cur.status!=='planned')cards.push({d:cur,c:c,slot:i,refill:n>0,started:(+cur.answered||0)>0});});
  /* started decks first; otherwise keep each category's slot so a refill stays where its deck was */
- cards.sort(function(a,b){return(b.started-a.started)||(a.slot-b.slot)});cards=cards.slice(0,MAX);
+ cards.sort(function(a,b){return(b.started-a.started)||((Date.parse(b.d.added)||0)-(Date.parse(a.d.added)||0))||(a.slot-b.slot)});cards=cards.slice(0,MAX);
  var h=cards.map(function(o){var d=o.d,isNew=o.refill&&!o.started&&O.indexOf(d.deckId)<0;
   return'<a class="rs-card" style="--rs-c:'+(COL[o.c]||'#5E6670')+'" data-deck="'+esc(d.deckId)+'" href="'+esc(d.url)+'"><span class="rs-tagrow"><span class="rs-tag">'+esc(o.c)+'</span>'+(isNew?'<span class="rs-new">New</span>':'')+'</span><span class="rs-t">'+esc(d.name)+'</span><span class="rs-go">'+(o.started?'Continue':'Start')+'</span></a>'}).join('');
  g.innerHTML=h||'<p class="rs-empty">All caught up. New decks are on the way.</p>';
