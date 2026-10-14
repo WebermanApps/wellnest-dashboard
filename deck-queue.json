@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-10-14T12:49:04+07:00",
+ "updated": "2026-10-14T12:49:59+07:00",
  "notes": [
   "Owner of entries: Branding. Owner of status=done: WellNest sync (/workspace/wellnest/sync-deck-queue.sh). Do not set status to done by hand.",
   "Fields: category (one of the 5 exact names), order (1-5), name (Title Case), url (live deck URL, null until built), deckId (MUST equal the deck value the deck sends to MWSubmit), status: planned (not built) | ready (built, url set) | done (submitted).",
@@ -84,10 +84,10 @@
   {
    "category": "Voice & Story",
    "order": 5,
-   "name": "Voice & Story Deck 5",
-   "url": null,
+   "name": "Voice: Signs & Guest Words",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-voice-signs-guest-apw8td/",
    "deckId": "wellnest-voice-story-5",
-   "status": "planned"
+   "status": "ready"
   },
   {
    "category": "Experiences & Tours",
@@ -124,10 +124,10 @@
   {
    "category": "Experiences & Tours",
    "order": 5,
-   "name": "Experiences & Tours Deck 5",
-   "url": null,
+   "name": "Experiences: Stays & Retreats",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-exp-stays-retreats-1meym4/",
    "deckId": "wellnest-experiences-tours-5",
-   "status": "planned"
+   "status": "ready"
   },
   {
    "category": "Products & Tea",
@@ -164,10 +164,10 @@
   {
    "category": "Products & Tea",
    "order": 5,
-   "name": "Products & Tea Deck 5",
-   "url": null,
+   "name": "Products: Merch & Gifts",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-products-merch-gifts-8j4ucu/",
    "deckId": "wellnest-products-tea-5",
-   "status": "planned"
+   "status": "ready"
   },
   {
    "category": "Dashboard & Online",
@@ -204,10 +204,10 @@
   {
    "category": "Dashboard & Online",
    "order": 5,
-   "name": "Dashboard & Online Deck 5",
-   "url": null,
+   "name": "Online: Early Growth Moves",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-online-growth-ofhxtf/",
    "deckId": "wellnest-dashboard-online-5",
-   "status": "planned"
+   "status": "ready"
   }
  ]
 }
