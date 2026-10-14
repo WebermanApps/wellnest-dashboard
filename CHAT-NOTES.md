@@ -14,4 +14,4 @@ The chat is open to anyone with the dashboard link (no password, since Oct 13 20
 4. Reply: add to `replies.json`, keyed by thread id:
    `{"<threadId>": [{"at": "2026-10-13T15:00:00Z", "text": "Reply text"}]}`
    then `git commit -qam "Chat reply" && git push` in /workspace/wellnest/dashboard (live in about a minute; the page polls every 45 s).
-5. Replies must be non-sensitive: no attorney names, emails, dispute details, money, or private info.
+5. Replies must be non-sensitive: no names, emails, private matters, money, or private info.
