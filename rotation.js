@@ -25,9 +25,11 @@ function render(){if(!Q)return;var L=local(),O=opened(),g=document.getElementByI
  g.innerHTML=h||'<p class="rs-empty">All caught up. New decks are on the way.</p>';
  g.querySelectorAll('.rs-card').forEach(function(a){a.addEventListener('click',function(){var o=opened(),id=a.getAttribute('data-deck');if(o.indexOf(id)<0){o.push(id);try{localStorage.setItem(OK,JSON.stringify(o))}catch(_){}}})});
  document.getElementById('rot-sum').textContent=dt+' done today';stats();}
+function fmt(n){n=Math.round(n*10)/10;return n%1?n.toFixed(1):String(n)}
 function stats(){var el=document.getElementById('rs-stats');if(!el)return;if(!ST){el.hidden=true;return}
  var a=(ST.agents||{}).wellnest;if(!a){el.hidden=true;return}
- document.getElementById('rs-today').textContent=((a.days||{})[today()]||0).toLocaleString('en-US');document.getElementById('rs-all').textContent=(a.total||0).toLocaleString('en-US');el.hidden=false;}
+ var t=today(),dd=a.deck_days||{},dt=dd[t]!=null?dd[t]:(a.decks_today!=null?a.decks_today:((a.days||{})[t]||0)/20),da=a.decks_total!=null?a.decks_total:(a.total||0)/20;
+ document.getElementById('rs-today').textContent=fmt(dt);document.getElementById('rs-all').textContent=fmt(da);el.hidden=false;}
 fetch('https://webermanapps.github.io/style-swipe/kit/swipe-stats.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){ST=j;stats()}).catch(function(){});
 function load(){return fetch('deck-queue.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){Q=j;render()}).catch(function(){var s=document.getElementById('rot-sum');if(s&&!Q)s.textContent='Deck list unavailable. Pull to refresh.'});}
 window.WNRotation={markDone:function(id){addLocal(id);render()},reload:load};
