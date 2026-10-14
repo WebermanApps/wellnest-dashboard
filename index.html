@@ -184,12 +184,31 @@ a.rc:hover,a.rc:focus-visible{transform:translateY(-1px);box-shadow:0 6px 18px r
 .rc.soon{border-style:dashed;background:#fff}.rc.fin{border-color:#0B6E4F;border-left-color:#0B6E4F}.rc.fin .rn{color:#0B6E4F}
 .earlier{margin:0 0 18px}
 @media(min-width:1800px){.rot-h h2{font-size:40px}.rc .rn{font-size:32px}.rc .rm,.rot-sum{font-size:19px}.rc .rk,.rc .rgo{font-size:16px}.rc{min-height:200px;padding:24px}}
-</style><script src="rotation.js?v=2" defer></script><link rel="stylesheet" href="https://webermanapps.github.io/style-swipe/kit/routines-section.css?v=2">
+</style><style>
+#deck-rotation .rot-h{justify-content:flex-start;align-items:center;gap:8px 12px}
+#deck-rotation .rot-h h2{font-size:26px}
+#deck-rotation .rot-sum{font-size:14px}
+.rs-stats{display:flex;gap:20px;margin-left:auto}.rs-stats[hidden]{display:none}
+.rs-st{display:flex;flex-direction:column;align-items:flex-end;line-height:1}
+.rs-st b{font:500 34px Cormorant,serif;color:var(--mw-foreground)}
+.rs-st small{font-size:12px;color:var(--mw-muted-text);text-transform:uppercase;letter-spacing:.06em;margin-top:4px}
+#deck-rotation .rgrid{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding:2px 2px 8px;-webkit-overflow-scrolling:touch;grid-template-columns:none}
+.rs-card{flex:0 0 calc((100% - 20px)/2.5);scroll-snap-align:start;min-height:112px;display:flex;flex-direction:column;gap:8px;background:#fff;border:1px solid var(--mw-border);border-top:4px solid var(--rs-c);border-radius:12px;padding:12px;color:var(--mw-foreground);text-decoration:none;box-sizing:border-box}
+.rs-card:hover{border-color:var(--rs-c)}
+.rs-tagrow{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.rs-tag{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--rs-c);font-weight:600}
+.rs-new{font-size:11px;font-weight:600;color:#fff;background:#2E7D4F;border-radius:999px;padding:1px 8px}
+.rs-t{font:500 18px/1.2 Cormorant,serif;flex:1}
+.rs-go{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--mw-muted-text)}
+.rs-empty{color:var(--mw-muted-text);margin:4px 0;font-size:15px}
+@media(min-width:760px){.rs-card{flex:1 1 0;min-width:0}#deck-rotation .rgrid{overflow-x:visible}.rs-t{font-size:20px}}
+@media(min-width:1800px){.rs-st b{font-size:44px}.rs-t{font-size:24px}.rs-tag,.rs-new,.rs-go{font-size:14px}}
+</style><script src="rotation.js?v=3" defer></script><link rel="stylesheet" href="https://webermanapps.github.io/style-swipe/kit/routines-section.css?v=2">
 <style>#routines-fold .rt-sec{border:0;padding:0;margin:8px 0 0;background:transparent;font-family:"DM Sans",system-ui,sans-serif}#routines-fold .rt-sec>h2{display:none}#routines-fold .rt-grp{background:#FFFDF7}#routines-fold .rt-grp h3{font-family:Cormorant,serif;font-size:18px}#routines-fold .rt-grp h3:after{content:attr(data-l)}
 .chat-tile{display:flex;max-width:none;flex-direction:row;min-height:56px;margin:0 0 10px}</style>
 <style>.tb-r{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}.topnav .a2hs,.topnav .a2hs:hover{background:#fff;color:var(--mw-primary);border:1.5px solid var(--mw-border);border-radius:12px;min-height:44px;padding:8px 14px;width:auto}.topnav .a2hs:hover{border-color:var(--mw-primary)}.topnav .tb-share{min-height:44px;margin:0;padding:8px 14px;width:auto;background:#fff;color:var(--mw-primary);border:1.5px solid var(--mw-border);border-radius:12px;display:inline-flex;align-items:center;gap:8px;font:600 13px var(--mw-font-body);text-transform:uppercase;letter-spacing:var(--mw-tracking-label)}.topnav .tb-share svg,.topnav .a2hs svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2}@media(max-width:600px){.tb-r{justify-content:flex-start}}</style></head><body><div class="wrap">
 <nav class="topnav"><div class="tb-l"><a class="home mw-hover" href="https://webermanapps.github.io/a-o956qercs5ubd57y/" style="display:inline-flex;align-items:center;min-height:44px;min-width:44px">← Apps Home</a><span class="tb-name">WellNest</span><span class="tb-upd">Updated Oct 14, 6:10 PM ICT</span></div><div class="tb-r"><button id="a2hs" class="a2hs mw-hover" type="button"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M12 8v8M8 12h8"/></svg>Add to Home Screen</button><button class="btn mw-hover tb-share" id="share"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 13v6a1 1 0 001 1h12a1 1 0 001-1v-6"/></svg>Share</button></div></nav>
-<section class="rot" id="deck-rotation" aria-label="Deck Rotation"><div class="rot-h"><h2>Today's Decks</h2><span class="rot-sum" id="rot-sum">Loading</span></div><div class="rgrid" id="rgrid"></div></section>
+<section class="rot" id="deck-rotation" aria-label="Ready To Swipe"><div class="rot-h"><h2>Ready To Swipe</h2><span class="rot-sum" id="rot-sum">Loading</span><div class="rs-stats" id="rs-stats" hidden><span class="rs-st"><b id="rs-today">0</b><small>Swipes Today</small></span><span class="rs-st"><b id="rs-all">0</b><small>Swipes All-Time</small></span></div></div><div class="rgrid" id="rgrid"></div></section>
 <header class="ttl"><div class="wm"><img src="nest-logo.png" alt="The WellNest nest logo" width="96"><div class="wm-t"><span class="wm-en">The WellNest</span><span class="wm-th" lang="th">เดอะ เวลเนสท์</span></div></div><div class="label">Agent Dashboard</div>
 <h1>WellNest Command Center</h1>
 <p class="sub">Chiang Mai wellness brand. Registered, not yet open.</p>
