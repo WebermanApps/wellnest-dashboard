@@ -1,19 +1,19 @@
 {
- "updated": "2026-10-14 14:55 ICT",
+ "updated": "2026-10-14 6:10 PM ICT",
  "routines": [
   {
    "name": "Wellnest Morning Report",
    "group": "Reports",
    "schedule_plain": "Daily At 4:47 AM ICT, Posts By 5:00 AM",
    "status": "on",
-   "last_run": "Not Recorded"
+   "last_run": "Today 4:50 AM"
   },
   {
    "name": "Wellnest Evening Report",
    "group": "Reports",
    "schedule_plain": "Daily At 6:00 PM ICT",
    "status": "on",
-   "last_run": "Not Recorded"
+   "last_run": "Today 6:10 PM"
   },
   {
    "name": "Wellnest Team Chat Replies",
