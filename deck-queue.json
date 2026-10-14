@@ -1,12 +1,13 @@
 {
  "schema": 1,
- "updated": "2026-10-14T12:49:59+07:00",
+ "updated": "2026-10-14T20:06:50+07:00",
  "notes": [
   "Owner of entries: Branding. Owner of status=done: WellNest sync (/workspace/wellnest/sync-deck-queue.sh). Do not set status to done by hand.",
   "Fields: category (one of the 5 exact names), order (1-5), name (Title Case), url (live deck URL, null until built), deckId (MUST equal the deck value the deck sends to MWSubmit), status: planned (not built) | ready (built, url set) | done (submitted).",
   "When a deck is built: set url, set status to ready, keep deckId identical to its Submit deck value. Submit agent must be wellnest (submit_agent: wellnest) so it lands in inbox/wellnest.",
   "Instant swap: after a successful Submit (real, not test) the deck should add its deckId to localStorage key wn-deck-done (JSON array; same origin webermanapps.github.io) and its Back link should go to https://webermanapps.github.io/wellnest-dashboard/?done=<deckId>.",
-  "Test submits (test:true) never count as done."
+  "Test submits (test:true) never count as done.",
+  "Optional fields (Oct 14 20:04): answered (int, cards answered so far; >0 shows Continue) and added (ISO time built; newest first)."
  ],
  "decks": [
   {
@@ -15,7 +16,9 @@
    "name": "Brand Look: Logo & Colour",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-brand-logo-colour-3z9zj0/",
    "deckId": "wellnest-brand-look-1",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T13:33:32+07:00",
+   "answered": 0
   },
   {
    "category": "Brand Look",
@@ -23,7 +26,9 @@
    "name": "Brand Look: Avatar & Icon Details",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-brand-avatar-icons-25nhaw/",
    "deckId": "wellnest-brand-look-2",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:46:23+07:00",
+   "answered": 0
   },
   {
    "category": "Brand Look",
@@ -31,7 +36,9 @@
    "name": "Brand Look: Type & Page Details",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-brand-type-details-7mlt7m/",
    "deckId": "wellnest-brand-look-3",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:47:35+07:00",
+   "answered": 0
   },
   {
    "category": "Brand Look",
@@ -39,7 +46,9 @@
    "name": "Brand Look: Photo Style",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-brand-photo-style-je8ha0/",
    "deckId": "wellnest-brand-look-4",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T13:33:32+07:00",
+   "answered": 0
   },
   {
    "category": "Brand Look",
@@ -47,7 +56,9 @@
    "name": "Brand Look: Packaging Look",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-brand-packaging-look-gb09u7/",
    "deckId": "wellnest-brand-look-5",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:48:57+07:00",
+   "answered": 0
   },
   {
    "category": "Voice & Story",
@@ -55,7 +66,9 @@
    "name": "Voice: Taglines & Tone",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-voice-taglines-tone-3z9zj0/",
    "deckId": "wellnest-voice-story-1",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T13:33:31+07:00",
+   "answered": 0
   },
   {
    "category": "Voice & Story",
@@ -63,7 +76,9 @@
    "name": "Voice: Founder & Family Story",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-voice-family-story-lxc8bn/",
    "deckId": "wellnest-voice-story-2",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T13:33:31+07:00",
+   "answered": 0
   },
   {
    "category": "Voice & Story",
@@ -71,7 +86,9 @@
    "name": "Voice: Captions & Social Lines",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-voice-captions-zjziif/",
    "deckId": "wellnest-voice-story-3",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T13:33:31+07:00",
+   "answered": 0
   },
   {
    "category": "Voice & Story",
@@ -79,7 +96,9 @@
    "name": "Voice: Thai And English",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-voice-thai-english-u6gx25/",
    "deckId": "wellnest-voice-story-4",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:48:24+07:00",
+   "answered": 0
   },
   {
    "category": "Voice & Story",
@@ -87,7 +106,9 @@
    "name": "Voice: Signs & Guest Words",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-voice-signs-guest-apw8td/",
    "deckId": "wellnest-voice-story-5",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:49:04+07:00",
+   "answered": 0
   },
   {
    "category": "Experiences & Tours",
@@ -95,7 +116,9 @@
    "name": "Experiences: Farm Tours & Classes",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-exp-tours-classes-3z9zj0/",
    "deckId": "wellnest-experiences-tours-1",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:45:53+07:00",
+   "answered": 0
   },
   {
    "category": "Experiences & Tours",
@@ -103,7 +126,9 @@
    "name": "Experiences: Sauna, Plunge & Therapies",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-exp-sauna-therapies-tcsr1y/",
    "deckId": "wellnest-experiences-tours-2",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:46:40+07:00",
+   "answered": 0
   },
   {
    "category": "Experiences & Tours",
@@ -111,7 +136,9 @@
    "name": "Experiences: Tea & Harvest Days",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-exp-tea-harvest-ssznjj/",
    "deckId": "wellnest-experiences-tours-3",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:47:52+07:00",
+   "answered": 0
   },
   {
    "category": "Experiences & Tours",
@@ -119,7 +146,9 @@
    "name": "Experiences: Cowork & Events",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-exp-cowork-events-h3mipw/",
    "deckId": "wellnest-experiences-tours-4",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:48:32+07:00",
+   "answered": 0
   },
   {
    "category": "Experiences & Tours",
@@ -127,7 +156,9 @@
    "name": "Experiences: Stays & Retreats",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-exp-stays-retreats-1meym4/",
    "deckId": "wellnest-experiences-tours-5",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:49:27+07:00",
+   "answered": 0
   },
   {
    "category": "Products & Tea",
@@ -135,7 +166,9 @@
    "name": "Products: Roselle & The Tea Line",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-products-roselle-tea-3z9zj0/",
    "deckId": "wellnest-products-tea-1",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:46:01+07:00",
+   "answered": 0
   },
   {
    "category": "Products & Tea",
@@ -143,7 +176,9 @@
    "name": "Products: New Product Ideas",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-products-new-ideas-8009kz/",
    "deckId": "wellnest-products-tea-2",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:46:48+07:00",
+   "answered": 0
   },
   {
    "category": "Products & Tea",
@@ -151,7 +186,9 @@
    "name": "Products: Formats & Pricing Feel",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-products-formats-pricing-kacrjy/",
    "deckId": "wellnest-products-tea-3",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:48:00+07:00",
+   "answered": 0
   },
   {
    "category": "Products & Tea",
@@ -159,7 +196,9 @@
    "name": "Products: Stockists & Selling",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-products-stockists-uhbfq9/",
    "deckId": "wellnest-products-tea-4",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:48:40+07:00",
+   "answered": 0
   },
   {
    "category": "Products & Tea",
@@ -167,23 +206,29 @@
    "name": "Products: Merch & Gifts",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-products-merch-gifts-8j4ucu/",
    "deckId": "wellnest-products-tea-5",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:49:42+07:00",
+   "answered": 0
   },
   {
    "category": "Dashboard & Online",
    "order": 1,
-   "name": "Dashboard: WellNest Dashboard Look",
+   "name": "Dashboard: Header, Render And Logo",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-dash-look-753mc6/",
    "deckId": "wellnest-dashboard-online-1",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T20:06:18+07:00",
+   "answered": 0
   },
   {
    "category": "Dashboard & Online",
    "order": 2,
-   "name": "Dashboard: Layout Details",
+   "name": "Dashboard: Decks, Upload, Projects And Chat",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-dash-layout-details-1t686k/",
    "deckId": "wellnest-dashboard-online-2",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T20:06:18+07:00",
+   "answered": 0
   },
   {
    "category": "Dashboard & Online",
@@ -191,7 +236,9 @@
    "name": "Online: Instagram Look",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-online-instagram-u06orm/",
    "deckId": "wellnest-dashboard-online-3",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:48:08+07:00",
+   "answered": 0
   },
   {
    "category": "Dashboard & Online",
@@ -199,7 +246,9 @@
    "name": "Online: Website Home",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-online-website-jer44v/",
    "deckId": "wellnest-dashboard-online-4",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:48:48+07:00",
+   "answered": 0
   },
   {
    "category": "Dashboard & Online",
@@ -207,7 +256,9 @@
    "name": "Online: Early Growth Moves",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-online-growth-ofhxtf/",
    "deckId": "wellnest-dashboard-online-5",
-   "status": "ready"
+   "status": "ready",
+   "added": "2026-10-14T12:49:51+07:00",
+   "answered": 0
   }
  ]
 }
