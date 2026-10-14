@@ -1,5 +1,33 @@
-{"updated":"2026-10-14 14:20 ICT","routines":[
- {"name":"Wellnest Morning Report","group":"Reports","schedule_plain":"Daily At 4:47 AM ICT, Posts By 5:00 AM","status":"on","last_run":"Not Recorded"},
- {"name":"Wellnest Evening Report","group":"Reports","schedule_plain":"Daily At 6:00 PM ICT","status":"on","last_run":"Not Recorded"},
- {"name":"Wellnest Team Chat Replies","group":"Daily","schedule_plain":"Every 10 Min, 7:03 AM To 10:53 PM ICT","status":"on","last_run":"Not Recorded"},
- {"name":"Wellnest Deck Queue Sync","group":"Daily","schedule_plain":"Every 10 Min, 7:08 AM To 11:58 PM ICT","status":"on","last_run":"Today 12:52 PM"}]}
+{
+ "updated": "2026-10-14 14:55 ICT",
+ "routines": [
+  {
+   "name": "Wellnest Morning Report",
+   "group": "Reports",
+   "schedule_plain": "Daily At 4:47 AM ICT, Posts By 5:00 AM",
+   "status": "on",
+   "last_run": "Not Recorded"
+  },
+  {
+   "name": "Wellnest Evening Report",
+   "group": "Reports",
+   "schedule_plain": "Daily At 6:00 PM ICT",
+   "status": "on",
+   "last_run": "Not Recorded"
+  },
+  {
+   "name": "Wellnest Team Chat Replies",
+   "group": "Inbox and Decks",
+   "schedule_plain": "Every 10 Min, 7:03 AM To 10:53 PM ICT",
+   "status": "on",
+   "last_run": "Not Recorded"
+  },
+  {
+   "name": "Wellnest Deck Queue Sync",
+   "group": "Inbox and Decks",
+   "schedule_plain": "Every 10 Min, 7:08 AM To 11:58 PM ICT",
+   "status": "on",
+   "last_run": "Today 12:52 PM"
+  }
+ ]
+}
