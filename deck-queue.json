@@ -1,0 +1,213 @@
+{
+ "schema": 1,
+ "updated": "2026-10-14T12:50:00+07:00",
+ "notes": [
+  "Owner of entries: Branding. Owner of status=done: WellNest sync (/workspace/wellnest/sync-deck-queue.sh). Do not set status to done by hand.",
+  "Fields: category (one of the 5 exact names), order (1-5), name (Title Case), url (live deck URL, null until built), deckId (MUST equal the deck value the deck sends to MWSubmit), status: planned (not built) | ready (built, url set) | done (submitted).",
+  "When a deck is built: set url, set status to ready, keep deckId identical to its Submit deck value. Submit agent must be wellnest (submit_agent: wellnest) so it lands in inbox/wellnest.",
+  "Instant swap: after a successful Submit (real, not test) the deck should add its deckId to localStorage key wn-deck-done (JSON array; same origin webermanapps.github.io) and its Back link should go to https://webermanapps.github.io/wellnest-dashboard/?done=<deckId>.",
+  "Test submits (test:true) never count as done."
+ ],
+ "decks": [
+  {
+   "category": "Brand Look",
+   "order": 1,
+   "name": "Brand Look Deck 1",
+   "url": null,
+   "deckId": "wellnest-brand-look-1",
+   "status": "planned"
+  },
+  {
+   "category": "Brand Look",
+   "order": 2,
+   "name": "Brand Look Deck 2",
+   "url": null,
+   "deckId": "wellnest-brand-look-2",
+   "status": "planned"
+  },
+  {
+   "category": "Brand Look",
+   "order": 3,
+   "name": "Brand Look Deck 3",
+   "url": null,
+   "deckId": "wellnest-brand-look-3",
+   "status": "planned"
+  },
+  {
+   "category": "Brand Look",
+   "order": 4,
+   "name": "Brand Look Deck 4",
+   "url": null,
+   "deckId": "wellnest-brand-look-4",
+   "status": "planned"
+  },
+  {
+   "category": "Brand Look",
+   "order": 5,
+   "name": "Brand Look Deck 5",
+   "url": null,
+   "deckId": "wellnest-brand-look-5",
+   "status": "planned"
+  },
+  {
+   "category": "Voice & Story",
+   "order": 1,
+   "name": "Voice & Story Deck 1",
+   "url": null,
+   "deckId": "wellnest-voice-story-1",
+   "status": "planned"
+  },
+  {
+   "category": "Voice & Story",
+   "order": 2,
+   "name": "Voice & Story Deck 2",
+   "url": null,
+   "deckId": "wellnest-voice-story-2",
+   "status": "planned"
+  },
+  {
+   "category": "Voice & Story",
+   "order": 3,
+   "name": "Voice & Story Deck 3",
+   "url": null,
+   "deckId": "wellnest-voice-story-3",
+   "status": "planned"
+  },
+  {
+   "category": "Voice & Story",
+   "order": 4,
+   "name": "Voice & Story Deck 4",
+   "url": null,
+   "deckId": "wellnest-voice-story-4",
+   "status": "planned"
+  },
+  {
+   "category": "Voice & Story",
+   "order": 5,
+   "name": "Voice & Story Deck 5",
+   "url": null,
+   "deckId": "wellnest-voice-story-5",
+   "status": "planned"
+  },
+  {
+   "category": "Experiences & Tours",
+   "order": 1,
+   "name": "Experiences & Tours Deck 1",
+   "url": null,
+   "deckId": "wellnest-experiences-tours-1",
+   "status": "planned"
+  },
+  {
+   "category": "Experiences & Tours",
+   "order": 2,
+   "name": "Experiences & Tours Deck 2",
+   "url": null,
+   "deckId": "wellnest-experiences-tours-2",
+   "status": "planned"
+  },
+  {
+   "category": "Experiences & Tours",
+   "order": 3,
+   "name": "Experiences & Tours Deck 3",
+   "url": null,
+   "deckId": "wellnest-experiences-tours-3",
+   "status": "planned"
+  },
+  {
+   "category": "Experiences & Tours",
+   "order": 4,
+   "name": "Experiences & Tours Deck 4",
+   "url": null,
+   "deckId": "wellnest-experiences-tours-4",
+   "status": "planned"
+  },
+  {
+   "category": "Experiences & Tours",
+   "order": 5,
+   "name": "Experiences & Tours Deck 5",
+   "url": null,
+   "deckId": "wellnest-experiences-tours-5",
+   "status": "planned"
+  },
+  {
+   "category": "Products & Tea",
+   "order": 1,
+   "name": "Products & Tea Deck 1",
+   "url": null,
+   "deckId": "wellnest-products-tea-1",
+   "status": "planned"
+  },
+  {
+   "category": "Products & Tea",
+   "order": 2,
+   "name": "Products & Tea Deck 2",
+   "url": null,
+   "deckId": "wellnest-products-tea-2",
+   "status": "planned"
+  },
+  {
+   "category": "Products & Tea",
+   "order": 3,
+   "name": "Products & Tea Deck 3",
+   "url": null,
+   "deckId": "wellnest-products-tea-3",
+   "status": "planned"
+  },
+  {
+   "category": "Products & Tea",
+   "order": 4,
+   "name": "Products & Tea Deck 4",
+   "url": null,
+   "deckId": "wellnest-products-tea-4",
+   "status": "planned"
+  },
+  {
+   "category": "Products & Tea",
+   "order": 5,
+   "name": "Products & Tea Deck 5",
+   "url": null,
+   "deckId": "wellnest-products-tea-5",
+   "status": "planned"
+  },
+  {
+   "category": "Dashboard & Online",
+   "order": 1,
+   "name": "Dashboard & Online Deck 1",
+   "url": null,
+   "deckId": "wellnest-dashboard-online-1",
+   "status": "planned"
+  },
+  {
+   "category": "Dashboard & Online",
+   "order": 2,
+   "name": "Dashboard & Online Deck 2",
+   "url": null,
+   "deckId": "wellnest-dashboard-online-2",
+   "status": "planned"
+  },
+  {
+   "category": "Dashboard & Online",
+   "order": 3,
+   "name": "Dashboard & Online Deck 3",
+   "url": null,
+   "deckId": "wellnest-dashboard-online-3",
+   "status": "planned"
+  },
+  {
+   "category": "Dashboard & Online",
+   "order": 4,
+   "name": "Dashboard & Online Deck 4",
+   "url": null,
+   "deckId": "wellnest-dashboard-online-4",
+   "status": "planned"
+  },
+  {
+   "category": "Dashboard & Online",
+   "order": 5,
+   "name": "Dashboard & Online Deck 5",
+   "url": null,
+   "deckId": "wellnest-dashboard-online-5",
+   "status": "planned"
+  }
+ ]
+}
