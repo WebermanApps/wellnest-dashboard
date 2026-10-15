@@ -15,3 +15,6 @@ The chat is open to anyone with the dashboard link (no password, since Oct 13 20
    `{"<threadId>": [{"at": "2026-10-13T15:00:00Z", "text": "Reply text"}]}`
    then `git commit -qam "Chat reply" && git push` in /workspace/wellnest/dashboard (live in about a minute; the page polls every 45 s).
 5. Replies must be non-sensitive: no names, emails, private matters, money, or private info.
+
+## Tests (Oct 15)
+- Test sends use `?chattest=1` on the dashboard URL and carry `test:true` (in `.data.test` and `.data.results.test`). The reply routine must skip them. Handled test ids go in /workspace/ops/submit/routed.json with status test.
