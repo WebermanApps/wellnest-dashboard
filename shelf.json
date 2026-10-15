@@ -1,0 +1,62 @@
+{
+ "agent": "wellnest",
+ "updated": "2026-10-15T12:27:09+07:00",
+ "decks": [
+  {
+   "id": "wellnest-brand-look-1",
+   "name": "Brand Look: Logo & Colour",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-brand-logo-colour-3z9zj0/",
+   "total": 20,
+   "topic": "Brand Look",
+   "tag": "Brand Look",
+   "color": "#B5651D",
+   "added": "2026-10-14T13:33:32+07:00",
+   "answered": 0
+  },
+  {
+   "id": "wellnest-voice-story-1",
+   "name": "Voice: Taglines & Tone",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-voice-taglines-tone-3z9zj0/",
+   "total": 20,
+   "topic": "Voice & Story",
+   "tag": "Voice & Story",
+   "color": "#6B7F3A",
+   "added": "2026-10-14T13:33:31+07:00",
+   "answered": 0
+  },
+  {
+   "id": "wellnest-experiences-tours-1",
+   "name": "Experiences: Farm Tours & Classes",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-exp-tours-classes-3z9zj0/",
+   "total": 20,
+   "topic": "Experiences & Tours",
+   "tag": "Experiences & Tours",
+   "color": "#2F6F8F",
+   "added": "2026-10-14T12:45:53+07:00",
+   "answered": 0
+  },
+  {
+   "id": "wellnest-products-tea-1",
+   "name": "Products: Roselle & The Tea Line",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-products-roselle-tea-3z9zj0/",
+   "total": 20,
+   "topic": "Products & Tea",
+   "tag": "Products & Tea",
+   "color": "#8A5A8C",
+   "added": "2026-10-14T12:46:01+07:00",
+   "answered": 0
+  },
+  {
+   "id": "wellnest-dashboard-online-1",
+   "name": "Dashboard: Header, Render And Logo",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-dash-look-753mc6/",
+   "total": 20,
+   "topic": "Dashboard & Online",
+   "tag": "Dashboard & Online",
+   "color": "#5E6670",
+   "added": "2026-10-14T20:06:18+07:00",
+   "answered": 0
+  }
+ ],
+ "done": []
+}
