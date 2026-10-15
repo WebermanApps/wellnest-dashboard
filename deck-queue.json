@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-10-15T12:48:15+07:00",
+ "updated": "2026-10-15T12:50:33+07:00",
  "notes": [
   "Owner of entries: Branding. Owner of status=done: WellNest sync (/workspace/wellnest/sync-deck-queue.sh). Do not set status to done by hand.",
   "Fields: category (one of the 5 exact names), order (1-5), name (Title Case), url (live deck URL, null until built), deckId (MUST equal the deck value the deck sends to MWSubmit), status: planned (not built) | ready (built, url set) | done (submitted).",
@@ -17,10 +17,11 @@
    "name": "Brand Look: Logo & Colour",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-brand-logo-colour-3z9zj0/",
    "deckId": "wellnest-brand-look-1",
-   "status": "ready",
+   "status": "done",
    "added": "2026-10-14T13:33:32+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "doneAt": "2026-10-15T12:48:21+07:00"
   },
   {
    "category": "Brand Look",
@@ -237,10 +238,11 @@
    "name": "Dashboard: Header, Render And Logo",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-dash-look-753mc6/",
    "deckId": "wellnest-dashboard-online-1",
-   "status": "ready",
+   "status": "done",
    "added": "2026-10-14T20:06:18+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "doneAt": "2026-10-15T12:45:15+07:00"
   },
   {
    "category": "Dashboard & Online",

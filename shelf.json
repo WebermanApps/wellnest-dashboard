@@ -1,17 +1,18 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-15T12:27:09+07:00",
+ "updated": "2026-10-15T12:50:33+07:00",
  "decks": [
   {
-   "id": "wellnest-brand-look-1",
-   "name": "Brand Look: Logo & Colour",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-brand-logo-colour-3z9zj0/",
+   "id": "wellnest-brand-look-2",
+   "name": "Brand Look: Avatar & Icon Details",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-brand-avatar-icons-25nhaw/",
    "total": 20,
    "topic": "Brand Look",
    "tag": "Brand Look",
    "color": "#B5651D",
-   "added": "2026-10-14T13:33:32+07:00",
-   "answered": 0
+   "added": "2026-10-14T12:46:23+07:00",
+   "answered": 0,
+   "refill": true
   },
   {
    "id": "wellnest-voice-story-1",
@@ -47,16 +48,26 @@
    "answered": 0
   },
   {
-   "id": "wellnest-dashboard-online-1",
-   "name": "Dashboard: Header, Render And Logo",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-dash-look-753mc6/",
+   "id": "wellnest-dashboard-online-2",
+   "name": "Dashboard: Decks, Upload, Projects And Chat",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-dash-layout-details-1t686k/",
    "total": 20,
    "topic": "Dashboard & Online",
    "tag": "Dashboard & Online",
    "color": "#5E6670",
    "added": "2026-10-14T20:06:18+07:00",
-   "answered": 0
+   "answered": 0,
+   "refill": true
   }
  ],
- "done": []
+ "done": [
+  {
+   "id": "wellnest-brand-look-1",
+   "at": "2026-10-15T12:48:21+07:00"
+  },
+  {
+   "id": "wellnest-dashboard-online-1",
+   "at": "2026-10-15T12:45:15+07:00"
+  }
+ ]
 }
