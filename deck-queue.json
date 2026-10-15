@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-10-15T12:50:33+07:00",
+ "updated": "2026-10-15T13:04:56+07:00",
  "notes": [
   "Owner of entries: Branding. Owner of status=done: WellNest sync (/workspace/wellnest/sync-deck-queue.sh). Do not set status to done by hand.",
   "Fields: category (one of the 5 exact names), order (1-5), name (Title Case), url (live deck URL, null until built), deckId (MUST equal the deck value the deck sends to MWSubmit), status: planned (not built) | ready (built, url set) | done (submitted).",
@@ -253,7 +253,9 @@
    "status": "ready",
    "added": "2026-10-14T20:06:18+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "hold": true,
+   "holdReason": "Deck-building question (Swipe Decks: Deck Tag Colour); also dashboard font/layout pairs. Rule Max 13:04."
   },
   {
    "category": "Dashboard & Online",
@@ -297,7 +299,9 @@
    "deckId": "wellnest-business-tours-classes",
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
+   "answered": 0,
+   "hold": true,
+   "holdReason": "Off-brand: generic kit look (Khand/Hind fonts, terra/lagoon/saffron palette), not WellNest Cormorant/DM Sans and logo colours. Rule Max 13:04."
   },
   {
    "row": "business",
@@ -308,7 +312,9 @@
    "deckId": "wellnest-business-blend-names",
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
+   "answered": 0,
+   "hold": true,
+   "holdReason": "Off-brand: generic kit look (Khand/Hind fonts, terra/lagoon/saffron palette), not WellNest Cormorant/DM Sans and logo colours. Rule Max 13:04."
   },
   {
    "row": "business",
@@ -319,7 +325,9 @@
    "deckId": "wellnest-business-pricing",
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
+   "answered": 0,
+   "hold": true,
+   "holdReason": "Off-brand: generic kit look (Khand/Hind fonts, terra/lagoon/saffron palette), not WellNest Cormorant/DM Sans and logo colours. Rule Max 13:04."
   },
   {
    "row": "business",
@@ -330,7 +338,9 @@
    "deckId": "wellnest-business-events",
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
+   "answered": 0,
+   "hold": true,
+   "holdReason": "Off-brand: generic kit look (Khand/Hind fonts, terra/lagoon/saffron palette), not WellNest Cormorant/DM Sans and logo colours. Rule Max 13:04."
   },
   {
    "row": "business",
@@ -341,7 +351,9 @@
    "deckId": "wellnest-business-partnerships",
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
+   "answered": 0,
+   "hold": true,
+   "holdReason": "Off-brand: generic kit look (Khand/Hind fonts, terra/lagoon/saffron palette), not WellNest Cormorant/DM Sans and logo colours. Rule Max 13:04."
   },
   {
    "row": "business",
@@ -353,7 +365,9 @@
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
    "answered": 0,
-   "pool": true
+   "pool": true,
+   "hold": true,
+   "holdReason": "Off-brand: generic kit look (Khand/Hind fonts, terra/lagoon/saffron palette), not WellNest Cormorant/DM Sans and logo colours. Rule Max 13:04."
   },
   {
    "row": "business",
@@ -365,7 +379,9 @@
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
    "answered": 0,
-   "pool": true
+   "pool": true,
+   "hold": true,
+   "holdReason": "Off-brand: generic kit look (Khand/Hind fonts, terra/lagoon/saffron palette), not WellNest Cormorant/DM Sans and logo colours. Rule Max 13:04."
   },
   {
    "row": "business",
@@ -377,7 +393,9 @@
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
    "answered": 0,
-   "pool": true
+   "pool": true,
+   "hold": true,
+   "holdReason": "Off-brand: generic kit look (Khand/Hind fonts, terra/lagoon/saffron palette), not WellNest Cormorant/DM Sans and logo colours. Rule Max 13:04."
   },
   {
    "row": "business",
@@ -389,7 +407,9 @@
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
    "answered": 0,
-   "pool": true
+   "pool": true,
+   "hold": true,
+   "holdReason": "Off-brand: generic kit look (Khand/Hind fonts, terra/lagoon/saffron palette), not WellNest Cormorant/DM Sans and logo colours. Rule Max 13:04."
   },
   {
    "row": "business",
@@ -401,7 +421,9 @@
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
    "answered": 0,
-   "pool": true
+   "pool": true,
+   "hold": true,
+   "holdReason": "Off-brand: generic kit look (Khand/Hind fonts, terra/lagoon/saffron palette), not WellNest Cormorant/DM Sans and logo colours. Rule Max 13:04."
   }
  ]
 }

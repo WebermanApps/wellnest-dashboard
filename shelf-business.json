@@ -1,58 +1,7 @@
 {
  "agent": "wellnest",
  "row": "business",
- "updated": "2026-10-15T12:50:33+07:00",
- "decks": [
-  {
-   "id": "wellnest-business-tours-classes",
-   "name": "Farm Tours And Tea Classes",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-tours-classes-eapc4p/",
-   "total": 20,
-   "topic": "Tours & Classes",
-   "tag": "Tours & Classes",
-   "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
-  },
-  {
-   "id": "wellnest-business-blend-names",
-   "name": "Farm Tea Blend Names",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-blend-names-qj2api/",
-   "total": 20,
-   "topic": "Tea Blends",
-   "tag": "Tea Blends",
-   "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
-  },
-  {
-   "id": "wellnest-business-pricing",
-   "name": "Pricing And Packages",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-pricing-8a18gq/",
-   "total": 20,
-   "topic": "Pricing",
-   "tag": "Pricing",
-   "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
-  },
-  {
-   "id": "wellnest-business-events",
-   "name": "Events And Seasonal Days",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-events-1iagw5/",
-   "total": 20,
-   "topic": "Events",
-   "tag": "Events",
-   "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
-  },
-  {
-   "id": "wellnest-business-partnerships",
-   "name": "Partnerships And Local Collabs",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-partnerships-mmr2mj/",
-   "total": 20,
-   "topic": "Partnerships",
-   "tag": "Partnerships",
-   "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
-  }
- ],
+ "updated": "2026-10-15T13:05:02+07:00",
+ "decks": [],
  "done": []
 }
