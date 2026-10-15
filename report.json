@@ -1,13 +1,13 @@
 {
   "agent": "wellnest",
-  "type": "Evening Report",
-  "report_type": "Evening Report",
-  "date": "2026-10-14",
-  "posted": "2026-10-14T18:10:14+07:00",
-  "posted_at": "2026-10-14T18:10:14+07:00",
+  "type": "Morning Report",
+  "report_type": "Morning Report",
+  "date": "2026-10-15",
+  "posted": "2026-10-15T07:25:07+07:00",
+  "posted_at": "2026-10-15T07:25:07+07:00",
   "schedule": {
-    "morning": "by 05:00 ICT",
-    "evening": "18:00 ICT"
+    "morning": "by 05:00 ICT"
   },
-  "summary": "Brand Deck answered 192 of 200; picks applied. Dashboard catch-up done (rotation, launcher, Routines, icon, audit).."
+  "summary": "Late (usage ran out overnight). Yesterday: Render 3 banner layout, Ready To Swipe with deck counts and 5-deck cap, upload link, Open Projects, Routines collapsed, Evening Report retired, decks rebuilt. Today: swipe the 5 ready decks, site plan options.",
+  "late": true
 }
