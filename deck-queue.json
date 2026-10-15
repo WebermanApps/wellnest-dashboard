@@ -1,13 +1,14 @@
 {
  "schema": 1,
- "updated": "2026-10-14T20:06:50+07:00",
+ "updated": "2026-10-15T12:48:15+07:00",
  "notes": [
   "Owner of entries: Branding. Owner of status=done: WellNest sync (/workspace/wellnest/sync-deck-queue.sh). Do not set status to done by hand.",
   "Fields: category (one of the 5 exact names), order (1-5), name (Title Case), url (live deck URL, null until built), deckId (MUST equal the deck value the deck sends to MWSubmit), status: planned (not built) | ready (built, url set) | done (submitted).",
   "When a deck is built: set url, set status to ready, keep deckId identical to its Submit deck value. Submit agent must be wellnest (submit_agent: wellnest) so it lands in inbox/wellnest.",
   "Instant swap: after a successful Submit (real, not test) the deck should add its deckId to localStorage key wn-deck-done (JSON array; same origin webermanapps.github.io) and its Back link should go to https://webermanapps.github.io/wellnest-dashboard/?done=<deckId>.",
   "Test submits (test:true) never count as done.",
-  "Optional fields (Oct 14 20:04): answered (int, cards answered so far; >0 shows Continue) and added (ISO time built; newest first)."
+  "Optional fields (Oct 14 20:04): answered (int, cards answered so far; >0 shows Continue) and added (ISO time built; newest first).",
+  "Oct 15 12:43 (Max): row 'business' = second row 'For P'Thom And Max' (business strategy decks, WellNest-only exception to the 5-deck cap). Orders 1-5 show on the shelf; 6-10 (pool:true) are refills. Existing entries are row 'nozomi' (row one, For Nozomi)."
  ],
  "decks": [
   {
@@ -18,7 +19,8 @@
    "deckId": "wellnest-brand-look-1",
    "status": "ready",
    "added": "2026-10-14T13:33:32+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Brand Look",
@@ -28,7 +30,8 @@
    "deckId": "wellnest-brand-look-2",
    "status": "ready",
    "added": "2026-10-14T12:46:23+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Brand Look",
@@ -38,7 +41,8 @@
    "deckId": "wellnest-brand-look-3",
    "status": "ready",
    "added": "2026-10-14T12:47:35+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Brand Look",
@@ -48,7 +52,8 @@
    "deckId": "wellnest-brand-look-4",
    "status": "ready",
    "added": "2026-10-14T13:33:32+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Brand Look",
@@ -58,7 +63,8 @@
    "deckId": "wellnest-brand-look-5",
    "status": "ready",
    "added": "2026-10-14T12:48:57+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Voice & Story",
@@ -68,7 +74,8 @@
    "deckId": "wellnest-voice-story-1",
    "status": "ready",
    "added": "2026-10-14T13:33:31+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Voice & Story",
@@ -78,7 +85,8 @@
    "deckId": "wellnest-voice-story-2",
    "status": "ready",
    "added": "2026-10-14T13:33:31+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Voice & Story",
@@ -88,7 +96,8 @@
    "deckId": "wellnest-voice-story-3",
    "status": "ready",
    "added": "2026-10-14T13:33:31+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Voice & Story",
@@ -98,7 +107,8 @@
    "deckId": "wellnest-voice-story-4",
    "status": "ready",
    "added": "2026-10-14T12:48:24+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Voice & Story",
@@ -108,7 +118,8 @@
    "deckId": "wellnest-voice-story-5",
    "status": "ready",
    "added": "2026-10-14T12:49:04+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Experiences & Tours",
@@ -118,7 +129,8 @@
    "deckId": "wellnest-experiences-tours-1",
    "status": "ready",
    "added": "2026-10-14T12:45:53+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Experiences & Tours",
@@ -128,7 +140,8 @@
    "deckId": "wellnest-experiences-tours-2",
    "status": "ready",
    "added": "2026-10-14T12:46:40+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Experiences & Tours",
@@ -138,7 +151,8 @@
    "deckId": "wellnest-experiences-tours-3",
    "status": "ready",
    "added": "2026-10-14T12:47:52+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Experiences & Tours",
@@ -148,7 +162,8 @@
    "deckId": "wellnest-experiences-tours-4",
    "status": "ready",
    "added": "2026-10-14T12:48:32+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Experiences & Tours",
@@ -158,7 +173,8 @@
    "deckId": "wellnest-experiences-tours-5",
    "status": "ready",
    "added": "2026-10-14T12:49:27+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Products & Tea",
@@ -168,7 +184,8 @@
    "deckId": "wellnest-products-tea-1",
    "status": "ready",
    "added": "2026-10-14T12:46:01+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Products & Tea",
@@ -178,7 +195,8 @@
    "deckId": "wellnest-products-tea-2",
    "status": "ready",
    "added": "2026-10-14T12:46:48+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Products & Tea",
@@ -188,7 +206,8 @@
    "deckId": "wellnest-products-tea-3",
    "status": "ready",
    "added": "2026-10-14T12:48:00+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Products & Tea",
@@ -198,7 +217,8 @@
    "deckId": "wellnest-products-tea-4",
    "status": "ready",
    "added": "2026-10-14T12:48:40+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Products & Tea",
@@ -208,7 +228,8 @@
    "deckId": "wellnest-products-tea-5",
    "status": "ready",
    "added": "2026-10-14T12:49:42+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Dashboard & Online",
@@ -218,7 +239,8 @@
    "deckId": "wellnest-dashboard-online-1",
    "status": "ready",
    "added": "2026-10-14T20:06:18+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Dashboard & Online",
@@ -228,7 +250,8 @@
    "deckId": "wellnest-dashboard-online-2",
    "status": "ready",
    "added": "2026-10-14T20:06:18+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Dashboard & Online",
@@ -238,7 +261,8 @@
    "deckId": "wellnest-dashboard-online-3",
    "status": "ready",
    "added": "2026-10-14T12:48:08+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Dashboard & Online",
@@ -248,7 +272,8 @@
    "deckId": "wellnest-dashboard-online-4",
    "status": "ready",
    "added": "2026-10-14T12:48:48+07:00",
-   "answered": 0
+   "answered": 0,
+   "row": "nozomi"
   },
   {
    "category": "Dashboard & Online",
@@ -258,7 +283,123 @@
    "deckId": "wellnest-dashboard-online-5",
    "status": "ready",
    "added": "2026-10-14T12:49:51+07:00",
+   "answered": 0,
+   "row": "nozomi"
+  },
+  {
+   "row": "business",
+   "category": "Tours & Classes",
+   "order": 1,
+   "name": "Farm Tours And Tea Classes",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-tours-classes-eapc4p/",
+   "deckId": "wellnest-business-tours-classes",
+   "status": "ready",
+   "added": "2026-10-15T12:48:15+07:00",
    "answered": 0
+  },
+  {
+   "row": "business",
+   "category": "Tea Blends",
+   "order": 2,
+   "name": "Farm Tea Blend Names",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-blend-names-qj2api/",
+   "deckId": "wellnest-business-blend-names",
+   "status": "ready",
+   "added": "2026-10-15T12:48:15+07:00",
+   "answered": 0
+  },
+  {
+   "row": "business",
+   "category": "Pricing",
+   "order": 3,
+   "name": "Pricing And Packages",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-pricing-8a18gq/",
+   "deckId": "wellnest-business-pricing",
+   "status": "ready",
+   "added": "2026-10-15T12:48:15+07:00",
+   "answered": 0
+  },
+  {
+   "row": "business",
+   "category": "Events",
+   "order": 4,
+   "name": "Events And Seasonal Days",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-events-1iagw5/",
+   "deckId": "wellnest-business-events",
+   "status": "ready",
+   "added": "2026-10-15T12:48:15+07:00",
+   "answered": 0
+  },
+  {
+   "row": "business",
+   "category": "Partnerships",
+   "order": 5,
+   "name": "Partnerships And Local Collabs",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-partnerships-mmr2mj/",
+   "deckId": "wellnest-business-partnerships",
+   "status": "ready",
+   "added": "2026-10-15T12:48:15+07:00",
+   "answered": 0
+  },
+  {
+   "row": "business",
+   "category": "Revenue",
+   "order": 6,
+   "name": "New Revenue Ideas",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-revenue-sfb9zq/",
+   "deckId": "wellnest-business-revenue",
+   "status": "ready",
+   "added": "2026-10-15T12:48:15+07:00",
+   "answered": 0,
+   "pool": true
+  },
+  {
+   "row": "business",
+   "category": "Membership",
+   "order": 7,
+   "name": "Nest Club Membership Ideas",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-nest-club-y87yjj/",
+   "deckId": "wellnest-business-nest-club",
+   "status": "ready",
+   "added": "2026-10-15T12:48:15+07:00",
+   "answered": 0,
+   "pool": true
+  },
+  {
+   "row": "business",
+   "category": "Sauna & Stays",
+   "order": 8,
+   "name": "Hot House And Stay Packages",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-sauna-stays-qi8x5w/",
+   "deckId": "wellnest-business-sauna-stays",
+   "status": "ready",
+   "added": "2026-10-15T12:48:15+07:00",
+   "answered": 0,
+   "pool": true
+  },
+  {
+   "row": "business",
+   "category": "Tea Sales",
+   "order": 9,
+   "name": "Selling The Tea Line",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-tea-selling-4vn6jj/",
+   "deckId": "wellnest-business-tea-selling",
+   "status": "ready",
+   "added": "2026-10-15T12:48:15+07:00",
+   "answered": 0,
+   "pool": true
+  },
+  {
+   "row": "business",
+   "category": "Groups & Retreats",
+   "order": 10,
+   "name": "Group Bookings And Retreats",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-groups-retreats-0b2lq6/",
+   "deckId": "wellnest-business-groups-retreats",
+   "status": "ready",
+   "added": "2026-10-15T12:48:15+07:00",
+   "answered": 0,
+   "pool": true
   }
  ]
 }
