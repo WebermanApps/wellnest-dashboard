@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-10-16T21:33:01+07:00",
+ "updated": "2026-10-16T21:47:55+07:00",
  "restored": "Rebuilt Oct 16 2026 from dashboard deck-queue.json + shelves at 8b957e9 after box restore",
  "notes": [
   "Owner of entries: Branding. Owner of status=done: WellNest sync (/workspace/wellnest/sync-deck-queue.sh). Do not set status to done by hand.",
@@ -13,7 +13,8 @@
   "pool: true = ready but not on a shelf now. Shelf picks come from build-shelf.py (not-done, not held, not pool).",
   "Oct 16 11:40 (Branding): refresh brief decks added. Nozomi: Baby Steps To Opening + Site Plan Options (Experiences & Tours, orders 0/0.5), Tea Products And Second Looks (Products & Tea, order 0). Business: three new decks orders 1-3; revenue and nest-club 4-5; the rest pool.",
   "Oct 16 21:30 (Max): one standard shelf only (max 5). Business decks kept with row: retired, pool: true. Decks with project three-tea-lines / partnership-teas go first.",
-  "Oct 16 21:40 (Branding): 4 tea decks added (project three-tea-lines: Tea Blend Ingredients, Tea Packaging; partnership-teas: Partner Tea Blends, Partner Tea Packaging), orders 1-4 -> shelf slots 1-4; slot 5 keeps the current first deck; others queued."
+  "Oct 16 21:40 (Branding): 4 tea decks added (project three-tea-lines: Tea Blend Ingredients, Tea Packaging; partnership-teas: Partner Tea Blends, Partner Tea Packaging), orders 1-4 -> shelf slots 1-4; slot 5 keeps the current first deck; others queued.",
+  "Oct 16 21:50 (Branding): Roselle Packaging Polish added as slot 5 (priority:true, no project field, so build-shelf sorts it after the 4 project decks); Baby Steps To Opening back to pool."
  ],
  "decks": [
   {
@@ -533,7 +534,7 @@
    "answered": 0,
    "row": "nozomi",
    "source": "brief 2026-10-16",
-   "pool": false
+   "pool": true
   },
   {
    "category": "Experiences & Tours",
@@ -659,6 +660,22 @@
    "project": "partnership-teas",
    "pool": false,
    "source": "Max request Oct 16 21:27 via WellNest"
+  },
+  {
+   "category": "Products & Tea",
+   "order": 5,
+   "name": "Roselle Packaging Polish",
+   "title": "Roselle Packaging Polish Deck",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-roselle-packaging-polish-ifwemw/",
+   "deckId": "wellnest-roselle-packaging-polish",
+   "status": "ready",
+   "added": "2026-10-16T21:47:55+07:00",
+   "answered": 0,
+   "row": "nozomi",
+   "priority": true,
+   "projectName": "Three Tea Lines",
+   "pool": false,
+   "source": "Max request Oct 16 21:44 via WellNest"
   }
  ]
 }
