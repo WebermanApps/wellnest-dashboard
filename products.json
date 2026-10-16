@@ -1,13 +1,34 @@
 {
- "updated": "2026-10-16T21:45:00+07:00",
- "note": "Current Product Lines data. Public: facts from the WellNest pitch deck only; no prices, costs or finances.",
+ "updated": "2026-10-16T21:50:00+07:00",
+ "note": "Current Product Lines data. Public: facts printed on the packaging (from Max's photos) only; no prices, costs or finances.",
  "products": [
   {
    "name": "Roselle Tea",
-   "description": "Details Coming Soon.",
-   "image": "",
-   "made": "",
-   "packaging": ""
+   "description": "Organic herbal tea. Refreshing, tarty and sweet. Aids digestion, promotes heart health and boosts immunity.",
+   "made": "Grown and handmade on our family organic farm. Made by The WellNest Co., Ltd in San Sai, Chiang Mai.",
+   "packaging": "Kraft stand-up pouch with a pink label.",
+   "facts": [
+    "Launched May 2024",
+    "Stocked At A Chiang Mai Cafe Shop"
+   ],
+   "images": [
+    {
+     "src": "product-roselle-bag.jpg",
+     "alt": "Front of the Roselle Tea pouch"
+    },
+    {
+     "src": "product-roselle-dried.jpg",
+     "alt": "Dried roselle calyces"
+    },
+    {
+     "src": "product-roselle-flower.jpg",
+     "alt": "Roselle flower on the farm"
+    },
+    {
+     "src": "product-roselle-brewed.jpg",
+     "alt": "Brewed roselle tea"
+    }
+   ]
   }
  ]
 }
