@@ -2,57 +2,7 @@
  "agent": "wellnest",
  "row": "business",
  "updated": "2026-10-16T11:49:04+07:00",
- "decks": [
-  {
-   "id": "wellnest-business-small-tests",
-   "name": "Small Tests To Start Now",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-small-tests-4y5dj2/",
-   "total": 20,
-   "topic": "Small Tests",
-   "tag": "Small Tests",
-   "added": "2026-10-16T11:49:04+07:00",
-   "answered": 0
-  },
-  {
-   "id": "wellnest-business-collective-ideas",
-   "name": "Which Wellness Collective Idea To Test First",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-collective-ideas-7eleuu/",
-   "total": 20,
-   "topic": "Collective Ideas",
-   "tag": "Collective Ideas",
-   "added": "2026-10-16T11:49:04+07:00",
-   "answered": 0
-  },
-  {
-   "id": "wellnest-business-first-partners",
-   "name": "Partners To Approach First",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-first-partners-ige2n5/",
-   "total": 20,
-   "topic": "Partnerships",
-   "tag": "Partnerships",
-   "added": "2026-10-16T11:49:04+07:00",
-   "answered": 0
-  },
-  {
-   "id": "wellnest-business-revenue",
-   "name": "New Revenue Ideas",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-revenue-sfb9zq/",
-   "total": 20,
-   "topic": "Revenue",
-   "tag": "Revenue",
-   "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
-  },
-  {
-   "id": "wellnest-business-nest-club",
-   "name": "Nest Club Membership Ideas",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-nest-club-y87yjj/",
-   "total": 20,
-   "topic": "Membership",
-   "tag": "Membership",
-   "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
-  }
- ],
- "done": []
+ "decks": [],
+ "done": [],
+ "retired": "Oct 16 2026 21:31 (Max): row 2 removed; one standard 5-deck shelf in shelf.json"
 }
