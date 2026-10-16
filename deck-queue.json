@@ -1,6 +1,7 @@
 {
- "schema": 1,
- "updated": "2026-10-16T11:38:37+07:00",
+ "schema": 2,
+ "updated": "2026-10-16T11:40:42+07:00",
+ "restored": "Rebuilt Oct 16 2026 from dashboard deck-queue.json + shelves at 8b957e9 after box restore",
  "notes": [
   "Owner of entries: Branding. Owner of status=done: WellNest sync (/workspace/wellnest/sync-deck-queue.sh). Do not set status to done by hand.",
   "Fields: category (one of the 5 exact names), order (1-5), name (Title Case), url (live deck URL, null until built), deckId (MUST equal the deck value the deck sends to MWSubmit), status: planned (not built) | ready (built, url set) | done (submitted).",
@@ -8,9 +9,23 @@
   "Instant swap: after a successful Submit (real, not test) the deck should add its deckId to localStorage key wn-deck-done (JSON array; same origin webermanapps.github.io) and its Back link should go to https://webermanapps.github.io/wellnest-dashboard/?done=<deckId>.",
   "Test submits (test:true) never count as done.",
   "Optional fields (Oct 14 20:04): answered (int, cards answered so far; >0 shows Continue) and added (ISO time built; newest first).",
-  "Oct 15 12:43 (Max): row 'business' = second row 'For P'Thom And Max' (business strategy decks, WellNest-only exception to the 5-deck cap). Orders 1-5 show on the shelf; 6-10 (pool:true) are refills. Existing entries are row 'nozomi' (row one, For Nozomi)."
+  "Oct 15 12:43 (Max): row 'business' = second row 'For P'Thom And Max' (business strategy decks, WellNest-only exception to the 5-deck cap). Orders 1-5 show on the shelf; 6-10 (pool:true) are refills. Existing entries are row 'nozomi' (row one, For Nozomi).",
+  "pool: true = ready but not on a shelf now. Shelf picks come from build-shelf.py (not-done, not held, not pool)."
  ],
  "decks": [
+  {
+   "deckId": "wellnest-brand",
+   "title": "WellNest Brand Deck",
+   "name": "WellNest Brand Deck",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-brand-jxhiif/",
+   "row": "nozomi",
+   "category": "Brand Deck (Round One)",
+   "order": 0,
+   "pool": false,
+   "status": "done",
+   "hold": false,
+   "doneAt": "2026-10-14T09:25:00+07:00"
+  },
   {
    "category": "Brand Look",
    "order": 1,
@@ -21,7 +36,10 @@
    "added": "2026-10-14T13:33:32+07:00",
    "answered": 0,
    "row": "nozomi",
-   "doneAt": "2026-10-15T12:48:21+07:00"
+   "doneAt": "2026-10-15T12:48:21+07:00",
+   "title": "Brand Look: Logo & Colour",
+   "hold": false,
+   "pool": false
   },
   {
    "category": "Brand Look",
@@ -32,7 +50,10 @@
    "status": "ready",
    "added": "2026-10-14T12:46:23+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Brand Look: Avatar & Icon Details",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Brand Look",
@@ -43,7 +64,10 @@
    "status": "ready",
    "added": "2026-10-14T12:47:35+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Brand Look: Type & Page Details",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Brand Look",
@@ -54,7 +78,10 @@
    "status": "ready",
    "added": "2026-10-14T13:33:32+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Brand Look: Photo Style",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Brand Look",
@@ -65,7 +92,10 @@
    "status": "ready",
    "added": "2026-10-14T12:48:57+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Brand Look: Packaging Look",
+   "hold": false,
+   "pool": false
   },
   {
    "category": "Voice & Story",
@@ -76,7 +106,10 @@
    "status": "ready",
    "added": "2026-10-14T13:33:31+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Voice: Taglines & Tone",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Voice & Story",
@@ -87,7 +120,10 @@
    "status": "ready",
    "added": "2026-10-14T13:33:31+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Voice: Founder & Family Story",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Voice & Story",
@@ -98,7 +134,10 @@
    "status": "ready",
    "added": "2026-10-14T13:33:31+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Voice: Captions & Social Lines",
+   "hold": false,
+   "pool": false
   },
   {
    "category": "Voice & Story",
@@ -109,7 +148,10 @@
    "status": "ready",
    "added": "2026-10-14T12:48:24+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Voice: Thai And English",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Voice & Story",
@@ -120,7 +162,10 @@
    "status": "ready",
    "added": "2026-10-14T12:49:04+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Voice: Signs & Guest Words",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Experiences & Tours",
@@ -131,7 +176,10 @@
    "status": "ready",
    "added": "2026-10-14T12:45:53+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Experiences: Farm Tours & Classes",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Experiences & Tours",
@@ -142,7 +190,10 @@
    "status": "ready",
    "added": "2026-10-14T12:46:40+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Experiences: Sauna, Plunge & Therapies",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Experiences & Tours",
@@ -153,7 +204,10 @@
    "status": "ready",
    "added": "2026-10-14T12:47:52+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Experiences: Tea & Harvest Days",
+   "hold": false,
+   "pool": false
   },
   {
    "category": "Experiences & Tours",
@@ -164,7 +218,10 @@
    "status": "ready",
    "added": "2026-10-14T12:48:32+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Experiences: Cowork & Events",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Experiences & Tours",
@@ -175,7 +232,10 @@
    "status": "ready",
    "added": "2026-10-14T12:49:27+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Experiences: Stays & Retreats",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Products & Tea",
@@ -186,7 +246,10 @@
    "status": "ready",
    "added": "2026-10-14T12:46:01+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Products: Roselle & The Tea Line",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Products & Tea",
@@ -197,7 +260,10 @@
    "status": "ready",
    "added": "2026-10-14T12:46:48+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Products: New Product Ideas",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Products & Tea",
@@ -208,7 +274,10 @@
    "status": "ready",
    "added": "2026-10-14T12:48:00+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Products: Formats & Pricing Feel",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Products & Tea",
@@ -219,7 +288,10 @@
    "status": "ready",
    "added": "2026-10-14T12:48:40+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Products: Stockists & Selling",
+   "hold": false,
+   "pool": false
   },
   {
    "category": "Products & Tea",
@@ -230,7 +302,10 @@
    "status": "ready",
    "added": "2026-10-14T12:49:42+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Products: Merch & Gifts",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Dashboard & Online",
@@ -242,7 +317,10 @@
    "added": "2026-10-14T20:06:18+07:00",
    "answered": 0,
    "row": "nozomi",
-   "doneAt": "2026-10-15T12:45:15+07:00"
+   "doneAt": "2026-10-15T12:45:15+07:00",
+   "title": "Dashboard: Header, Render And Logo",
+   "hold": false,
+   "pool": false
   },
   {
    "category": "Dashboard & Online",
@@ -255,7 +333,9 @@
    "answered": 0,
    "row": "nozomi",
    "hold": true,
-   "holdReason": "Deck-building question (Swipe Decks: Deck Tag Colour); also dashboard font/layout pairs. Rule Max 13:04."
+   "holdReason": "Deck-building question (Swipe Decks: Deck Tag Colour); also dashboard font/layout pairs. Rule Max 13:04.",
+   "title": "Dashboard Fonts, Farm And Tea",
+   "pool": true
   },
   {
    "category": "Dashboard & Online",
@@ -266,7 +346,10 @@
    "status": "ready",
    "added": "2026-10-14T12:48:08+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Online: Instagram Look",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Dashboard & Online",
@@ -277,7 +360,10 @@
    "status": "ready",
    "added": "2026-10-14T12:48:48+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Online: Website Home",
+   "hold": false,
+   "pool": true
   },
   {
    "category": "Dashboard & Online",
@@ -288,7 +374,10 @@
    "status": "ready",
    "added": "2026-10-14T12:49:51+07:00",
    "answered": 0,
-   "row": "nozomi"
+   "row": "nozomi",
+   "title": "Online: Early Growth Moves",
+   "hold": false,
+   "pool": false
   },
   {
    "row": "business",
@@ -299,7 +388,10 @@
    "deckId": "wellnest-business-tours-classes",
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
+   "answered": 0,
+   "title": "Farm Tours And Tea Classes",
+   "hold": false,
+   "pool": true
   },
   {
    "row": "business",
@@ -310,7 +402,10 @@
    "deckId": "wellnest-business-blend-names",
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
+   "answered": 0,
+   "title": "Farm Tea Blend Names",
+   "hold": false,
+   "pool": true
   },
   {
    "row": "business",
@@ -321,7 +416,10 @@
    "deckId": "wellnest-business-pricing",
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
+   "answered": 0,
+   "title": "Pricing And Packages",
+   "hold": false,
+   "pool": true
   },
   {
    "row": "business",
@@ -332,7 +430,10 @@
    "deckId": "wellnest-business-events",
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
+   "answered": 0,
+   "title": "Events And Seasonal Days",
+   "hold": false,
+   "pool": true
   },
   {
    "row": "business",
@@ -343,7 +444,10 @@
    "deckId": "wellnest-business-partnerships",
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
+   "answered": 0,
+   "title": "Partnerships And Local Collabs",
+   "hold": false,
+   "pool": true
   },
   {
    "row": "business",
@@ -355,7 +459,9 @@
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
    "answered": 0,
-   "pool": true
+   "pool": false,
+   "title": "New Revenue Ideas",
+   "hold": false
   },
   {
    "row": "business",
@@ -367,7 +473,9 @@
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
    "answered": 0,
-   "pool": true
+   "pool": false,
+   "title": "Nest Club Membership Ideas",
+   "hold": false
   },
   {
    "row": "business",
@@ -379,7 +487,9 @@
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
    "answered": 0,
-   "pool": true
+   "pool": false,
+   "title": "Hot House And Stay Packages",
+   "hold": false
   },
   {
    "row": "business",
@@ -391,7 +501,9 @@
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
    "answered": 0,
-   "pool": true
+   "pool": false,
+   "title": "Selling The Tea Line",
+   "hold": false
   },
   {
    "row": "business",
@@ -403,7 +515,9 @@
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
    "answered": 0,
-   "pool": true
+   "pool": false,
+   "title": "Group Bookings And Retreats",
+   "hold": false
   }
  ]
 }
