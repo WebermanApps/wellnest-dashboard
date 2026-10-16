@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-10-16T11:40:42+07:00",
+ "updated": "2026-10-16T11:49:04+07:00",
  "restored": "Rebuilt Oct 16 2026 from dashboard deck-queue.json + shelves at 8b957e9 after box restore",
  "notes": [
   "Owner of entries: Branding. Owner of status=done: WellNest sync (/workspace/wellnest/sync-deck-queue.sh). Do not set status to done by hand.",
@@ -10,7 +10,8 @@
   "Test submits (test:true) never count as done.",
   "Optional fields (Oct 14 20:04): answered (int, cards answered so far; >0 shows Continue) and added (ISO time built; newest first).",
   "Oct 15 12:43 (Max): row 'business' = second row 'For P'Thom And Max' (business strategy decks, WellNest-only exception to the 5-deck cap). Orders 1-5 show on the shelf; 6-10 (pool:true) are refills. Existing entries are row 'nozomi' (row one, For Nozomi).",
-  "pool: true = ready but not on a shelf now. Shelf picks come from build-shelf.py (not-done, not held, not pool)."
+  "pool: true = ready but not on a shelf now. Shelf picks come from build-shelf.py (not-done, not held, not pool).",
+  "Oct 16 11:40 (Branding): refresh brief decks added. Nozomi: Baby Steps To Opening + Site Plan Options (Experiences & Tours, orders 0/0.5), Tea Products And Second Looks (Products & Tea, order 0). Business: three new decks orders 1-3; revenue and nest-club 4-5; the rest pool."
  ],
  "decks": [
   {
@@ -95,7 +96,7 @@
    "row": "nozomi",
    "title": "Brand Look: Packaging Look",
    "hold": false,
-   "pool": false
+   "pool": true
   },
   {
    "category": "Voice & Story",
@@ -291,7 +292,7 @@
    "row": "nozomi",
    "title": "Products: Stockists & Selling",
    "hold": false,
-   "pool": false
+   "pool": true
   },
   {
    "category": "Products & Tea",
@@ -377,12 +378,12 @@
    "row": "nozomi",
    "title": "Online: Early Growth Moves",
    "hold": false,
-   "pool": false
+   "pool": true
   },
   {
    "row": "business",
    "category": "Tours & Classes",
-   "order": 6,
+   "order": 9,
    "name": "Farm Tours And Tea Classes",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-tours-classes-eapc4p/",
    "deckId": "wellnest-business-tours-classes",
@@ -396,7 +397,7 @@
   {
    "row": "business",
    "category": "Tea Blends",
-   "order": 7,
+   "order": 10,
    "name": "Farm Tea Blend Names",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-blend-names-qj2api/",
    "deckId": "wellnest-business-blend-names",
@@ -410,7 +411,7 @@
   {
    "row": "business",
    "category": "Pricing",
-   "order": 8,
+   "order": 11,
    "name": "Pricing And Packages",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-pricing-8a18gq/",
    "deckId": "wellnest-business-pricing",
@@ -424,7 +425,7 @@
   {
    "row": "business",
    "category": "Events",
-   "order": 9,
+   "order": 12,
    "name": "Events And Seasonal Days",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-events-1iagw5/",
    "deckId": "wellnest-business-events",
@@ -438,7 +439,7 @@
   {
    "row": "business",
    "category": "Partnerships",
-   "order": 10,
+   "order": 13,
    "name": "Partnerships And Local Collabs",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-partnerships-mmr2mj/",
    "deckId": "wellnest-business-partnerships",
@@ -452,7 +453,7 @@
   {
    "row": "business",
    "category": "Revenue",
-   "order": 1,
+   "order": 4,
    "name": "New Revenue Ideas",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-revenue-sfb9zq/",
    "deckId": "wellnest-business-revenue",
@@ -466,7 +467,7 @@
   {
    "row": "business",
    "category": "Membership",
-   "order": 2,
+   "order": 5,
    "name": "Nest Club Membership Ideas",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-nest-club-y87yjj/",
    "deckId": "wellnest-business-nest-club",
@@ -480,44 +481,122 @@
   {
    "row": "business",
    "category": "Sauna & Stays",
-   "order": 3,
+   "order": 6,
    "name": "Hot House And Stay Packages",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-sauna-stays-qi8x5w/",
    "deckId": "wellnest-business-sauna-stays",
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
    "answered": 0,
-   "pool": false,
+   "pool": true,
    "title": "Hot House And Stay Packages",
    "hold": false
   },
   {
    "row": "business",
    "category": "Tea Sales",
-   "order": 4,
+   "order": 7,
    "name": "Selling The Tea Line",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-tea-selling-4vn6jj/",
    "deckId": "wellnest-business-tea-selling",
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
    "answered": 0,
-   "pool": false,
+   "pool": true,
    "title": "Selling The Tea Line",
    "hold": false
   },
   {
    "row": "business",
    "category": "Groups & Retreats",
-   "order": 5,
+   "order": 8,
    "name": "Group Bookings And Retreats",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-groups-retreats-0b2lq6/",
    "deckId": "wellnest-business-groups-retreats",
    "status": "ready",
    "added": "2026-10-15T12:48:15+07:00",
    "answered": 0,
-   "pool": false,
+   "pool": true,
    "title": "Group Bookings And Retreats",
    "hold": false
+  },
+  {
+   "category": "Experiences & Tours",
+   "order": 0,
+   "name": "Baby Steps To Opening",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-baby-steps-kg87e2/",
+   "deckId": "wellnest-nozomi-baby-steps",
+   "status": "ready",
+   "added": "2026-10-16T11:49:04+07:00",
+   "answered": 0,
+   "row": "nozomi",
+   "source": "brief 2026-10-16",
+   "pool": false
+  },
+  {
+   "category": "Experiences & Tours",
+   "order": 0.5,
+   "name": "Site Plan Options",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-site-plan-erty8p/",
+   "deckId": "wellnest-nozomi-site-plan",
+   "status": "ready",
+   "added": "2026-10-16T11:49:04+07:00",
+   "answered": 0,
+   "row": "nozomi",
+   "source": "brief 2026-10-16",
+   "pool": false
+  },
+  {
+   "category": "Products & Tea",
+   "order": 0,
+   "name": "Tea Products And Second Looks",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-tea-second-looks-obddme/",
+   "deckId": "wellnest-nozomi-tea-second-looks",
+   "status": "ready",
+   "added": "2026-10-16T11:49:04+07:00",
+   "answered": 0,
+   "row": "nozomi",
+   "source": "brief 2026-10-16",
+   "pool": false
+  },
+  {
+   "category": "Small Tests",
+   "order": 1,
+   "name": "Small Tests To Start Now",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-small-tests-4y5dj2/",
+   "deckId": "wellnest-business-small-tests",
+   "status": "ready",
+   "added": "2026-10-16T11:49:04+07:00",
+   "answered": 0,
+   "row": "business",
+   "source": "brief 2026-10-16",
+   "pool": false
+  },
+  {
+   "category": "Collective Ideas",
+   "order": 2,
+   "name": "Which Wellness Collective Idea To Test First",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-collective-ideas-7eleuu/",
+   "deckId": "wellnest-business-collective-ideas",
+   "status": "ready",
+   "added": "2026-10-16T11:49:04+07:00",
+   "answered": 0,
+   "row": "business",
+   "source": "brief 2026-10-16",
+   "pool": false
+  },
+  {
+   "category": "Partnerships",
+   "order": 3,
+   "name": "Partners To Approach First",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-first-partners-ige2n5/",
+   "deckId": "wellnest-business-first-partners",
+   "status": "ready",
+   "added": "2026-10-16T11:49:04+07:00",
+   "answered": 0,
+   "row": "business",
+   "source": "brief 2026-10-16",
+   "pool": false
   }
  ]
 }

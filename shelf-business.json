@@ -1,8 +1,38 @@
 {
  "agent": "wellnest",
  "row": "business",
- "updated": "2026-10-16T11:38:37+07:00",
+ "updated": "2026-10-16T11:49:04+07:00",
  "decks": [
+  {
+   "id": "wellnest-business-small-tests",
+   "name": "Small Tests To Start Now",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-small-tests-4y5dj2/",
+   "total": 20,
+   "topic": "Small Tests",
+   "tag": "Small Tests",
+   "added": "2026-10-16T11:49:04+07:00",
+   "answered": 0
+  },
+  {
+   "id": "wellnest-business-collective-ideas",
+   "name": "Which Wellness Collective Idea To Test First",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-collective-ideas-7eleuu/",
+   "total": 20,
+   "topic": "Collective Ideas",
+   "tag": "Collective Ideas",
+   "added": "2026-10-16T11:49:04+07:00",
+   "answered": 0
+  },
+  {
+   "id": "wellnest-business-first-partners",
+   "name": "Partners To Approach First",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-first-partners-ige2n5/",
+   "total": 20,
+   "topic": "Partnerships",
+   "tag": "Partnerships",
+   "added": "2026-10-16T11:49:04+07:00",
+   "answered": 0
+  },
   {
    "id": "wellnest-business-revenue",
    "name": "New Revenue Ideas",
@@ -20,36 +50,6 @@
    "total": 20,
    "topic": "Membership",
    "tag": "Membership",
-   "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
-  },
-  {
-   "id": "wellnest-business-sauna-stays",
-   "name": "Hot House And Stay Packages",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-sauna-stays-qi8x5w/",
-   "total": 20,
-   "topic": "Sauna & Stays",
-   "tag": "Sauna & Stays",
-   "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
-  },
-  {
-   "id": "wellnest-business-tea-selling",
-   "name": "Selling The Tea Line",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-tea-selling-4vn6jj/",
-   "total": 20,
-   "topic": "Tea Sales",
-   "tag": "Tea Sales",
-   "added": "2026-10-15T12:48:15+07:00",
-   "answered": 0
-  },
-  {
-   "id": "wellnest-business-groups-retreats",
-   "name": "Group Bookings And Retreats",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-groups-retreats-0b2lq6/",
-   "total": 20,
-   "topic": "Groups & Retreats",
-   "tag": "Groups & Retreats",
    "added": "2026-10-15T12:48:15+07:00",
    "answered": 0
   }

@@ -1,18 +1,36 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-16T11:38:37+07:00",
+ "updated": "2026-10-16T11:49:04+07:00",
  "decks": [
   {
-   "id": "wellnest-brand-look-5",
-   "name": "Brand Look: Packaging Look",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-brand-packaging-look-gb09u7/",
+   "id": "wellnest-nozomi-baby-steps",
+   "name": "Baby Steps To Opening",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-baby-steps-kg87e2/",
    "total": 20,
-   "topic": "Brand Look",
-   "tag": "Brand Look",
-   "color": "#B5651D",
-   "added": "2026-10-14T12:48:57+07:00",
-   "answered": 0,
-   "refill": true
+   "topic": "Experiences & Tours",
+   "tag": "Experiences & Tours",
+   "added": "2026-10-16T11:49:04+07:00",
+   "answered": 0
+  },
+  {
+   "id": "wellnest-nozomi-site-plan",
+   "name": "Site Plan Options",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-site-plan-erty8p/",
+   "total": 20,
+   "topic": "Experiences & Tours",
+   "tag": "Experiences & Tours",
+   "added": "2026-10-16T11:49:04+07:00",
+   "answered": 0
+  },
+  {
+   "id": "wellnest-nozomi-tea-second-looks",
+   "name": "Tea Products And Second Looks",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-tea-second-looks-obddme/",
+   "total": 20,
+   "topic": "Products & Tea",
+   "tag": "Products & Tea",
+   "added": "2026-10-16T11:49:04+07:00",
+   "answered": 0
   },
   {
    "id": "wellnest-voice-story-3",
@@ -35,29 +53,6 @@
    "color": "#2F6F8F",
    "added": "2026-10-14T12:47:52+07:00",
    "answered": 0
-  },
-  {
-   "id": "wellnest-products-tea-4",
-   "name": "Products: Stockists & Selling",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-products-stockists-uhbfq9/",
-   "total": 20,
-   "topic": "Products & Tea",
-   "tag": "Products & Tea",
-   "color": "#8A5A8C",
-   "added": "2026-10-14T12:48:40+07:00",
-   "answered": 0
-  },
-  {
-   "id": "wellnest-dashboard-online-5",
-   "name": "Online: Early Growth Moves",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-online-growth-ofhxtf/",
-   "total": 20,
-   "topic": "Dashboard & Online",
-   "tag": "Dashboard & Online",
-   "color": "#5E6670",
-   "added": "2026-10-14T12:49:51+07:00",
-   "answered": 0,
-   "refill": true
   }
  ],
  "done": [
