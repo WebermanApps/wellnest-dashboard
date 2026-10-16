@@ -11,7 +11,8 @@
    "tag": "Products & Tea",
    "added": "2026-10-16T21:33:01+07:00",
    "answered": 0,
-   "color": "#8A5A8C"
+   "color": "#8A5A8C",
+   "refill": true
   },
   {
    "id": "wellnest-tea-packaging",
@@ -22,7 +23,8 @@
    "tag": "Products & Tea",
    "added": "2026-10-16T21:33:01+07:00",
    "answered": 0,
-   "color": "#8A5A8C"
+   "color": "#8A5A8C",
+   "refill": true
   },
   {
    "id": "wellnest-partner-tea-blends",
@@ -33,7 +35,8 @@
    "tag": "Products & Tea",
    "added": "2026-10-16T21:33:01+07:00",
    "answered": 0,
-   "color": "#8A5A8C"
+   "color": "#8A5A8C",
+   "refill": true
   },
   {
    "id": "wellnest-partner-tea-packaging",
@@ -44,7 +47,8 @@
    "tag": "Products & Tea",
    "added": "2026-10-16T21:33:01+07:00",
    "answered": 0,
-   "color": "#8A5A8C"
+   "color": "#8A5A8C",
+   "refill": true
   },
   {
    "id": "wellnest-roselle-packaging-polish",
@@ -67,5 +71,6 @@
    "id": "wellnest-dashboard-online-1",
    "at": "2026-10-15T12:45:15+07:00"
   }
- ]
+ ],
+ "note": "refill:true on slots 1-4 keeps their slots in kit deck-shelf.js (otherwise newest-first would put Roselle Packaging Polish first). Required order (Max 21:44): Tea Blend Ingredients, Tea Packaging, Partner Tea Blends, Partner Tea Packaging, Roselle Packaging Polish."
 }
