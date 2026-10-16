@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-10-15T13:05:09+07:00",
+ "updated": "2026-10-16T11:38:37+07:00",
  "notes": [
   "Owner of entries: Branding. Owner of status=done: WellNest sync (/workspace/wellnest/sync-deck-queue.sh). Do not set status to done by hand.",
   "Fields: category (one of the 5 exact names), order (1-5), name (Title Case), url (live deck URL, null until built), deckId (MUST equal the deck value the deck sends to MWSubmit), status: planned (not built) | ready (built, url set) | done (submitted).",
@@ -25,7 +25,7 @@
   },
   {
    "category": "Brand Look",
-   "order": 2,
+   "order": 5,
    "name": "Brand Look: Avatar & Icon Details",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-brand-avatar-icons-25nhaw/",
    "deckId": "wellnest-brand-look-2",
@@ -58,7 +58,7 @@
   },
   {
    "category": "Brand Look",
-   "order": 5,
+   "order": 2,
    "name": "Brand Look: Packaging Look",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-brand-packaging-look-gb09u7/",
    "deckId": "wellnest-brand-look-5",
@@ -69,7 +69,7 @@
   },
   {
    "category": "Voice & Story",
-   "order": 1,
+   "order": 3,
    "name": "Voice: Taglines & Tone",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-voice-taglines-tone-3z9zj0/",
    "deckId": "wellnest-voice-story-1",
@@ -91,7 +91,7 @@
   },
   {
    "category": "Voice & Story",
-   "order": 3,
+   "order": 1,
    "name": "Voice: Captions & Social Lines",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-voice-captions-zjziif/",
    "deckId": "wellnest-voice-story-3",
@@ -124,7 +124,7 @@
   },
   {
    "category": "Experiences & Tours",
-   "order": 1,
+   "order": 3,
    "name": "Experiences: Farm Tours & Classes",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-exp-tours-classes-3z9zj0/",
    "deckId": "wellnest-experiences-tours-1",
@@ -146,7 +146,7 @@
   },
   {
    "category": "Experiences & Tours",
-   "order": 3,
+   "order": 1,
    "name": "Experiences: Tea & Harvest Days",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-exp-tea-harvest-ssznjj/",
    "deckId": "wellnest-experiences-tours-3",
@@ -179,7 +179,7 @@
   },
   {
    "category": "Products & Tea",
-   "order": 1,
+   "order": 4,
    "name": "Products: Roselle & The Tea Line",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-products-roselle-tea-3z9zj0/",
    "deckId": "wellnest-products-tea-1",
@@ -212,7 +212,7 @@
   },
   {
    "category": "Products & Tea",
-   "order": 4,
+   "order": 1,
    "name": "Products: Stockists & Selling",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-products-stockists-uhbfq9/",
    "deckId": "wellnest-products-tea-4",
@@ -259,7 +259,7 @@
   },
   {
    "category": "Dashboard & Online",
-   "order": 3,
+   "order": 5,
    "name": "Online: Instagram Look",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-online-instagram-u06orm/",
    "deckId": "wellnest-dashboard-online-3",
@@ -281,7 +281,7 @@
   },
   {
    "category": "Dashboard & Online",
-   "order": 5,
+   "order": 3,
    "name": "Online: Early Growth Moves",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-online-growth-ofhxtf/",
    "deckId": "wellnest-dashboard-online-5",
@@ -293,7 +293,7 @@
   {
    "row": "business",
    "category": "Tours & Classes",
-   "order": 1,
+   "order": 6,
    "name": "Farm Tours And Tea Classes",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-tours-classes-eapc4p/",
    "deckId": "wellnest-business-tours-classes",
@@ -304,7 +304,7 @@
   {
    "row": "business",
    "category": "Tea Blends",
-   "order": 2,
+   "order": 7,
    "name": "Farm Tea Blend Names",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-blend-names-qj2api/",
    "deckId": "wellnest-business-blend-names",
@@ -315,7 +315,7 @@
   {
    "row": "business",
    "category": "Pricing",
-   "order": 3,
+   "order": 8,
    "name": "Pricing And Packages",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-pricing-8a18gq/",
    "deckId": "wellnest-business-pricing",
@@ -326,7 +326,7 @@
   {
    "row": "business",
    "category": "Events",
-   "order": 4,
+   "order": 9,
    "name": "Events And Seasonal Days",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-events-1iagw5/",
    "deckId": "wellnest-business-events",
@@ -337,7 +337,7 @@
   {
    "row": "business",
    "category": "Partnerships",
-   "order": 5,
+   "order": 10,
    "name": "Partnerships And Local Collabs",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-partnerships-mmr2mj/",
    "deckId": "wellnest-business-partnerships",
@@ -348,7 +348,7 @@
   {
    "row": "business",
    "category": "Revenue",
-   "order": 6,
+   "order": 1,
    "name": "New Revenue Ideas",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-revenue-sfb9zq/",
    "deckId": "wellnest-business-revenue",
@@ -360,7 +360,7 @@
   {
    "row": "business",
    "category": "Membership",
-   "order": 7,
+   "order": 2,
    "name": "Nest Club Membership Ideas",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-nest-club-y87yjj/",
    "deckId": "wellnest-business-nest-club",
@@ -372,7 +372,7 @@
   {
    "row": "business",
    "category": "Sauna & Stays",
-   "order": 8,
+   "order": 3,
    "name": "Hot House And Stay Packages",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-sauna-stays-qi8x5w/",
    "deckId": "wellnest-business-sauna-stays",
@@ -384,7 +384,7 @@
   {
    "row": "business",
    "category": "Tea Sales",
-   "order": 9,
+   "order": 4,
    "name": "Selling The Tea Line",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-tea-selling-4vn6jj/",
    "deckId": "wellnest-business-tea-selling",
@@ -396,7 +396,7 @@
   {
    "row": "business",
    "category": "Groups & Retreats",
-   "order": 10,
+   "order": 5,
    "name": "Group Bookings And Retreats",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-biz-groups-retreats-0b2lq6/",
    "deckId": "wellnest-business-groups-retreats",
