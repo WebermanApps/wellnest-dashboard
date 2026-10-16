@@ -1,0 +1,13 @@
+{
+ "updated": "2026-10-16T21:30:00+07:00",
+ "note": "Open Projects carousel data. Public: no legal, finance or personal details. Add a project by adding an object to projects.",
+ "projects": [
+  {
+   "id": "three-tea-lines",
+   "title": "Three Tea Lines",
+   "line": "Creating three WellNest tea blends from ingredients grown around Chiang Mai.",
+   "focus": ["Blend Ingredients", "Label Design", "Container Or Bag"],
+   "status": "Decks Coming From Branding"
+  }
+ ]
+}
