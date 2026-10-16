@@ -6,8 +6,33 @@
    "id": "three-tea-lines",
    "title": "Three Tea Lines",
    "line": "Creating three WellNest tea blends from ingredients grown around Chiang Mai.",
-   "focus": ["Blend Ingredients", "Label Design", "Container Or Bag"],
-   "status": "Decks Coming From Branding"
+   "focus": [
+    "Blend Ingredients",
+    "Label Design",
+    "Container Or Bag"
+   ],
+   "status": "Decks Coming From Branding",
+   "image": "project-three-tea-lines",
+   "alt": "Glass teapot and cups of WellNest tea on a wooden tray at the farm"
+  },
+  {
+   "id": "partnership-teas",
+   "title": "Partnership Teas",
+   "line": "Custom tea lines co-created with close Chiang Mai partners.",
+   "partners": [
+    "PowerHaus Pilates",
+    "Vanni Pilates",
+    "The Budds Station"
+   ],
+   "focus": [
+    "Partner Blends",
+    "Co-Branded Labels",
+    "Container Or Bag"
+   ],
+   "goal": "6 Potential Tea Lines",
+   "status": "Decks Coming From Branding",
+   "image": "project-partnership-teas",
+   "alt": "Two cups of butterfly pea tea on a wooden tray with fresh leaves"
   }
  ]
 }
