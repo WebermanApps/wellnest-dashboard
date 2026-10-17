@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-10-17T09:20:17+07:00",
+ "updated": "2026-10-17T15:45:00+07:00",
  "restored": "Rebuilt Oct 16 2026 from dashboard deck-queue.json + shelves at 8b957e9 after box restore",
  "notes": [
   "Owner of entries: Branding. Owner of status=done: WellNest sync (/workspace/wellnest/sync-deck-queue.sh). Do not set status to done by hand.",
@@ -1424,7 +1424,7 @@
    "answered": 0,
    "row": "nozomi",
    "source": "brief 2026-10-16",
-   "pool": false,
+   "pool": true,
    "title": "Tea Products: Chawb Mahk & Butterfly Pea",
    "split_from": "wellnest-nozomi-tea-second-looks"
   },
@@ -1536,6 +1536,22 @@
    "source": "Max request Oct 16 21:27 via WellNest",
    "split_from": "wellnest-tea-blend-ingredients",
    "renamed_from": "wellnest-tea-blend-ingredients-energy-line-line-purposes"
+  },
+  {
+   "category": "Products & Tea",
+   "order": 1,
+   "status": "ready",
+   "row": "nozomi",
+   "project": "three-tea-lines",
+   "deckId": "wellnest-tea-blends-energy-line-recipe",
+   "name": "Tea Blends: Energy Line Recipe",
+   "title": "Tea Blends: Energy Line Recipe",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-tea-energy-line-recipe-ujwsxb/",
+   "added": "2026-10-17T15:34:43+07:00",
+   "total": 10,
+   "answered": 0,
+   "pool": false,
+   "followUpOf": "wellnest-tea-blend-ingredients-calm-line-digestion-line"
   },
   {
    "category": "Products & Tea",

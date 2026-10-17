@@ -1,6 +1,6 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-17T09:20:27+07:00",
+ "updated": "2026-10-17T15:45:00+07:00",
  "decks": [
   {
    "id": "wellnest-tea-blend-ingredients-calm-line-beauty-line",
@@ -15,6 +15,18 @@
    "split_from": "wellnest-tea-blend-ingredients",
    "blurb": "10 cards, ready now",
    "renamed_from": "wellnest-tea-blend-ingredients-energy-line-line-purposes"
+  },
+  {
+   "id": "wellnest-tea-blends-energy-line-recipe",
+   "name": "Tea Blends: Energy Line Recipe",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-tea-energy-line-recipe-ujwsxb/",
+   "total": 10,
+   "topic": "wellnest-tea-blends-energy-line-recipe",
+   "added": "2026-10-17T15:34:43+07:00",
+   "tag": "Tea Blends",
+   "blurb": "10 cards, follow-on requested by Max",
+   "answered": 0,
+   "color": "#8A5A8C"
   },
   {
    "id": "wellnest-tea-packaging-label-info-containers",
@@ -118,19 +130,6 @@
    "answered": 0,
    "color": "#8A5A8C",
    "split_from": "wellnest-roselle-packaging-polish",
-   "blurb": "10 cards, ready now"
-  },
-  {
-   "id": "wellnest-nozomi-tea-second-looks-chawb-mahk-butterfly-pea",
-   "name": "Tea Products: Chawb Mahk & Butterfly Pea",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-nozomi-tea-second-looks-chawb-mahk-butterfly-pea-slojzm/",
-   "total": 10,
-   "topic": "Products & Tea",
-   "tag": "Products & Tea",
-   "added": "2026-10-17T08:05:35+07:00",
-   "answered": 0,
-   "color": "#8A5A8C",
-   "split_from": "wellnest-nozomi-tea-second-looks",
    "blurb": "10 cards, ready now"
   }
  ],
