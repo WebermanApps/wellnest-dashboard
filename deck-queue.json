@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "updated": "2026-10-17T08:05:35+07:00",
+ "updated": "2026-10-17T09:20:17+07:00",
  "restored": "Rebuilt Oct 16 2026 from dashboard deck-queue.json + shelves at 8b957e9 after box restore",
  "notes": [
   "Owner of entries: Branding. Owner of status=done: WellNest sync (/workspace/wellnest/sync-deck-queue.sh). Do not set status to done by hand.",
@@ -1508,14 +1508,15 @@
    "title": "Tea Blends: Energy Line & Line Purposes",
    "url": "https://webermanapps.github.io/style-swipe/wellnest-tea-blend-ingredients-calm-line-digestion-line-sxywhr/",
    "deckId": "wellnest-tea-blend-ingredients-calm-line-digestion-line",
-   "status": "ready",
+   "status": "done",
    "added": "2026-10-17T08:05:35+07:00",
-   "answered": 0,
+   "answered": 10,
    "row": "nozomi",
    "project": "three-tea-lines",
-   "pool": false,
+   "pool": true,
    "source": "Max request Oct 16 21:27 via WellNest",
-   "split_from": "wellnest-tea-blend-ingredients"
+   "split_from": "wellnest-tea-blend-ingredients",
+   "doneAt": "2026-10-17T08:15:56+07:00"
   },
   {
    "category": "Products & Tea",

@@ -1,20 +1,7 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-17T08:05:35+07:00",
+ "updated": "2026-10-17T09:20:27+07:00",
  "decks": [
-  {
-   "id": "wellnest-tea-blend-ingredients-calm-line-digestion-line",
-   "name": "Tea Blends: Energy Line & Line Purposes",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-tea-blend-ingredients-calm-line-digestion-line-sxywhr/",
-   "total": 10,
-   "topic": "Products & Tea",
-   "tag": "Products & Tea",
-   "added": "2026-10-17T08:05:35+07:00",
-   "answered": 0,
-   "color": "#8A5A8C",
-   "split_from": "wellnest-tea-blend-ingredients",
-   "blurb": "10 cards, ready now"
-  },
   {
    "id": "wellnest-tea-blend-ingredients-energy-line-line-purposes",
    "name": "Tea Blends: Calm Line & Digestion Line",
@@ -131,8 +118,22 @@
    "color": "#8A5A8C",
    "split_from": "wellnest-roselle-packaging-polish",
    "blurb": "10 cards, ready now"
+  },
+  {
+   "id": "wellnest-nozomi-tea-second-looks-chawb-mahk-butterfly-pea",
+   "name": "Tea Products: Chawb Mahk & Butterfly Pea",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-nozomi-tea-second-looks-chawb-mahk-butterfly-pea-slojzm/",
+   "total": 10,
+   "topic": "Products & Tea",
+   "tag": "Products & Tea",
+   "added": "2026-10-17T08:05:35+07:00",
+   "answered": 0,
+   "color": "#8A5A8C",
+   "split_from": "wellnest-nozomi-tea-second-looks",
+   "blurb": "10 cards, ready now"
   }
  ],
+ "cap": 10,
  "done": [
   {
    "id": "wellnest-brand-look-1",
@@ -141,102 +142,11 @@
   {
    "id": "wellnest-dashboard-online-1",
    "at": "2026-10-15T12:45:15+07:00"
+  },
+  {
+   "id": "wellnest-tea-blend-ingredients-calm-line-digestion-line",
+   "at": "2026-10-17T08:15:56+07:00"
   }
  ],
- "note": "refill:true on slots 1-4 keeps their slots in kit deck-shelf.js (otherwise newest-first would put Roselle Packaging Polish first). Required order (Max 21:44): Tea Blend Ingredients, Tea Packaging, Partner Tea Blends, Partner Tea Packaging, Roselle Packaging Polish.",
- "unlisted": [
-  {
-   "id": "wellnest-tea-blend-ingredients",
-   "name": "Tea Blend Ingredients Deck",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-tea-blend-ingredients-ligxyp/",
-   "total": 20,
-   "topic": "Products & Tea",
-   "tag": "Products & Tea",
-   "added": "2026-10-16T21:33:01+07:00",
-   "answered": 0,
-   "color": "#8A5A8C",
-   "refill": true,
-   "unlisted_at": "2026-10-17T08:05:35+07:00",
-   "split_into": [
-    "wellnest-tea-blend-ingredients-calm-line-digestion-line",
-    "wellnest-tea-blend-ingredients-energy-line-line-purposes"
-   ],
-   "note": "R86 (Max Oct 17 2026 07:50 ICT): unanswered 20-pick deck split into two 10-pick decks; original unlisted (page, file and any votes kept)"
-  },
-  {
-   "id": "wellnest-tea-packaging",
-   "name": "Tea Packaging Deck",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-tea-packaging-eweqav/",
-   "total": 20,
-   "topic": "Products & Tea",
-   "tag": "Products & Tea",
-   "added": "2026-10-16T21:33:01+07:00",
-   "answered": 0,
-   "color": "#8A5A8C",
-   "refill": true,
-   "unlisted_at": "2026-10-17T08:05:35+07:00",
-   "split_into": [
-    "wellnest-tea-packaging-label-info-containers",
-    "wellnest-tea-packaging-label-look"
-   ],
-   "note": "R86 (Max Oct 17 2026 07:50 ICT): unanswered 20-pick deck split into two 10-pick decks; original unlisted (page, file and any votes kept)"
-  },
-  {
-   "id": "wellnest-partner-tea-blends",
-   "name": "Partner Tea Blends Deck",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-partner-tea-blends-nmrnpi/",
-   "total": 20,
-   "topic": "Products & Tea",
-   "tag": "Products & Tea",
-   "added": "2026-10-16T21:33:01+07:00",
-   "answered": 0,
-   "color": "#8A5A8C",
-   "refill": true,
-   "unlisted_at": "2026-10-17T08:05:35+07:00",
-   "split_into": [
-    "wellnest-partner-tea-blends-vanni-buds-station",
-    "wellnest-partner-tea-blends-powerhaus-buds-station"
-   ],
-   "note": "R86 (Max Oct 17 2026 07:50 ICT): unanswered 20-pick deck split into two 10-pick decks; original unlisted (page, file and any votes kept)"
-  },
-  {
-   "id": "wellnest-partner-tea-packaging",
-   "name": "Partner Tea Packaging Deck",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-partner-tea-packaging-xcxjke/",
-   "total": 20,
-   "topic": "Products & Tea",
-   "tag": "Products & Tea",
-   "added": "2026-10-16T21:33:01+07:00",
-   "answered": 0,
-   "color": "#8A5A8C",
-   "refill": true,
-   "unlisted_at": "2026-10-17T08:05:35+07:00",
-   "split_into": [
-    "wellnest-partner-tea-packaging-vanni-buds-station",
-    "wellnest-partner-tea-packaging-powerhaus-buds-station"
-   ],
-   "note": "R86 (Max Oct 17 2026 07:50 ICT): unanswered 20-pick deck split into two 10-pick decks; original unlisted (page, file and any votes kept)"
-  },
-  {
-   "id": "wellnest-roselle-packaging-polish",
-   "name": "Roselle Packaging Polish",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-roselle-packaging-polish-ifwemw/",
-   "total": 20,
-   "topic": "Products & Tea",
-   "tag": "Products & Tea",
-   "added": "2026-10-16T21:47:55+07:00",
-   "answered": 0,
-   "color": "#8A5A8C",
-   "unlisted_at": "2026-10-17T08:05:35+07:00",
-   "split_into": [
-    "wellnest-roselle-packaging-polish-pink-wash-words",
-    "wellnest-roselle-packaging-polish-pouch-back-panel"
-   ],
-   "note": "R86 (Max Oct 17 2026 07:50 ICT): unanswered 20-pick deck split into two 10-pick decks; original unlisted (page, file and any votes kept)"
-  }
- ],
- "cap": 10,
- "cap_note": "R86 (Max Oct 17 2026 07:50 ICT): every shelf shows up to 10 decks (pinned included), 10 picks per deck; in-progress first, done last (kit deck-shelf.js sort)",
- "held": [],
- "queued": []
+ "note": "refill:true on slots 1-4 keeps their slots in kit deck-shelf.js (otherwise newest-first would put Roselle Packaging Polish first). Required order (Max 21:44): Tea Blend Ingredients, Tea Packaging, Partner Tea Blends, Partner Tea Packaging, Roselle Packaging Polish."
 }
