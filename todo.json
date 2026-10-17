@@ -1,0 +1,30 @@
+{
+ "updated": "2026-10-17T20:05:00+07:00",
+ "note": "WellNest To-Do List (data-mw-slot=todo). Non-sensitive only: nothing legal, financial or personal. Complete/Notes go to the WellNest inbox via MWSubmit (types todo-complete / todo-note).",
+ "items": [
+  {
+   "id": "42b56cd015",
+   "text": "Confirm the Thai name กระเจี๊ยบ for the roselle pouch"
+  },
+  {
+   "id": "a7692d9eb7",
+   "text": "Confirm the 'caffeine free' claim for the roselle pouch"
+  },
+  {
+   "id": "e81ec659f1",
+   "text": "Swipe Tea Blends: Calm Line & Beauty Line"
+  },
+  {
+   "id": "4570091db9",
+   "text": "Swipe Tea Blends: Energy Line Recipe"
+  },
+  {
+   "id": "f7f8a3e6a7",
+   "text": "Swipe the Partner Tea decks (PowerHaus, Vanni, Buds Station)"
+  },
+  {
+   "id": "a3a92352b6",
+   "text": "Check the 'Energy' and 'Beauty' line names against Thai FDA label rules before printing"
+  }
+ ]
+}
