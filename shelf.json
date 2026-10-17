@@ -3,9 +3,9 @@
  "updated": "2026-10-17T09:20:27+07:00",
  "decks": [
   {
-   "id": "wellnest-tea-blend-ingredients-energy-line-line-purposes",
-   "name": "Tea Blends: Calm Line & Digestion Line",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-tea-blend-ingredients-energy-line-line-purposes-416cvq/",
+   "id": "wellnest-tea-blend-ingredients-calm-line-beauty-line",
+   "name": "Tea Blends: Calm Line & Beauty Line",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-tea-blend-ingredients-calm-line-beauty-line-42rmia/",
    "total": 10,
    "topic": "Products & Tea",
    "tag": "Products & Tea",
@@ -13,7 +13,8 @@
    "answered": 0,
    "color": "#8A5A8C",
    "split_from": "wellnest-tea-blend-ingredients",
-   "blurb": "10 cards, ready now"
+   "blurb": "10 cards, ready now",
+   "renamed_from": "wellnest-tea-blend-ingredients-energy-line-line-purposes"
   },
   {
    "id": "wellnest-tea-packaging-label-info-containers",

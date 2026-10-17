@@ -1357,8 +1357,8 @@
    "pool": true,
    "hold": true,
    "split_into": [
-    "wellnest-nozomi-site-plan-rental-units-farm-restaurant",
-    "wellnest-nozomi-site-plan-wellness-area-tea-field"
+    "wellnest-nozomi-site-plan-wellness-area-tea-field-deck",
+    "wellnest-nozomi-site-plan-rental-units-farm-restaurant-deck"
    ],
    "note": "R86 (Max Oct 17 2026 07:50 ICT): unanswered 20-pick deck split into two 10-pick decks; original unlisted (page, file and any votes kept)"
   },
@@ -1366,8 +1366,8 @@
    "category": "Experiences & Tours",
    "order": 0.5,
    "name": "Site Plan: Wellness Area & Tea Field",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-nozomi-site-plan-rental-units-farm-restaurant-0e16d4/",
-   "deckId": "wellnest-nozomi-site-plan-rental-units-farm-restaurant",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-nozomi-site-plan-wellness-area-tea-field-deck-wx1ekk/",
+   "deckId": "wellnest-nozomi-site-plan-wellness-area-tea-field-deck",
    "status": "ready",
    "added": "2026-10-17T08:05:35+07:00",
    "answered": 0,
@@ -1375,14 +1375,15 @@
    "source": "brief 2026-10-16",
    "pool": false,
    "title": "Site Plan: Wellness Area & Tea Field",
-   "split_from": "wellnest-nozomi-site-plan"
+   "split_from": "wellnest-nozomi-site-plan",
+   "renamed_from": "wellnest-nozomi-site-plan-rental-units-farm-restaurant"
   },
   {
    "category": "Experiences & Tours",
    "order": 0.5,
    "name": "Site Plan: Rental Units & Farm Restaurant",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-nozomi-site-plan-wellness-area-tea-field-i79wol/",
-   "deckId": "wellnest-nozomi-site-plan-wellness-area-tea-field",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-nozomi-site-plan-rental-units-farm-restaurant-deck-7bt0hi/",
+   "deckId": "wellnest-nozomi-site-plan-rental-units-farm-restaurant-deck",
    "status": "ready",
    "added": "2026-10-17T08:05:35+07:00",
    "answered": 0,
@@ -1390,7 +1391,8 @@
    "source": "brief 2026-10-16",
    "pool": false,
    "title": "Site Plan: Rental Units & Farm Restaurant",
-   "split_from": "wellnest-nozomi-site-plan"
+   "split_from": "wellnest-nozomi-site-plan",
+   "renamed_from": "wellnest-nozomi-site-plan-wellness-area-tea-field"
   },
   {
    "category": "Products & Tea",
@@ -1497,7 +1499,7 @@
    "hold": true,
    "split_into": [
     "wellnest-tea-blend-ingredients-calm-line-digestion-line",
-    "wellnest-tea-blend-ingredients-energy-line-line-purposes"
+    "wellnest-tea-blend-ingredients-calm-line-beauty-line"
    ],
    "note": "R86 (Max Oct 17 2026 07:50 ICT): unanswered 20-pick deck split into two 10-pick decks; original unlisted (page, file and any votes kept)"
   },
@@ -1521,10 +1523,10 @@
   {
    "category": "Products & Tea",
    "order": 1,
-   "name": "Tea Blends: Calm Line & Digestion Line",
-   "title": "Tea Blends: Calm Line & Digestion Line",
-   "url": "https://webermanapps.github.io/style-swipe/wellnest-tea-blend-ingredients-energy-line-line-purposes-416cvq/",
-   "deckId": "wellnest-tea-blend-ingredients-energy-line-line-purposes",
+   "name": "Tea Blends: Calm Line & Beauty Line",
+   "title": "Tea Blends: Calm Line & Beauty Line",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-tea-blend-ingredients-calm-line-beauty-line-42rmia/",
+   "deckId": "wellnest-tea-blend-ingredients-calm-line-beauty-line",
    "status": "ready",
    "added": "2026-10-17T08:05:35+07:00",
    "answered": 0,
@@ -1532,7 +1534,8 @@
    "project": "three-tea-lines",
    "pool": false,
    "source": "Max request Oct 16 21:27 via WellNest",
-   "split_from": "wellnest-tea-blend-ingredients"
+   "split_from": "wellnest-tea-blend-ingredients",
+   "renamed_from": "wellnest-tea-blend-ingredients-energy-line-line-purposes"
   },
   {
    "category": "Products & Tea",
