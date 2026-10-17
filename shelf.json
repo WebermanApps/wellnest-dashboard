@@ -1,7 +1,129 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-17T15:45:00+07:00",
+ "updated": "2026-10-17T20:36:53+07:00",
  "decks": [
+  {
+   "id": "wellnest-teas-calm",
+   "name": "Calm Tea Blend Deck",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-teas-calm-66ic61/",
+   "total": 10,
+   "topic": "wellnest-teas-calm",
+   "tag": "Three New Teas",
+   "project": "three-new-teas",
+   "added": "2026-10-17T20:36:53+07:00",
+   "answered": 0,
+   "color": "#8A5A8C",
+   "blurb": "10 picks on the mockups, confirm or swap"
+  },
+  {
+   "id": "wellnest-teas-energy",
+   "name": "Energy Tea Blend Deck",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-teas-energy-ckdox9/",
+   "total": 10,
+   "topic": "wellnest-teas-energy",
+   "tag": "Three New Teas",
+   "project": "three-new-teas",
+   "added": "2026-10-17T20:36:53+07:00",
+   "answered": 0,
+   "color": "#8A5A8C",
+   "blurb": "10 picks on the mockups, confirm or swap"
+  },
+  {
+   "id": "wellnest-teas-beauty",
+   "name": "Beauty Tea Blend Deck",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-teas-beauty-ugz4rv/",
+   "total": 10,
+   "topic": "wellnest-teas-beauty",
+   "tag": "Three New Teas",
+   "project": "three-new-teas",
+   "added": "2026-10-17T20:36:53+07:00",
+   "answered": 0,
+   "color": "#8A5A8C",
+   "blurb": "10 picks on the mockups, confirm or swap"
+  },
+  {
+   "id": "wellnest-teas-powerhaus",
+   "name": "PowerHaus Recover Tea Deck",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-teas-powerhaus-7e23rf/",
+   "total": 10,
+   "topic": "wellnest-teas-powerhaus",
+   "tag": "Three Collab Teas",
+   "project": "three-collab-teas",
+   "added": "2026-10-17T20:36:53+07:00",
+   "answered": 0,
+   "color": "#8A5A8C",
+   "blurb": "10 picks on the mockups, confirm or swap"
+  },
+  {
+   "id": "wellnest-teas-vanni",
+   "name": "Vanni Soft Blue Tea Deck",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-teas-vanni-dg020w/",
+   "total": 10,
+   "topic": "wellnest-teas-vanni",
+   "tag": "Three Collab Teas",
+   "project": "three-collab-teas",
+   "added": "2026-10-17T20:36:53+07:00",
+   "answered": 0,
+   "color": "#8A5A8C",
+   "blurb": "10 picks on the mockups, confirm or swap"
+  },
+  {
+   "id": "wellnest-teas-buds",
+   "name": "Buds Station Unwind Tea Deck",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-teas-buds-dth5yu/",
+   "total": 10,
+   "topic": "wellnest-teas-buds",
+   "tag": "Three Collab Teas",
+   "project": "three-collab-teas",
+   "added": "2026-10-17T20:36:53+07:00",
+   "answered": 0,
+   "color": "#8A5A8C",
+   "blurb": "10 picks on the mockups, confirm or swap"
+  },
+  {
+   "id": "wellnest-teas-roselle",
+   "name": "Roselle Refresh Polish Deck",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-teas-roselle-5za1wm/",
+   "total": 10,
+   "topic": "wellnest-teas-roselle",
+   "tag": "Roselle Refresh",
+   "project": "roselle-refresh",
+   "added": "2026-10-17T20:36:53+07:00",
+   "answered": 0,
+   "color": "#8A5A8C",
+   "blurb": "10 picks on the mockups, confirm or swap"
+  }
+ ],
+ "cap": 10,
+ "done": [
+  {
+   "id": "wellnest-brand-look-1",
+   "at": "2026-10-15T12:48:21+07:00",
+   "name": "Brand Look: Logo & Colour",
+   "total": 20
+  },
+  {
+   "id": "wellnest-dashboard-online-1",
+   "at": "2026-10-15T12:45:15+07:00",
+   "name": "Dashboard: Header, Render And Logo",
+   "total": 20
+  },
+  {
+   "id": "wellnest-tea-blend-ingredients-calm-line-digestion-line",
+   "at": "2026-10-17T08:15:56+07:00",
+   "name": "Tea Blends: Energy Line & Line Purposes",
+   "total": 10,
+   "answered": 10
+  },
+  {
+   "id": "wellnest-brand",
+   "at": "2026-10-14T09:25:00+07:00",
+   "name": "WellNest Brand Deck",
+   "total": 200
+  }
+ ],
+ "note": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT; Branding): the old shelf is retired (retired[], status 'retired', deck JSON kept in style-swipe); finished decks stay counted in done[]. New shelf = one deck per tea from the WellNest Teas: Three Projects lookbook, built on the mockups: Project 1 Calm, Energy, Beauty; Project 2 PowerHaus Recover, Vanni Soft Blue, Buds Station Unwind; Project 3 Roselle Refresh. 7 decks, nothing queued.",
+ "retired": [
   {
    "id": "wellnest-tea-blend-ingredients-calm-line-beauty-line",
    "name": "Tea Blends: Calm Line & Beauty Line",
@@ -14,7 +136,12 @@
    "color": "#8A5A8C",
    "split_from": "wellnest-tea-blend-ingredients",
    "blurb": "10 cards, ready now",
-   "renamed_from": "wellnest-tea-blend-ingredients-energy-line-line-purposes"
+   "renamed_from": "wellnest-tea-blend-ingredients-energy-line-line-purposes",
+   "status": "retired",
+   "retired_at": "2026-10-17T20:36:53+07:00",
+   "retired_from": "decks",
+   "board": "wellnest-dashboard",
+   "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
   },
   {
    "id": "wellnest-tea-blends-energy-line-recipe",
@@ -26,7 +153,12 @@
    "tag": "Tea Blends",
    "blurb": "10 cards, follow-on requested by Max",
    "answered": 0,
-   "color": "#8A5A8C"
+   "color": "#8A5A8C",
+   "status": "retired",
+   "retired_at": "2026-10-17T20:36:53+07:00",
+   "retired_from": "decks",
+   "board": "wellnest-dashboard",
+   "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
   },
   {
    "id": "wellnest-tea-packaging-label-info-containers",
@@ -39,7 +171,12 @@
    "answered": 0,
    "color": "#8A5A8C",
    "split_from": "wellnest-tea-packaging",
-   "blurb": "10 cards, ready now"
+   "blurb": "10 cards, ready now",
+   "status": "retired",
+   "retired_at": "2026-10-17T20:36:53+07:00",
+   "retired_from": "decks",
+   "board": "wellnest-dashboard",
+   "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
   },
   {
    "id": "wellnest-tea-packaging-label-look",
@@ -52,7 +189,12 @@
    "answered": 0,
    "color": "#8A5A8C",
    "split_from": "wellnest-tea-packaging",
-   "blurb": "10 cards, ready now"
+   "blurb": "10 cards, ready now",
+   "status": "retired",
+   "retired_at": "2026-10-17T20:36:53+07:00",
+   "retired_from": "decks",
+   "board": "wellnest-dashboard",
+   "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
   },
   {
    "id": "wellnest-partner-tea-blends-vanni-buds-station",
@@ -65,7 +207,12 @@
    "answered": 0,
    "color": "#8A5A8C",
    "split_from": "wellnest-partner-tea-blends",
-   "blurb": "10 cards, ready now"
+   "blurb": "10 cards, ready now",
+   "status": "retired",
+   "retired_at": "2026-10-17T20:36:53+07:00",
+   "retired_from": "decks",
+   "board": "wellnest-dashboard",
+   "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
   },
   {
    "id": "wellnest-partner-tea-blends-powerhaus-buds-station",
@@ -78,7 +225,12 @@
    "answered": 0,
    "color": "#8A5A8C",
    "split_from": "wellnest-partner-tea-blends",
-   "blurb": "10 cards, ready now"
+   "blurb": "10 cards, ready now",
+   "status": "retired",
+   "retired_at": "2026-10-17T20:36:53+07:00",
+   "retired_from": "decks",
+   "board": "wellnest-dashboard",
+   "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
   },
   {
    "id": "wellnest-partner-tea-packaging-vanni-buds-station",
@@ -91,7 +243,12 @@
    "answered": 0,
    "color": "#8A5A8C",
    "split_from": "wellnest-partner-tea-packaging",
-   "blurb": "10 cards, ready now"
+   "blurb": "10 cards, ready now",
+   "status": "retired",
+   "retired_at": "2026-10-17T20:36:53+07:00",
+   "retired_from": "decks",
+   "board": "wellnest-dashboard",
+   "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
   },
   {
    "id": "wellnest-partner-tea-packaging-powerhaus-buds-station",
@@ -104,7 +261,12 @@
    "answered": 0,
    "color": "#8A5A8C",
    "split_from": "wellnest-partner-tea-packaging",
-   "blurb": "10 cards, ready now"
+   "blurb": "10 cards, ready now",
+   "status": "retired",
+   "retired_at": "2026-10-17T20:36:53+07:00",
+   "retired_from": "decks",
+   "board": "wellnest-dashboard",
+   "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
   },
   {
    "id": "wellnest-roselle-packaging-polish-pink-wash-words",
@@ -117,7 +279,12 @@
    "answered": 0,
    "color": "#8A5A8C",
    "split_from": "wellnest-roselle-packaging-polish",
-   "blurb": "10 cards, ready now"
+   "blurb": "10 cards, ready now",
+   "status": "retired",
+   "retired_at": "2026-10-17T20:36:53+07:00",
+   "retired_from": "decks",
+   "board": "wellnest-dashboard",
+   "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
   },
   {
    "id": "wellnest-roselle-packaging-polish-pouch-back-panel",
@@ -130,23 +297,13 @@
    "answered": 0,
    "color": "#8A5A8C",
    "split_from": "wellnest-roselle-packaging-polish",
-   "blurb": "10 cards, ready now"
+   "blurb": "10 cards, ready now",
+   "status": "retired",
+   "retired_at": "2026-10-17T20:36:53+07:00",
+   "retired_from": "decks",
+   "board": "wellnest-dashboard",
+   "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
   }
  ],
- "cap": 10,
- "done": [
-  {
-   "id": "wellnest-brand-look-1",
-   "at": "2026-10-15T12:48:21+07:00"
-  },
-  {
-   "id": "wellnest-dashboard-online-1",
-   "at": "2026-10-15T12:45:15+07:00"
-  },
-  {
-   "id": "wellnest-tea-blend-ingredients-calm-line-digestion-line",
-   "at": "2026-10-17T08:15:56+07:00"
-  }
- ],
- "note": "refill:true on slots 1-4 keeps their slots in kit deck-shelf.js (otherwise newest-first would put Roselle Packaging Polish first). Required order (Max 21:44): Tea Blend Ingredients, Tea Packaging, Partner Tea Blends, Partner Tea Packaging, Roselle Packaging Polish."
+ "queued": []
 }
