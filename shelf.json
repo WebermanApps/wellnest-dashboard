@@ -1,6 +1,6 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-17T20:36:53+07:00",
+ "updated": "2026-10-18T03:43:27+07:00",
  "decks": [
   {
    "id": "wellnest-teas-calm",
@@ -92,6 +92,23 @@
    "answered": 0,
    "color": "#8A5A8C",
    "blurb": "10 picks on the mockups, confirm or swap"
+  },
+  {
+   "id": "wellnest-new-tea-ideas-deck",
+   "name": "WellNest Teas: New Blend Ideas",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-new-tea-ideas-nhjd11/",
+   "total": 10,
+   "topic": "wellnest-new-tea-ideas-deck",
+   "added": "2026-10-18T03:43:27+07:00",
+   "tag": "WellNest Teas",
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-18T03:11:00+07:00",
+   "blurb": "10 baby-step ideas for the 6 new teas",
+   "new": true,
+   "note": "Branding morning decks Oct 18 from the Oct 17 daily work report",
+   "color": "#0B6E4F",
+   "project": "six-new-teas"
   }
  ],
  "cap": 10,
