@@ -2,7 +2,7 @@
    MWSubmit.button(el,{agent,app,deck,getResults:()=>obj,getNotes:()=>str})
    MWSubmit.send({agent,app,deck,results,notes,partial,answered,total,unanswered,test}) -> Promise<bool>  (mid-deck Submit)
    POSTs text/plain JSON (no-cors) to the shared Apps Script receiver. No token in client code.
-   PASSWORD GATE: every send goes through MWSubmit.gate(agent) (skipped for agent 'wellnest' except apps 'project-handoff' and 'doc-note'). Custom code: await MWSubmit.gate(agent) or just use MWSubmit.send.
+   PASSWORD GATE: every send goes through MWSubmit.gate(agent) (skipped for agent 'wellnest' except apps 'project-handoff', 'doc-note' and 'doc-remove'). Custom code: await MWSubmit.gate(agent) or just use MWSubmit.send.
    send() resolves false with MWSubmit.blocked=true when the password was not given (nothing sent, nothing queued). */
 (function(w){
   var URL='https://script.google.com/macros/s/AKfycbwoYorVuS4ZQdlmPM0CAYQ5qOoeuR4GjMk5Myg7rLpurHxt_6iqyZgJgYaxuZqoQdv7/exec';
@@ -18,7 +18,7 @@
   /* Password gate (Oct 13 2026 rule): first Submit on a device asks for the team password.
      Only its SHA-256 is stored here. agent==='wellnest' skips the gate. Payloads carry auth:true + authKey (hash prefix). */
   var PH='6df85d68da9f1f949bc43346a2d84643736b955194f25738fd74100ae1874523',AK='mw-submit-auth2',AP=PH.slice(0,8);
-  function exempt(a,app){return String(a||'').toLowerCase()==='wellnest'&&['project-handoff','doc-note'].indexOf(String(app||'').trim().toLowerCase())<0;}
+  function exempt(a,app){return String(a||'').toLowerCase()==='wellnest'&&['project-handoff','doc-note','doc-remove'].indexOf(String(app||'').trim().toLowerCase())<0;}
   function authed(){try{return localStorage.getItem(AK)===AP}catch(_){return false}}
   function sha256js(str){function R(n,x){return(x>>>n)|(x<<(32-n))}var K=[],H=[],P=[],i,j,c=2;function prime(n){for(var d=2;d*d<=n;d++)if(n%d===0)return false;return true}
     while(P.length<64){if(prime(c))P.push(c);c++}for(i=0;i<64;i++){K[i]=(Math.pow(P[i],1/3)%1)*4294967296|0;if(i<8)H[i]=(Math.pow(P[i],1/2)%1)*4294967296|0}
@@ -77,10 +77,10 @@
     flush().then(function(n){if(n&&!q().some(function(p){return p.agent===o.agent&&p.deck===o.deck}))state('sent')});
     return {el:wrap,state:state};}
   /* send(o): one-shot submit with no button (mid-deck partial). o: {agent,app,deck,results,notes,partial,answered,total,unanswered,test}.
-     Resolves true when posted, false when queued on device for retry. o.noQueue (always on for app 'doc-note'): never queued, just resolves false. */
+     Resolves true when posted, false when queued on device for retry. o.noQueue (always on for apps 'doc-note' and 'doc-remove'): never queued, just resolves false. */
   function send(o){o=o||{};return gate(o.agent,o.app).then(function(ok){if(!ok){w.MWSubmit.blocked=true;return false;}w.MWSubmit.blocked=false;var p={agent:o.agent,app:o.app,deck:o.deck,results:o.results||null,notes:o.notes||'',sentAt:new Date().toISOString(),ua:navigator.userAgent};
     ['partial','answered','total','unanswered','test'].forEach(function(k){if(o[k]!==undefined)p[k]=o[k]});
-    var nq=o.noQueue||String(o.app||'').trim().toLowerCase()==='doc-note';return post(p).then(function(){return true},function(){if(!nq)setQ(q().concat([p]));return false});});}
+    var nq=o.noQueue||['doc-note','doc-remove'].indexOf(String(o.app||'').trim().toLowerCase())>=0;return post(p).then(function(){return true},function(){if(!nq)setQ(q().concat([p]));return false});});}
   w.MWSubmit={button:button,send:send,flush:flush,gate:gate,isAuthed:authed,url:URL,blocked:false};
   w.addEventListener('online',flush);
 })(window);
