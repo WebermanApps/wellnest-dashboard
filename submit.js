@@ -77,10 +77,10 @@
     flush().then(function(n){if(n&&!q().some(function(p){return p.agent===o.agent&&p.deck===o.deck}))state('sent')});
     return {el:wrap,state:state};}
   /* send(o): one-shot submit with no button (mid-deck partial). o: {agent,app,deck,results,notes,partial,answered,total,unanswered,test}.
-     Resolves true when posted, false when queued on device for retry. */
+     Resolves true when posted, false when queued on device for retry. o.noQueue (always on for app 'doc-note'): never queued, just resolves false. */
   function send(o){o=o||{};return gate(o.agent,o.app).then(function(ok){if(!ok){w.MWSubmit.blocked=true;return false;}w.MWSubmit.blocked=false;var p={agent:o.agent,app:o.app,deck:o.deck,results:o.results||null,notes:o.notes||'',sentAt:new Date().toISOString(),ua:navigator.userAgent};
     ['partial','answered','total','unanswered','test'].forEach(function(k){if(o[k]!==undefined)p[k]=o[k]});
-    return post(p).then(function(){return true},function(){setQ(q().concat([p]));return false});});}
+    var nq=o.noQueue||String(o.app||'').trim().toLowerCase()==='doc-note';return post(p).then(function(){return true},function(){if(!nq)setQ(q().concat([p]));return false});});}
   w.MWSubmit={button:button,send:send,flush:flush,gate:gate,isAuthed:authed,url:URL,blocked:false};
   w.addEventListener('online',flush);
 })(window);
