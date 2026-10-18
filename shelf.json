@@ -1,6 +1,6 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-18T23:09:59+07:00",
+ "updated": "2026-10-18T23:16:27+07:00",
  "decks": [
   {
    "id": "wellnest-teas-calm",
@@ -78,6 +78,23 @@
    "note": "Max asked WellNest directly Oct 18 2026 22:44 ICT; drawn pouch and lockup mockups, WellNest leads; no pick cap (Max approved)",
    "color": "#C88E43",
    "project": "collab-teas"
+  },
+  {
+   "id": "wellnest-farm-basket-deck",
+   "name": "Farm Basket Deck",
+   "url": "https://webermanapps.github.io/style-swipe/farm-basket-2ofwge/",
+   "total": 30,
+   "topic": "wellnest-farm-basket-deck",
+   "added": "2026-10-18T23:16:27+07:00",
+   "tag": "Farm Basket",
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-18T23:10:00+07:00",
+   "blurb": "30 Like / Pass cards: foods, add-on ideas, packaging, basket formats",
+   "new": true,
+   "note": "Max asked Oct 18 2026 23:10 ICT, brief from WellNest; Project 4 Farm Basket Subscription; Like / Pass + Notes",
+   "color": "#C79E6E",
+   "project": "farm-basket"
   }
  ],
  "cap": 10,
