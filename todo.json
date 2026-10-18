@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T20:05:00+07:00",
+ "updated": "2026-10-18T23:13:58+07:00",
  "note": "WellNest To-Do List (data-mw-slot=todo). Non-sensitive only: nothing legal, financial or personal. Complete/Notes go to the WellNest inbox via MWSubmit (types todo-complete / todo-note).",
  "items": [
   {
@@ -25,6 +25,10 @@
   {
    "id": "a3a92352b6",
    "text": "Check the 'Energy' and 'Beauty' line names against Thai FDA label rules before printing"
+  },
+  {
+   "id": "e5267432e7",
+   "text": "Swipe the Farm Basket Deck (30 cards)"
   }
  ]
 }
