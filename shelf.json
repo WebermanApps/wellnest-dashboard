@@ -1,6 +1,6 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-18T22:57:44+07:00",
+ "updated": "2026-10-18T23:03:22+07:00",
  "decks": [
   {
    "id": "wellnest-teas-calm",
@@ -126,6 +126,40 @@
    "note": "Max asked Oct 18 2026 22:44 ICT (brief from WellNest); one card per ingredient, no pick cap (Max's exception)",
    "color": "#0B6E4F",
    "project": "chiang-mai-tea-ingredients"
+  },
+  {
+   "id": "wellnest-powerhaus-pilates-collab-deck",
+   "name": "PowerHaus Pilates Collab Deck",
+   "url": "https://webermanapps.github.io/style-swipe/powerhaus-collab-7l9upf/",
+   "total": 20,
+   "topic": "wellnest-powerhaus-pilates-collab-deck",
+   "added": "2026-10-18T23:03:22+07:00",
+   "tag": "Collab Teas",
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-18T22:44:00+07:00",
+   "blurb": "20 picks: names, blends, lockup, colour, pouch, tagline",
+   "new": true,
+   "note": "Max asked WellNest directly Oct 18 2026 22:44 ICT; drawn pouch and lockup mockups, WellNest leads; no pick cap (Max approved)",
+   "color": "#003CA7",
+   "project": "collab-teas"
+  },
+  {
+   "id": "wellnest-buds-station-collab-deck",
+   "name": "Buds Station Collab Deck",
+   "url": "https://webermanapps.github.io/style-swipe/buds-station-collab-3wer6f/",
+   "total": 20,
+   "topic": "wellnest-buds-station-collab-deck",
+   "added": "2026-10-18T23:03:22+07:00",
+   "tag": "Collab Teas",
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-18T22:44:00+07:00",
+   "blurb": "20 picks: names, blends, lockup, colour, pouch, tagline",
+   "new": true,
+   "note": "Max asked WellNest directly Oct 18 2026 22:44 ICT; drawn pouch and lockup mockups, WellNest leads; no pick cap (Max approved)",
+   "color": "#C88E43",
+   "project": "collab-teas"
   }
  ],
  "cap": 10,
