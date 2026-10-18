@@ -1,6 +1,6 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-18T03:43:27+07:00",
+ "updated": "2026-10-18T22:57:44+07:00",
  "decks": [
   {
    "id": "wellnest-teas-calm",
@@ -109,6 +109,23 @@
    "note": "Branding morning decks Oct 18 from the Oct 17 daily work report",
    "color": "#0B6E4F",
    "project": "six-new-teas"
+  },
+  {
+   "id": "wellnest-chiang-mai-tea-ingredients-deck",
+   "name": "Chiang Mai Tea Ingredients Deck",
+   "url": "https://webermanapps.github.io/style-swipe/chiang-mai-tea-ingredients-0c21fa/",
+   "total": 33,
+   "topic": "wellnest-chiang-mai-tea-ingredients-deck",
+   "added": "2026-10-18T22:57:44+07:00",
+   "tag": "WellNest Teas",
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-18T22:44:00+07:00",
+   "blurb": "Like or pass each Chiang Mai tea ingredient",
+   "new": true,
+   "note": "Max asked Oct 18 2026 22:44 ICT (brief from WellNest); one card per ingredient, no pick cap (Max's exception)",
+   "color": "#0B6E4F",
+   "project": "chiang-mai-tea-ingredients"
   }
  ],
  "cap": 10,
