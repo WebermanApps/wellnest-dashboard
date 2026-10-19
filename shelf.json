@@ -1,6 +1,6 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-18T23:16:27+07:00",
+ "updated": "2026-10-19T09:54:52+07:00",
  "decks": [
   {
    "id": "wellnest-teas-calm",
@@ -95,6 +95,40 @@
    "note": "Max asked Oct 18 2026 23:10 ICT, brief from WellNest; Project 4 Farm Basket Subscription; Like / Pass + Notes",
    "color": "#C79E6E",
    "project": "farm-basket"
+  },
+  {
+   "id": "wellnest-powerhaus-collab-look",
+   "name": "PowerHaus Collab Look",
+   "url": "https://webermanapps.github.io/style-swipe/powerhaus-collab-look-by847x/",
+   "total": 20,
+   "topic": "wellnest-powerhaus-collab-look",
+   "added": "2026-10-19T09:54:52+07:00",
+   "tag": "Collab Teas",
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-19T09:37:00+07:00",
+   "blurb": "20 picks: containers, labels, patterns, colour, type, in-studio, menu, merch",
+   "new": true,
+   "note": "Max asked directly Oct 19 2026 9:37 ICT: new co-branded sub-line designs that keep the WellNest brand but differ more from Roselle; drawn mockups; no pick cap (Max approved for collab decks)",
+   "color": "#003CA7",
+   "project": "collab-teas"
+  },
+  {
+   "id": "wellnest-buds-station-collab-look",
+   "name": "Buds Station Collab Look",
+   "url": "https://webermanapps.github.io/style-swipe/buds-station-collab-look-mjw68l/",
+   "total": 20,
+   "topic": "wellnest-buds-station-collab-look",
+   "added": "2026-10-19T09:54:52+07:00",
+   "tag": "Collab Teas",
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-19T09:37:00+07:00",
+   "blurb": "20 picks: containers, labels, patterns, colour, type, in-shop, menu, merch",
+   "new": true,
+   "note": "Max asked directly Oct 19 2026 9:37 ICT: new co-branded sub-line designs that keep the WellNest brand but differ more from Roselle; drawn mockups; no pick cap (Max approved for collab decks)",
+   "color": "#D9667E",
+   "project": "collab-teas"
   }
  ],
  "cap": 10,
