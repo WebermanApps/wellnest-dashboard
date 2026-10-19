@@ -1,7 +1,23 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-19T16:23:50+07:00",
+ "updated": "2026-10-19T21:30:00+07:00",
  "decks": [
+  {
+   "id": "wellnest-surprise-1",
+   "name": "Surprise Deck",
+   "url": "https://webermanapps.github.io/style-swipe/surprise-1/",
+   "total": 20,
+   "topic": "wellnest-surprise-1",
+   "added": "2026-10-19T21:30:00+07:00",
+   "tag": "Gift",
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-19T20:56:00+07:00",
+   "blurb": "20 gift pairs: Pilates, tea, calm self-care, jewelry, experiences",
+   "new": true,
+   "note": "Max asked Oct 19 2026 20:56 ICT: a gift swipe deck for Nonshan in the WellNest brand, dadbook format (20 pairs, Both/Neither/Love/Note), every gift under $100.01; deck id surprise-1; locked share-only; results go to WellNest",
+   "color": "#267D58"
+  },
   {
    "id": "wellnest-theme-blend-can-labels",
    "name": "Theme Blend Can Labels",
