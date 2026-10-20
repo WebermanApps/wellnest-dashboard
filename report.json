@@ -1,13 +1,1 @@
-{
-  "agent": "wellnest",
-  "type": "Morning Report",
-  "report_type": "Morning Report",
-  "date": "2026-10-15",
-  "posted": "2026-10-15T07:25:07+07:00",
-  "posted_at": "2026-10-15T07:25:07+07:00",
-  "schedule": {
-    "morning": "by 05:00 ICT"
-  },
-  "summary": "Late (usage ran out overnight). Yesterday: Render 3 banner layout, Ready To Swipe with deck counts and 5-deck cap, upload link, Open Projects, Routines collapsed, Evening Report retired, decks rebuilt. Today: swipe the 5 ready decks, site plan options.",
-  "late": true
-}
+{}
