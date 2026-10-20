@@ -1,7 +1,23 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-19T21:30:00+07:00",
+ "updated": "2026-10-20T10:20:00+07:00",
  "decks": [
+  {
+   "id": "wellnest-projects-look-deck-irykay",
+   "name": "WellNest Projects Look Deck",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-projects-look-deck-irykay/",
+   "total": 11,
+   "topic": "wellnest-projects-look-deck-irykay",
+   "added": "2026-10-20T10:20:00+07:00",
+   "tag": "Dashboard",
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-20T09:52:00+07:00",
+   "blurb": "11 picks (last is a bonus): Projects carousel, thumbnails, expand view, 360 viewer, auto-spin, status, shine, header, render background",
+   "new": true,
+   "note": "Max asked Oct 20 2026 09:52 ICT: look of the new Projects section (Roselle Rebrand, PowerHaus Collab, Buds Station Collab, Farm Basket Membership; tap to expand into a rotatable render plus description). Nightly Reset builder (style-swipe ccfdb43 engine), drawn mockups, SAMPLE data; results go to WellNest",
+   "color": "#05668D"
+  },
   {
    "id": "wellnest-surprise-1",
    "name": "Surprise Deck",
