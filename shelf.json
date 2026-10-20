@@ -1,7 +1,56 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-20T12:09:47+07:00",
- "decks": [],
+ "updated": "2026-10-20T12:50:00+07:00",
+ "decks": [
+  {
+   "id": "wellnest-name-and-capital-t-xy5fkh",
+   "name": "Name & Capital T",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-name-and-capital-t-xy5fkh/",
+   "total": 10,
+   "topic": "wellnest-name-and-capital-t-xy5fkh",
+   "added": "2026-10-20T12:50:00+07:00",
+   "tag": "Brand",
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-20T12:20:00+07:00",
+   "blurb": "10 picks: How The WellNesT is written: case, which T carries colour, the N hint, font, short mark, lockup",
+   "new": true,
+   "note": "Machan asked Oct 20 2026 12:20 PM ICT: brand identity decks for The WellNesT ahead of the trademark application. Drawn SVG sketches; results go to WellNest",
+   "color": "#C1502E"
+  },
+  {
+   "id": "wellnest-nest-circle-logo-3rnb8n",
+   "name": "Nest Circle Logo",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-nest-circle-logo-3rnb8n/",
+   "total": 10,
+   "topic": "wellnest-nest-circle-logo-3rnb8n",
+   "added": "2026-10-20T12:50:00+07:00",
+   "tag": "Brand",
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-20T12:20:00+07:00",
+   "blurb": "10 picks: Refining the nest circle: strands, colours, the middle, shape, background, tiny sizes",
+   "new": true,
+   "note": "Machan asked Oct 20 2026 12:20 PM ICT: brand identity decks for The WellNesT ahead of the trademark application. Drawn SVG sketches; results go to WellNest",
+   "color": "#C1502E"
+  },
+  {
+   "id": "wellnest-tagline-and-story-j2uizz",
+   "name": "Tagline & Story Line",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-tagline-and-story-j2uizz/",
+   "total": 10,
+   "topic": "wellnest-tagline-and-story-j2uizz",
+   "added": "2026-10-20T12:50:00+07:00",
+   "tag": "Brand",
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-20T12:20:00+07:00",
+   "blurb": "10 picks: Tagline, tea line, voice, name story, guests, sign-off",
+   "new": true,
+   "note": "Machan asked Oct 20 2026 12:20 PM ICT: brand identity decks for The WellNesT ahead of the trademark application. Drawn SVG sketches; results go to WellNest",
+   "color": "#C1502E"
+  }
+ ],
  "cap": 10,
  "done": [
   {
