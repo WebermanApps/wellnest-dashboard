@@ -1,7 +1,23 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-20T13:05:00+07:00",
+ "updated": "2026-10-20T13:30:00+07:00",
  "decks": [
+  {
+   "id": "wellnest-whats-included-53dpzx",
+   "name": "What's Included at the WellNest",
+   "url": "https://webermanapps.github.io/style-swipe/wellnest-whats-included-53dpzx/",
+   "total": 11,
+   "topic": "wellnest-whats-included-53dpzx",
+   "added": "2026-10-20T13:30:00+07:00",
+   "tag": "Retreat",
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-20T13:30:00+07:00",
+   "blurb": "11 picks: spaces, food and care for the retreat and membership, before blueprints",
+   "new": true,
+   "note": "Machan asked Oct 20 2026 ICT: inspiration deck for what the WellNest could include. Drawn SVG sketches; results go to WellNest",
+   "color": "#05668D"
+  },
   {
    "id": "wellnest-roselle-pack-lsxldx",
    "name": "Roselle Pack",
