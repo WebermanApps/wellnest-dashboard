@@ -1,7 +1,23 @@
 {
   "agent": "wellnest",
-  "updated": "2026-10-20T18:40:00+07:00",
+  "updated": "2026-10-20T19:55:00+07:00",
   "decks": [
+    {
+      "id": "pick-your-thumbnail-m7j1az",
+      "name": "Pick Your Thumbnail",
+      "url": "https://webermanapps.github.io/style-swipe/pick-your-thumbnail-m7j1az/",
+      "total": 6,
+      "topic": "pick-your-thumbnail-m7j1az",
+      "added": "2026-10-20T19:55:00+07:00",
+      "tag": "Surprise",
+      "pinned": true,
+      "answered": 0,
+      "requested": true,
+      "requested_at": "2026-10-20T19:55:00+07:00",
+      "blurb": "6 little pairs, a gift from Machan",
+      "new": true,
+      "color": "#C8643F"
+    },
     {
       "id": "wellnest-follow-up",
       "name": "WellNest Follow-up",
