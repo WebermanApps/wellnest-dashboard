@@ -1,6 +1,6 @@
 {
   "agent": "wellnest",
-  "updated": "2026-10-20T19:55:00+07:00",
+  "updated": "2026-10-20T23:10:00+07:00",
   "decks": [
     {
       "id": "pick-your-thumbnail-m7j1az",
@@ -17,6 +17,25 @@
       "blurb": "6 little pairs, a gift from Machan",
       "new": true,
       "color": "#C8643F",
+      "made": "2026-10-20"
+    },
+    {
+      "id": "wellnest-working-brand-identity-1esh6k",
+      "name": "Working Brand Identity",
+      "url": "https://webermanapps.github.io/style-swipe/wellnest-working-brand-identity-1esh6k/",
+      "total": 10,
+      "topic": "wellnest-working-brand-identity-1esh6k",
+      "added": "2026-10-20T23:10:00+07:00",
+      "tag": "Brand",
+      "pinned": true,
+      "answered": 0,
+      "requested": true,
+      "requested_at": "2026-10-20T23:03:00+07:00",
+      "blurb": "10 cards: mission, the T, voice, palette, type, Thai name, short mark. Notes optional",
+      "new": true,
+      "agent": "branding",
+      "note": "Machan asked Oct 20 2026 23:03 ICT (via Nonshan): confirm or refine the open parts of the Working Brand Identity PDF",
+      "color": "#D45C74",
       "made": "2026-10-20"
     },
     {
