@@ -16,7 +16,8 @@
       "requested_at": "2026-10-20T19:55:00+07:00",
       "blurb": "6 little pairs, a gift from Machan",
       "new": true,
-      "color": "#C8643F"
+      "color": "#C8643F",
+      "made": "2026-10-20"
     },
     {
       "id": "wellnest-follow-up",
@@ -29,7 +30,8 @@
       "pinned": true,
       "blurb": "10 cards, ready now, with Notes",
       "answered": 0,
-      "agent": "wellnest"
+      "agent": "wellnest",
+      "made": "2026-10-20"
     },
     {
       "id": "wellnest-whats-included-53dpzx",
@@ -45,7 +47,8 @@
       "blurb": "11 picks: spaces, food and care for the retreat and membership, before blueprints",
       "new": true,
       "note": "Machan asked Oct 20 2026 ICT: inspiration deck for what the WellNest could include. Drawn SVG sketches; results go to WellNest",
-      "color": "#05668D"
+      "color": "#05668D",
+      "made": "2026-10-20"
     },
     {
       "id": "wellnest-roselle-pack-lsxldx",
@@ -61,7 +64,8 @@
       "blurb": "11 picks: Roselle can or pouch, name type, blend, wash, size, lid, serving, price feel, who it is for",
       "new": true,
       "note": "Machan asked Oct 20 2026 12:52 PM ICT: five new WellNest decks. Drawn SVG sketches and small embedded renders; results go to WellNest",
-      "color": "#C1502E"
+      "color": "#C1502E",
+      "made": "2026-10-20"
     },
     {
       "id": "wellnest-buds-station-jar-592cqd",
@@ -77,7 +81,8 @@
       "blurb": "11 picks: Buds Station jar or tin, name, type, label, pattern, cat, partner line, base, size, serving, price",
       "new": true,
       "note": "Machan asked Oct 20 2026 12:52 PM ICT: five new WellNest decks. Drawn SVG sketches and small embedded renders; results go to WellNest",
-      "color": "#C1502E"
+      "color": "#C1502E",
+      "made": "2026-10-20"
     },
     {
       "id": "wellnest-powerhaus-can-q0vhvb",
@@ -93,7 +98,8 @@
       "blurb": "11 picks: PowerHaus can shape, blue spine, arcs, lockup, range colour, Reform base, serving, sample cup, format, price, who",
       "new": true,
       "note": "Machan asked Oct 20 2026 12:52 PM ICT: five new WellNest decks. Drawn SVG sketches and small embedded renders; results go to WellNest",
-      "color": "#C1502E"
+      "color": "#C1502E",
+      "made": "2026-10-20"
     },
     {
       "id": "wellnest-brand-identity-u8kmcd",
@@ -109,7 +115,8 @@
       "blurb": "11 picks: the strongest brand questions: case, which T, N hint, font, nest weave, colours, middle, short mark, lockup, tagline, voice",
       "new": true,
       "note": "Machan asked Oct 20 2026 12:52 PM ICT: five new WellNest decks. Drawn SVG sketches and small embedded renders; results go to WellNest",
-      "color": "#C1502E"
+      "color": "#C1502E",
+      "made": "2026-10-20"
     },
     {
       "id": "wellnest-farm-basket-membership-qct7h2",
@@ -125,7 +132,8 @@
       "blurb": "11 picks: Farm Basket tiers, cadence, veg or fruit, box or basket, liner, add-ons, gift option, gift look, unboxing, card, price",
       "new": true,
       "note": "Machan asked Oct 20 2026 12:52 PM ICT: five new WellNest decks. Drawn SVG sketches and small embedded renders; results go to WellNest",
-      "color": "#C1502E"
+      "color": "#C1502E",
+      "made": "2026-10-20"
     }
   ],
   "cap": 10,
@@ -135,109 +143,125 @@
       "at": "2026-10-19T10:45:04+07:00",
       "name": "PowerHaus Collab Look",
       "total": 20,
-      "answered": 20
+      "answered": 20,
+      "made": "2026-10-19"
     },
     {
       "id": "wellnest-farm-basket-deck",
       "at": "2026-10-19T05:48:10+07:00",
       "name": "Farm Basket Deck",
       "total": 30,
-      "answered": 30
+      "answered": 30,
+      "made": "2026-10-19"
     },
     {
       "id": "wellnest-powerhaus-pilates-collab-deck",
       "at": "2026-10-19T06:10:32+07:00",
       "name": "PowerHaus Pilates Collab Deck",
       "total": 20,
-      "answered": 20
+      "answered": 20,
+      "made": "2026-10-19"
     },
     {
       "id": "wellnest-chiang-mai-tea-ingredients-deck",
       "at": "2026-10-19T06:12:41+07:00",
       "name": "Chiang Mai Tea Ingredients Deck",
       "total": 33,
-      "answered": 33
+      "answered": 33,
+      "made": "2026-10-19"
     },
     {
       "id": "wellnest-brand-look-1",
       "at": "2026-10-15T12:48:21+07:00",
       "name": "Brand Look: Logo & Colour",
-      "total": 20
+      "total": 20,
+      "made": "2026-10-15"
     },
     {
       "id": "wellnest-dashboard-online-1",
       "at": "2026-10-15T12:45:15+07:00",
       "name": "Dashboard: Header, Render And Logo",
-      "total": 20
+      "total": 20,
+      "made": "2026-10-15"
     },
     {
       "id": "wellnest-tea-blend-ingredients-calm-line-digestion-line",
       "at": "2026-10-17T08:15:56+07:00",
       "name": "Tea Blends: Energy Line & Line Purposes",
       "total": 10,
-      "answered": 10
+      "answered": 10,
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-brand",
       "at": "2026-10-14T09:25:00+07:00",
       "name": "WellNest Brand Deck",
-      "total": 200
+      "total": 200,
+      "made": "2026-10-14"
     },
     {
       "id": "wellnest-surprise-1",
       "at": "2026-10-20T06:37:22+07:00",
       "name": "Surprise Deck",
       "answered": 20,
-      "total": 20
+      "total": 20,
+      "made": "2026-10-20"
     },
     {
       "id": "wellnest-theme-blend-can-labels",
       "at": "2026-10-20T06:39:41+07:00",
       "name": "Theme Blend Can Labels",
       "answered": 10,
-      "total": 10
+      "total": 10,
+      "made": "2026-10-20"
     },
     {
       "id": "wellnest-base-tea-taste-pairings",
       "at": "2026-10-20T07:16:11+07:00",
       "name": "Base Tea Taste Pairings",
       "answered": 10,
-      "total": 10
+      "total": 10,
+      "made": "2026-10-20"
     },
     {
       "id": "wellnest-powerhaus-pilates-studio-display",
       "at": "2026-10-20T08:16:05+07:00",
       "name": "PowerHaus Pilates Studio Display",
       "answered": 10,
-      "total": 10
+      "total": 10,
+      "made": "2026-10-20"
     },
     {
       "id": "wellnest-buds-station-collab-look",
       "at": "2026-10-20T07:24:22+07:00",
       "name": "Buds Station Collab Look",
       "answered": 20,
-      "total": 20
+      "total": 20,
+      "made": "2026-10-20"
     },
     {
       "id": "wellnest-farm-basket-build",
       "at": "2026-10-20T07:34:15+07:00",
       "name": "Farm Basket Build",
       "answered": 20,
-      "total": 20
+      "total": 20,
+      "made": "2026-10-20"
     },
     {
       "id": "wellnest-projects-look-deck-irykay",
       "at": "2026-10-20T11:45:33+07:00",
       "name": "WellNest Projects Look Deck",
       "answered": 9,
-      "total": 11
+      "total": 11,
+      "made": "2026-10-20"
     },
     {
       "id": "nonshan-thumbnail-jzn3oe",
       "at": "2026-10-20T16:12:27+07:00",
       "name": "Surprise Deck",
       "answered": 11,
-      "total": 11
+      "total": 11,
+      "made": "2026-10-20"
     }
   ],
   "note": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT; Branding): the old shelf is retired (retired[], status 'retired', deck JSON kept in style-swipe); finished decks stay counted in done[]. New shelf = one deck per tea from the WellNest Teas: Three Projects lookbook, built on the mockups: Project 1 Calm, Energy, Beauty; Project 2 PowerHaus Recover, Vanni Soft Blue, Buds Station Unwind; Project 3 Roselle Refresh. 7 decks, nothing queued.",
@@ -259,7 +283,8 @@
       "retired_at": "2026-10-17T20:36:53+07:00",
       "retired_from": "decks",
       "board": "wellnest-dashboard",
-      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
+      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-tea-blends-energy-line-recipe",
@@ -276,7 +301,8 @@
       "retired_at": "2026-10-17T20:36:53+07:00",
       "retired_from": "decks",
       "board": "wellnest-dashboard",
-      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
+      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-tea-packaging-label-info-containers",
@@ -294,7 +320,8 @@
       "retired_at": "2026-10-17T20:36:53+07:00",
       "retired_from": "decks",
       "board": "wellnest-dashboard",
-      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
+      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-tea-packaging-label-look",
@@ -312,7 +339,8 @@
       "retired_at": "2026-10-17T20:36:53+07:00",
       "retired_from": "decks",
       "board": "wellnest-dashboard",
-      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
+      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-partner-tea-blends-vanni-buds-station",
@@ -330,7 +358,8 @@
       "retired_at": "2026-10-17T20:36:53+07:00",
       "retired_from": "decks",
       "board": "wellnest-dashboard",
-      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
+      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-partner-tea-blends-powerhaus-buds-station",
@@ -348,7 +377,8 @@
       "retired_at": "2026-10-17T20:36:53+07:00",
       "retired_from": "decks",
       "board": "wellnest-dashboard",
-      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
+      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-partner-tea-packaging-vanni-buds-station",
@@ -366,7 +396,8 @@
       "retired_at": "2026-10-17T20:36:53+07:00",
       "retired_from": "decks",
       "board": "wellnest-dashboard",
-      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
+      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-partner-tea-packaging-powerhaus-buds-station",
@@ -384,7 +415,8 @@
       "retired_at": "2026-10-17T20:36:53+07:00",
       "retired_from": "decks",
       "board": "wellnest-dashboard",
-      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
+      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-roselle-packaging-polish-pink-wash-words",
@@ -402,7 +434,8 @@
       "retired_at": "2026-10-17T20:36:53+07:00",
       "retired_from": "decks",
       "board": "wellnest-dashboard",
-      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
+      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-roselle-packaging-polish-pouch-back-panel",
@@ -420,7 +453,8 @@
       "retired_at": "2026-10-17T20:36:53+07:00",
       "retired_from": "decks",
       "board": "wellnest-dashboard",
-      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook"
+      "reason": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT): shelf rebuilt from the WellNest Teas: Three Projects lookbook",
+      "made": "2026-10-17"
     }
   ],
   "queued": [],
@@ -445,7 +479,8 @@
       "removed_at": "2026-10-18T22:39:24+07:00",
       "removed_from": "decks",
       "board": "wellnest-dashboard",
-      "removed_by": "Max (one-click remove)"
+      "removed_by": "Max (one-click remove)",
+      "made": "2026-10-18"
     },
     {
       "id": "wellnest-teas-energy",
@@ -463,7 +498,8 @@
       "removed_at": "2026-10-18T22:39:24+07:00",
       "removed_from": "decks",
       "board": "wellnest-dashboard",
-      "removed_by": "Max (one-click remove)"
+      "removed_by": "Max (one-click remove)",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-teas-vanni",
@@ -481,7 +517,8 @@
       "removed_at": "2026-10-18T22:39:25+07:00",
       "removed_from": "decks",
       "board": "wellnest-dashboard",
-      "removed_by": "Max (one-click remove)"
+      "removed_by": "Max (one-click remove)",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-teas-beauty",
@@ -499,7 +536,8 @@
       "removed_at": "2026-10-18T22:39:25+07:00",
       "removed_from": "decks",
       "board": "wellnest-dashboard",
-      "removed_by": "Max (one-click remove)"
+      "removed_by": "Max (one-click remove)",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-teas-buds",
@@ -517,7 +555,8 @@
       "removed_at": "2026-10-18T22:39:26+07:00",
       "removed_from": "decks",
       "board": "wellnest-dashboard",
-      "removed_by": "Max (one-click remove)"
+      "removed_by": "Max (one-click remove)",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-teas-roselle",
@@ -535,7 +574,8 @@
       "removed_at": "2026-10-18T22:39:26+07:00",
       "removed_from": "decks",
       "board": "wellnest-dashboard",
-      "removed_by": "Max (one-click remove)"
+      "removed_by": "Max (one-click remove)",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-farm-basket-gift-presentation",
@@ -556,7 +596,8 @@
       "removed_at": "2026-10-20T08:36:47+07:00",
       "removed_from": "decks",
       "board": "wellnest-dashboard",
-      "removed_by": "Max (one-click remove)"
+      "removed_by": "Max (one-click remove)",
+      "made": "2026-10-19"
     },
     {
       "id": "wellnest-teas-calm",
@@ -574,7 +615,8 @@
       "removed_at": "2026-10-20T08:36:57+07:00",
       "removed_from": "decks",
       "board": "wellnest-dashboard",
-      "removed_by": "Max (one-click remove)"
+      "removed_by": "Max (one-click remove)",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-teas-powerhaus",
@@ -592,7 +634,8 @@
       "removed_at": "2026-10-20T08:36:57+07:00",
       "removed_from": "decks",
       "board": "wellnest-dashboard",
-      "removed_by": "Max (one-click remove)"
+      "removed_by": "Max (one-click remove)",
+      "made": "2026-10-17"
     },
     {
       "id": "wellnest-buds-station-collab-deck",
@@ -614,7 +657,8 @@
       "removed_at": "2026-10-20T08:36:56+07:00",
       "removed_from": "decks",
       "board": "wellnest-dashboard",
-      "removed_by": "Max (one-click remove)"
+      "removed_by": "Max (one-click remove)",
+      "made": "2026-10-18"
     },
     {
       "id": "wellnest-powerhaus-can-and-base-tea",
@@ -636,7 +680,8 @@
       "removed_at": "2026-10-20T08:36:44+07:00",
       "removed_from": "decks",
       "board": "wellnest-dashboard",
-      "removed_by": "Max (one-click remove)"
+      "removed_by": "Max (one-click remove)",
+      "made": "2026-10-19"
     },
     {
       "id": "wellnest-powerhaus-can-look",
@@ -658,7 +703,8 @@
       "removed_at": "2026-10-20T08:36:48+07:00",
       "removed_from": "decks",
       "board": "wellnest-dashboard",
-      "removed_by": "Max (one-click remove)"
+      "removed_by": "Max (one-click remove)",
+      "made": "2026-10-19"
     },
     {
       "id": "wellnest-tea-theme-blends",
@@ -680,7 +726,8 @@
       "removed_at": "2026-10-20T08:36:48+07:00",
       "removed_from": "decks",
       "board": "wellnest-dashboard",
-      "removed_by": "Max (one-click remove)"
+      "removed_by": "Max (one-click remove)",
+      "made": "2026-10-19"
     }
   ]
 }
