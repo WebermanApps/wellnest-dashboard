@@ -1,7 +1,25 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-27T15:21:33+07:00",
+ "updated": "2026-10-27T16:01:27+07:00",
  "decks": [
+  {
+   "id": "site-spaces-campus-mood-deck-jwr66d",
+   "name": "Site Spaces — Campus Mood",
+   "url": "https://webermanapps.github.io/branding-djqmb410/decks/site-spaces-campus-mood-deck-jwr66d/",
+   "total": 10,
+   "topic": "Site",
+   "added": "2026-10-27T16:01:27+07:00",
+   "tag": "Site",
+   "pinned": true,
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-27T16:00:00+07:00",
+   "blurb": "10 cards, ready now, with Notes",
+   "new": true,
+   "color": "#05668D",
+   "made": "2026-10-27",
+   "note": "Follow-up remake of site-spaces-deck from Oct 27 submit picks + notes."
+  },
   {
    "id": "brand-logo-and-houses-deck-67wzia",
    "name": "Brand Logo & Houses",
@@ -35,24 +53,6 @@
    "blurb": "13 cards, ready now, with Notes",
    "new": true,
    "color": "#0B6E4F",
-   "made": "2026-10-27",
-   "note": "Fresh-start WellNest decks (Nonshan handoff Oct 27). Nest-first T; phone-width product cards; no device frames."
-  },
-  {
-   "id": "site-spaces-deck-q0iy51",
-   "name": "Site Spaces",
-   "url": "https://webermanapps.github.io/branding-djqmb410/decks/site-spaces-deck-q0iy51/",
-   "total": 12,
-   "topic": "Site",
-   "added": "2026-10-27T15:21:33+07:00",
-   "tag": "Site",
-   "pinned": true,
-   "answered": 0,
-   "requested": true,
-   "requested_at": "2026-10-27T15:06:00+07:00",
-   "blurb": "12 cards, ready now, with Notes",
-   "new": true,
-   "color": "#05668D",
    "made": "2026-10-27",
    "note": "Fresh-start WellNest decks (Nonshan handoff Oct 27). Nest-first T; phone-width product cards; no device frames."
   },
