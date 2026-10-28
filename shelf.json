@@ -1,7 +1,25 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-28T17:20:09+07:00",
+ "updated": "2026-10-28T17:42:23+07:00",
  "decks": [
+  {
+   "id": "powerhaus-ingredients-round-2-deck-t75dlq",
+   "name": "PowerHaus Ingredients Round 2",
+   "url": "https://webermanapps.github.io/branding-djqmb410/decks/powerhaus-ingredients-round-2-deck-t75dlq/",
+   "total": 10,
+   "topic": "PowerHaus Ingredients Round 2",
+   "added": "2026-10-28T17:42:23+07:00",
+   "tag": "Products & Tea",
+   "pinned": true,
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-28T17:42:21+07:00",
+   "blurb": "10 cards · 20 unique visuals · gate OK",
+   "new": true,
+   "color": "#003CA7",
+   "made": "2026-10-27",
+   "note": "Machan via Nonshan Oct 28 ~5:38 PM ICT: Round 2 NEW deck — fresh herb/blend pairs; leave Round 1 ave2m5 pinned; soft wording; can format."
+  },
   {
    "id": "powerhaus-ingredients-deck-ave2m5",
    "name": "PowerHaus Ingredients",
