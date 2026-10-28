@@ -1,6 +1,6 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-28T21:15:07+07:00",
+ "updated": "2026-10-28T22:15:29+07:00",
  "decks": [
   {
    "id": "farm-basket-sticker-seal-contents-deck-goioe0",
@@ -148,42 +148,6 @@
    "color": "#0B6E4F",
    "made": "2026-10-27",
    "note": "Machan via Nonshan Oct 28: Roselle FRONT appearance — locked standing draft base; layout this-or-that only."
-  },
-  {
-   "id": "brand-logo-and-houses-deck-8q71f1",
-   "name": "Brand Logo & Houses",
-   "url": "https://webermanapps.github.io/branding-djqmb410/decks/brand-logo-and-houses-deck-8q71f1/",
-   "total": 10,
-   "topic": "Brand Logo & Houses",
-   "added": "2026-10-27T21:54:54+07:00",
-   "tag": "Brand",
-   "pinned": true,
-   "answered": 0,
-   "requested": true,
-   "requested_at": "2026-10-27T21:54:54+07:00",
-   "blurb": "10 cards · 20 unique visuals · gate OK",
-   "new": true,
-   "color": "#0B6E4F",
-   "made": "2026-10-27",
-   "note": "Medium remake: real logo lockups under publish gate; no roselle for Shine/Mono."
-  },
-  {
-   "id": "roselle-pack-confirm-deck-kv1tz8",
-   "name": "Roselle Pack Confirm",
-   "url": "https://webermanapps.github.io/branding-djqmb410/decks/roselle-pack-confirm-deck-kv1tz8/",
-   "total": 8,
-   "topic": "Roselle Pack Confirm",
-   "added": "2026-10-27T21:54:54+07:00",
-   "tag": "Products & Tea",
-   "pinned": true,
-   "answered": 0,
-   "requested": true,
-   "requested_at": "2026-10-27T21:54:54+07:00",
-   "blurb": "8 cards · 16 unique visuals · gate OK",
-   "new": true,
-   "color": "#C1502E",
-   "made": "2026-10-27",
-   "note": "Medium remake: shrunk to 8 + true variants under publish gate (Machan Oct 27)."
   }
  ],
  "cap": 10,
@@ -1136,6 +1100,52 @@
    "board": "wellnest-dashboard",
    "removed_by": "Max (one-click remove)",
    "made": "2026-10-19"
+  },
+  {
+   "id": "brand-logo-and-houses-deck-8q71f1",
+   "name": "Brand Logo & Houses",
+   "url": "https://webermanapps.github.io/branding-djqmb410/decks/brand-logo-and-houses-deck-8q71f1/",
+   "total": 10,
+   "topic": "Brand Logo & Houses",
+   "added": "2026-10-27T21:54:54+07:00",
+   "tag": "Brand",
+   "pinned": true,
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-27T21:54:54+07:00",
+   "blurb": "10 cards · 20 unique visuals · gate OK",
+   "new": true,
+   "color": "#0B6E4F",
+   "made": "2026-10-27",
+   "note": "Medium remake: real logo lockups under publish gate; no roselle for Shine/Mono.",
+   "status": "removed",
+   "removed_at": "2026-10-28T13:11:22+07:00",
+   "removed_from": "decks",
+   "board": "wellnest-dashboard",
+   "removed_by": "Max (one-click remove)"
+  },
+  {
+   "id": "roselle-pack-confirm-deck-kv1tz8",
+   "name": "Roselle Pack Confirm",
+   "url": "https://webermanapps.github.io/branding-djqmb410/decks/roselle-pack-confirm-deck-kv1tz8/",
+   "total": 8,
+   "topic": "Roselle Pack Confirm",
+   "added": "2026-10-27T21:54:54+07:00",
+   "tag": "Products & Tea",
+   "pinned": true,
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-27T21:54:54+07:00",
+   "blurb": "8 cards · 16 unique visuals · gate OK",
+   "new": true,
+   "color": "#C1502E",
+   "made": "2026-10-27",
+   "note": "Medium remake: shrunk to 8 + true variants under publish gate (Machan Oct 27).",
+   "status": "removed",
+   "removed_at": "2026-10-28T13:11:22+07:00",
+   "removed_from": "decks",
+   "board": "wellnest-dashboard",
+   "removed_by": "Max (one-click remove)"
   }
  ]
 }
