@@ -1,7 +1,25 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-28T15:52:14+07:00",
+ "updated": "2026-10-28T17:20:09+07:00",
  "decks": [
+  {
+   "id": "powerhaus-ingredients-deck-ave2m5",
+   "name": "PowerHaus Ingredients",
+   "url": "https://webermanapps.github.io/branding-djqmb410/decks/powerhaus-ingredients-deck-ave2m5/",
+   "total": 10,
+   "topic": "PowerHaus Ingredients",
+   "added": "2026-10-28T17:20:09+07:00",
+   "tag": "Products & Tea",
+   "pinned": true,
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-28T17:21:11+07:00",
+   "blurb": "10 cards · 20 unique visuals · gate OK",
+   "new": true,
+   "color": "#003CA7",
+   "made": "2026-10-28",
+   "note": "Machan via Nonshan Oct 28 ~5:16 PM ICT: remake — light sencha locked; energy / circulation / clear & light herb leans; no logistics; soft wording."
+  },
   {
    "id": "roselle-front-appearance-deck-sfrs8u",
    "name": "Roselle Front Appearance",
@@ -19,24 +37,6 @@
    "color": "#0B6E4F",
    "made": "2026-10-27",
    "note": "Machan via Nonshan Oct 28: Roselle FRONT appearance — locked standing draft base; layout this-or-that only."
-  },
-  {
-   "id": "powerhaus-ingredients-deck-nho2hq",
-   "name": "PowerHaus Ingredients",
-   "url": "https://webermanapps.github.io/branding-djqmb410/decks/powerhaus-ingredients-deck-nho2hq/",
-   "total": 10,
-   "topic": "PowerHaus Ingredients",
-   "added": "2026-10-28T13:14:35+07:00",
-   "tag": "Products & Tea",
-   "pinned": true,
-   "answered": 0,
-   "requested": true,
-   "requested_at": "2026-10-28T13:13:51+07:00",
-   "blurb": "10 cards · 20 unique visuals · gate OK",
-   "new": true,
-   "color": "#003CA7",
-   "made": "2026-10-28",
-   "note": "Machan via Nonshan Oct 28: PowerHaus ingredients — base tea first, then herbs; can format; fuller descriptions."
   },
   {
    "id": "brand-logo-and-houses-deck-8q71f1",
@@ -470,6 +470,28 @@
  ],
  "queued": [],
  "removed": [
+  {
+   "id": "powerhaus-ingredients-deck-nho2hq",
+   "name": "PowerHaus Ingredients",
+   "url": "https://webermanapps.github.io/branding-djqmb410/decks/powerhaus-ingredients-deck-nho2hq/",
+   "total": 10,
+   "topic": "PowerHaus Ingredients",
+   "added": "2026-10-28T13:14:35+07:00",
+   "tag": "Products & Tea",
+   "pinned": true,
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-28T13:13:51+07:00",
+   "blurb": "10 cards · 20 unique visuals · gate OK",
+   "new": true,
+   "color": "#003CA7",
+   "made": "2026-10-28",
+   "note": "Machan via Nonshan Oct 28: PowerHaus ingredients — base tea first, then herbs; can format; fuller descriptions. | replaced by light-sencha remake powerhaus-ingredients-deck-ave2m5",
+   "status": "removed",
+   "removed_at": "2026-10-28T17:20:09+07:00",
+   "removed_from": "decks",
+   "removed_by": "Machan remake Oct 28 ~5:16 PM ICT (via Nonshan) — replaced by powerhaus-ingredients-deck-ave2m5"
+  },
   {
    "id": "wellnest-buds-station-jar-592cqd",
    "name": "Buds Station Jar",
