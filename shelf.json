@@ -1,25 +1,7 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-29T13:28:45+07:00",
+ "updated": "2026-10-29T14:32:19+07:00",
  "decks": [
-  {
-   "id": "buds-station-fresh-start-3peds9",
-   "name": "Buds Station Fresh Start",
-   "url": "https://webermanapps.github.io/branding-djqmb410/decks/buds-station-fresh-start-3peds9/",
-   "total": 20,
-   "topic": "Buds Station Collab",
-   "added": "2026-10-29T13:28:45+07:00",
-   "tag": "Products & Tea",
-   "pinned": true,
-   "answered": 0,
-   "requested": true,
-   "requested_at": "2026-10-29T13:28:45+07:00",
-   "blurb": "20 cards · 40 unique visuals · gate OK",
-   "new": true,
-   "color": "#F44D8E",
-   "made": "2026-10-29",
-   "note": "Machan via Nonshan Oct 29 2026 ICT: Buds Station Fresh Start — 20 cards, confirmed art (pump logo minus globe/420; beret dog light touch, no bud/leaf); WellNest shelf only."
-  },
   {
    "id": "powerhaus-ribbon-seal-belt-deck-d4st0c",
    "name": "PowerHaus Ribbon Seal Belt",
@@ -280,6 +262,13 @@
    "name": "Roselle Front Appearance",
    "answered": 10,
    "total": 10
+  },
+  {
+   "id": "buds-station-fresh-start-3peds9",
+   "at": "2026-10-29T13:37:08+07:00",
+   "name": "Buds Station Fresh Start",
+   "answered": 9,
+   "total": 20
   }
  ],
  "note": "R107 refresh (Max via WellNest, Oct 17 2026 20:04 ICT; Branding): the old shelf is retired (retired[], status 'retired', deck JSON kept in style-swipe); finished decks stay counted in done[]. New shelf = one deck per tea from the WellNest Teas: Three Projects lookbook, built on the mockups: Project 1 Calm, Energy, Beauty; Project 2 PowerHaus Recover, Vanni Soft Blue, Buds Station Unwind; Project 3 Roselle Refresh. 7 decks, nothing queued.",
