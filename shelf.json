@@ -1,7 +1,26 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-30T14:44:03+07:00",
+ "updated": "2026-10-30T14:55:00+07:00",
  "decks": [
+  {
+   "id": "buds-station-tin-round-3",
+   "name": "WellNest x Buds Station Tin Round 3",
+   "url": "https://webermanapps.github.io/branding-djqmb410/decks/buds-station-tin-round-3/",
+   "total": 12,
+   "topic": "WellNest x Buds Station Tin Round 3",
+   "added": "2026-10-30T14:55:00+07:00",
+   "tag": "Products & Farm",
+   "pinned": true,
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-30T14:55:00+07:00",
+   "blurb": "12 cards · 24 unique visuals · gate OK",
+   "new": true,
+   "color": "#0B6E4F",
+   "made": "2026-10-30",
+   "note": "Machan Oct 30: Buds Station tin round 3 (narrowing Round 2 picks).",
+   "agent": "wellnest"
+  },
   {
    "id": "folded-card-inside-recipe-of-the-week-6whgma",
    "name": "Folded Card Inside: Recipe of the Week",
