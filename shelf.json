@@ -1,7 +1,26 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-29T17:34:40+07:00",
+ "updated": "2026-10-30T12:28:32+07:00",
  "decks": [
+  {
+   "id": "buds-station-tin-round-2",
+   "name": "WellNest x Buds Station Tin Round 2",
+   "url": "https://webermanapps.github.io/branding-djqmb410/decks/buds-station-tin-round-2/",
+   "total": 8,
+   "topic": "WellNest x Buds Station Tin Round 2",
+   "added": "2026-10-30T12:28:32+07:00",
+   "tag": "Products & Farm",
+   "pinned": true,
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-10-30T12:28:32+07:00",
+   "blurb": "8 cards · 16 unique visuals · gate OK",
+   "new": true,
+   "color": "#0B6E4F",
+   "made": "2026-10-30",
+   "note": "Machan Oct 30: Buds Station tin round 2 (muted tones, gold trim, smaller mascot).",
+   "agent": "wellnest"
+  },
   {
    "id": "folded-card-inside-recipe-of-the-week-6whgma",
    "name": "Folded Card Inside: Recipe of the Week",
