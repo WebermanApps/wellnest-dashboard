@@ -1,7 +1,26 @@
 {
  "agent": "wellnest",
- "updated": "2026-10-30T14:55:00+07:00",
+ "updated": "2026-11-02T15:17:52+07:00",
  "decks": [
+  {
+   "id": "roselle-back-confirm-deck",
+   "name": "Roselle Back Confirm Deck",
+   "url": "https://webermanapps.github.io/branding-djqmb410/decks/roselle-back-confirm-deck/",
+   "total": 10,
+   "topic": "Roselle Back Confirm",
+   "added": "2026-11-02T15:17:52+07:00",
+   "tag": "Products & Farm",
+   "pinned": true,
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-11-02T15:17:52+07:00",
+   "blurb": "10 cards · 20 unique visuals · gate OK",
+   "new": true,
+   "color": "#0B6E4F",
+   "made": "2026-11-02",
+   "note": "Machan Nov 2 2026 — Roselle short can back: roselle lower and behind text, About/How to Brew/footer kept; spacing, illustration and divider tests.",
+   "agent": "wellnest"
+  },
   {
    "id": "buds-station-tin-round-3",
    "name": "WellNest x Buds Station Tin Round 3",
