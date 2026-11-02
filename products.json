@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T22:37:04+07:00",
+ "updated": "2026-11-02T14:35:00+07:00",
  "note": "Current Product Lines data. Public packaging facts only; soft wording; no prices, costs or finances.",
  "products": [
   {
@@ -31,6 +31,25 @@
     {
      "src": "product-roselle-brewed.jpg",
      "alt": "Brewed roselle tea"
+    }
+   ]
+  },
+  {
+   "name": "PowerHaus Collab",
+   "description": "Reform, the cup after the class. A light green tea blend made with PowerHaus Pilates.",
+   "made": "Made by The WellNest Co., Ltd in San Sai, Chiang Mai.",
+   "packaging": "Short white metal can with blue trim, a plain kraft lid and a vertical blue PowerHaus band. Draft (Oct 29 2026).",
+   "facts": [
+    "Collab With PowerHaus Pilates"
+   ],
+   "images": [
+    {
+     "src": "product-powerhaus-front.jpg",
+     "alt": "PowerHaus can, draft front (Oct 29 2026)"
+    },
+    {
+     "src": "product-powerhaus-back.jpg",
+     "alt": "PowerHaus can, draft back (Oct 29 2026)"
     }
    ]
   }
