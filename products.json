@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T14:35:00+07:00",
+ "updated": "2026-11-03T14:45:00+07:00",
  "note": "Current Product Lines data. Public packaging facts only; soft wording; no prices, costs or finances.",
  "products": [
   {
@@ -38,18 +38,41 @@
    "name": "PowerHaus Collab",
    "description": "Reform, the cup after the class. A light green tea blend made with PowerHaus Pilates.",
    "made": "Made by The WellNest Co., Ltd in San Sai, Chiang Mai.",
-   "packaging": "Short white metal can with blue trim, a plain kraft lid and a vertical blue PowerHaus band. Draft (Oct 29 2026).",
+   "packaging": "Tall white metal can with a white lid and white rims, and a blue 'PowerHaus · The WellNest' ribbon up the side. Front and back drafts from Nov 2–3 2026.",
    "facts": [
     "Collab With PowerHaus Pilates"
    ],
    "images": [
     {
      "src": "product-powerhaus-front.jpg",
-     "alt": "PowerHaus can, draft front (Oct 29 2026)"
+     "alt": "PowerHaus can, tall front (Nov 2 2026)"
     },
     {
      "src": "product-powerhaus-back.jpg",
-     "alt": "PowerHaus can, draft back (Oct 29 2026)"
+     "alt": "PowerHaus can, tall back (Nov 3 2026)"
+    }
+   ]
+  },
+  {
+   "name": "Buds Station Collab",
+   "description": "A caffeine-free evening blend of chamomile, lavender and lemon, made with our neighbours at The Buds Station.",
+   "made": "Made by The WellNest Co., Ltd in San Sai, Chiang Mai.",
+   "packaging": "Round tin with gold trim rings, our colourful WellNest logo and the Buds Station pup. Three options from Nov 3 2026, with Round 4 swipes deciding.",
+   "facts": [
+    "Collab With The Buds Station"
+   ],
+   "images": [
+    {
+     "src": "product-buds-a-sage.jpg",
+     "alt": "Buds Station tin, Sage option (Nov 3 2026)"
+    },
+    {
+     "src": "product-buds-b-forest.jpg",
+     "alt": "Buds Station tin, Forest option (Nov 3 2026)"
+    },
+    {
+     "src": "product-buds-c-mauve.jpg",
+     "alt": "Buds Station tin, Dusty Mauve option (Nov 3 2026)"
     }
    ]
   }
