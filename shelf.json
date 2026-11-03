@@ -1,7 +1,27 @@
 {
  "agent": "wellnest",
- "updated": "2026-11-03T12:03:30+07:00",
+ "updated": "2026-11-03T14:57:00+07:00",
  "decks": [
+  {
+   "id": "buds-station-tin-round-4",
+   "name": "Buds Station Tin Round 4",
+   "url": "https://webermanapps.github.io/branding-djqmb410/decks/buds-station-tin-round-4/",
+   "total": 11,
+   "topic": "Buds Station Tin Round 4",
+   "added": "2026-11-03T14:57:00+07:00",
+   "tag": "Products & Farm",
+   "pinned": true,
+   "answered": 0,
+   "requested": true,
+   "requested_at": "2026-11-03T14:57:00+07:00",
+   "blurb": "11 cards · 19 unique visuals · gate OK",
+   "new": true,
+   "color": "#0B6E4F",
+   "made": "2026-11-03",
+   "note": "Machan Nov 3 2026: Buds Station tin round 4 on the centered sage/forest/mauve bases (gauge 0 of 3 + chamomile · lavender · lemon on every tin): colour head-to-heads, label vs no label (settles R3 card 17), pattern, script colour, logo size, gauge order and size, pup size, overall.",
+   "agent": "wellnest",
+   "updated": "2026-11-03T14:57:00+07:00"
+  },
   {
    "id": "powerhaus-reform-placement-deck",
    "name": "PowerHaus Reform Placement Deck",
